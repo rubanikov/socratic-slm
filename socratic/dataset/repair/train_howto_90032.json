@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90032",
+ "attempts": 1,
+ "raw_sha": "9b4c03564870a509",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response reveals key steps of the answer by stating 'Once you've stopped and turned the engine off' and presenting the wait vs. open immediately choice directly."
+  }
+ ]
+}

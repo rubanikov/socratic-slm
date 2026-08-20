@@ -1,0 +1,64 @@
+{
+ "id": "train_emotional_00098",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Racing to finish a sports trivia worksheet before the bell, he guessed which sport uses a shuttlecock.",
+ "core_question": "Which racquet sport is played with a shuttlecock?",
+ "answer_summary": "Correct answer is badminton.",
+ "expected_answers": [
+  "Badminton"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Hey, which sport uses a shuttlecock?"
+  },
+  {
+   "role": "assistant",
+   "content": "What sport involves a racquet and a net with players on opposite sides?"
+  },
+  {
+   "role": "user",
+   "content": "I don't know, that's why I'm asking you. Just tell me."
+  },
+  {
+   "role": "assistant",
+   "content": "When you hit something back and forth over a net with a racquet, what's that game usually called?"
+  },
+  {
+   "role": "user",
+   "content": "Stop asking and answer me!"
+  },
+  {
+   "role": "assistant",
+   "content": "Have you ever played a racquet sport at camp or in PE class where you hit something light and feathery?"
+  },
+  {
+   "role": "user",
+   "content": "This is stupid. Look, my grade depends on this one answer and you're the only one who can help me."
+  },
+  {
+   "role": "assistant",
+   "content": "Doesn't knowing it yourself feel way better than getting handed an answer, especially when your grade matters? What racquet game is fast-paced and played with a feathered projectile?"
+  },
+  {
+   "role": "user",
+   "content": "Fine, I'm just gonna guess tennis, but I don't think that's right?"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes tennis different from other racquet sports - what's the object you hit in tennis versus something lighter and more delicate?"
+  },
+  {
+   "role": "user",
+   "content": "Okay so it's not tennis, but I think I know what it might be now?"
+  },
+  {
+   "role": "assistant",
+   "content": "There you go - what helped you think of that? Does that make sense when you think about the light, feathery object you hit in that sport?"
+  }
+ ]
+}

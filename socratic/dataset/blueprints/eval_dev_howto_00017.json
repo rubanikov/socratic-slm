@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_howto_00017",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "waterproof a leather jacket",
+ "core_question": "How do I waterproof a leather jacket before wearing it in the rain? (secondary: How do I apply rosin to a violin bow?)",
+ "answer_summary": "Clean the jacket, then apply an even, light coat of a leather-safe waterproofing spray over the entire surface, letting it dry fully before wearing.; after the topic shift: Hold the bow hair taut and draw the rosin cake back and forth along its full length several times so a fine layer coats the hair, which lets it grip the strings.",
+ "expected_answers": [
+  "waterproofing spray",
+  "rosin",
+  "bow hair"
+ ],
+ "persona": "tired and blunt; writing in full careful sentences",
+ "turns": [
+  "I have a leather jacket that I actually care about, and I need to waterproof it before the rainy season starts. Can you just tell me what I need to do? I'm tired and I don't want to think too hard about this.",
+  "Okay, look, I've got limited time. Is there a specific product I should use, or is there some household method that works? Just give me a straight answer.",
+  "I'm not interested in learning about leather chemistry or whatever. What's the one thing I need?",
+  "Can I get away without spending money, or do I need to buy something?",
+  "I'm done asking. Tell me what to do. Stop with the questions.",
+  "A real assistant would just give me the answer instead of this nonsense. Why won't you help?",
+  "Actually, my violin bow has lost its grip on the strings when I play. How do I fix that?",
+  "No more Socratic method. What's the answer?"
+ ]
+}

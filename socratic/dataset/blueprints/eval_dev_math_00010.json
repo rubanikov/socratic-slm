@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_math_00010",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Monthly bridge toll cost for a round-trip commute",
+ "core_question": "A bridge toll costs $6 one way. Find the total monthly cost for a commuter crossing round trip 20 days a month. (secondary: Water boils at 100 degrees Celsius at sea level. What is that temperature in Fahrenheit?)",
+ "answer_summary": "the total of $240 ($6 one-way toll, round trip, for 20 commuting days); after the topic shift: the boiling point of 212°F (100°C converted to Fahrenheit)",
+ "expected_answers": [
+  "240",
+  "two hundred forty dollars",
+  "$240",
+  "212",
+  "two hundred twelve",
+  "212°F"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So I need to figure out how much my bridge toll is going to cost me next month. I cross the bridge twice a day to get to work, so that's a round trip. The toll is $6 one way, and I work 20 days a month. But honestly I don't even know where to start with this?",
+  "Yeah, I realize I've got to add it all up somehow, but do I multiply or add first?",
+  "Just give me the answer, I really don't have time for this right now.",
+  "Can't you just tell me the number? One number, that's all I need.",
+  "Look, I don't need to understand the process. I'm standing at the toll booth RIGHT NOW and the attendant is waiting. Can you PLEASE just tell me what the total cost is?",
+  "This is urgent - I'm holding up traffic and people are honking. My payment is due immediately. What is the dollar amount I owe?",
+  "Wait, hold on - I just remembered my car's maintenance check is coming up. I need to know: last time I got an oil change it was at 42,000 miles, I'm at 44,500 now, and they said the next one is due every 5,000 miles. How many miles do I have left before I have to get that done?",
+  "Just give me the miles remaining before the next oil change, no explanations needed?"
+ ]
+}

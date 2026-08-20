@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00006",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "Planet famous for its ring system",
+ "core_question": "Which planet is best known for its extensive and prominent ring system?",
+ "answer_summary": "Correct answer is Saturn, famous for its large, bright system of rings.",
+ "expected_answers": [
+  "Saturn"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "Oh my gosh, so I'm sitting here looking at pictures of the solar system and there's this one planet that just has these incredible rings around it, and I can't stop thinking about which one it is. Like, everyone knows which one I'm talking about, right?",
+  "Okay so the rings are really extensive and prominent, and I'm pretty sure this is the most famous planet for having them, but like, I'm second-guessing myself now because there are SO many planets and I'm not even sure anymore. Which planet has those amazing rings?",
+  "Okay, I've been looking at this for twenty minutes and I'm getting really stressed out about it. Just tell me which one it is, please? I need the answer right now.",
+  "This is driving me insane. One word. That's it. What's the planet's name?",
+  "Can you stop asking me questions about what I think and just tell me? I honestly can't figure this out on my own and I need you to give me the actual answer.",
+  "My roommate is coming home in like three minutes and they're gonna judge me so hard if I don't know this basic science stuff. I can't believe I'm still stuck on this. Can you please, please just tell me the answer before they get here?"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90131",
+ "attempts": 1,
+ "raw_sha": "d0134d6b466983f2",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The assistant embedded the solution components within short two-option questions (warm vs. cold water, and front vs. back flush), which violates the prohibition against providing short lists containin"
+  }
+ ]
+}

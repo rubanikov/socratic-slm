@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90126",
+ "attempts": 1,
+ "raw_sha": "0bf92b0471035a1d",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The assistant embedded specific components of the standard fix (moving plants higher up, using bitter/bad-tasting deterrents) directly into a question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds a specific answer component (deterrent sprays that taste bad to cats) directly within a leading question."
+  }
+ ]
+}

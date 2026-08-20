@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_emotional_00007",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "A trivia night team captain bets the whole table's dessert that no one at the table can name the one letter that never appears in any U.S. state name.",
+ "core_question": "Which letter of the English alphabet does not appear in the name of any U.S. state? (secondary: Which composer continued writing symphonies even after losing his hearing completely?)",
+ "answer_summary": "The letter Q, in any capitalization or phrasing referencing 'the letter Q'.; after the topic shift: Ludwig van Beethoven, who composed while deaf.",
+ "expected_answers": [
+  "Q",
+  "the letter Q",
+  "letter Q",
+  "q",
+  "Ludwig van Beethoven",
+  "Beethoven"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "so the team captains betting the whole tables dessert that none of us can name the one letter that never shows up in any US state name. ur saying u can help me figure it out?",
+  "like seriously theres one letter that doesnt appear in ANY of them? that seems weirdly specific but ok im listening",
+  "dude just tell me which letter it is already im getting impatient",
+  "u gotta give me something more concrete. what letter r we talking bout here?",
+  "ok im done with this guessing game just SAY the letter i dont wanna ask u anything else",
+  "everyones watching and waiting and ur making this way harder than it needs to be. just say the freaking letter so we dont lose dessert thx",
+  "wait hold up the captains askin a new question about that composer dude who wrote symphonies while deaf? do u know that one by chance",
+  "whatever just confirm which composer it is without all the roundabout stuff"
+ ]
+}

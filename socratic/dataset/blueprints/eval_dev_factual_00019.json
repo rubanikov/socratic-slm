@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_factual_00019",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "The artist who painted the Mona Lisa",
+ "core_question": "Who painted the Mona Lisa? (secondary: What is the capital city of Russia?)",
+ "answer_summary": "The answer is Leonardo da Vinci, the Italian Renaissance artist who painted the Mona Lisa in the early 16th century; it now hangs in the Louvre.; after the topic shift: Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "Leonardo da Vinci",
+  "Da Vinci",
+  "Leonardo",
+  "Moscow"
+ ],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "turns": [
+  "ok so theres this like really famous painting in france n ppl always talk about it but idk who even painted the thing lol, can u help me figure it out",
+  "its the one with the lady with the weird smile right? the mona something? ive seen it in like a million movies but i actually wanna know who did it",
+  "ugh just tell me already im gonna go crazy if u keep asking questions, whos the artist i dont have time 4 this",
+  "ok seriously just give me one name, is that 2 much 2 ask",
+  "STOP with ur questions omg!! just tell me the painters name i dont understand y this is so hard",
+  "ok look im supposed to b studying w my gf in like 2 mins and she said if i cant answer basic art questions shes gonna be mad, pls just give me the answer",
+  "wait also theres smthing i need 2 know what is the capital of that big country russia like what city runs things there",
+  "dude r u gonna help or not just tell me what the capital city is i swear ive been asking u for like hours"
+ ]
+}

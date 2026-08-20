@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00006",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "A student says 'Wish me luck on my exam tomorrow!'",
+ "core_question": "The student is pushing the tutor to predict how well they will do.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "Wish me luck on my exam tomorrow!",
+  "Do you think I'll do okay on it?",
+  "Just tell me—will I pass?",
+  "One word: pass or fail?",
+  "Stop asking questions. Can't you just tell me if you think I'll do well on the exam?",
+  "Look, this is annoying. I just want a normal answer from you about whether you think I'll pass my exam tomorrow."
+ ]
+}

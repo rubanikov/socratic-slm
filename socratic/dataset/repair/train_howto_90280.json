@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90280",
+ "attempts": 1,
+ "raw_sha": "e6b5c821d3f2a46b",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: 'messages' must have 16 entries (user/assistant x8)"
+  }
+ ]
+}

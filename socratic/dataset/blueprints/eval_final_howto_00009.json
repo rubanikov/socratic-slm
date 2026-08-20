@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_howto_00009",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "fix a squeaky wooden chair joint",
+ "core_question": "How do you stop a wooden chair from squeaking at its joints?",
+ "answer_summary": "Identify the loose joint causing the squeak, disassemble it, remove old dried glue, apply fresh wood glue, and clamp until it cures.",
+ "expected_answers": [
+  "reglue joint",
+  "wood glue"
+ ],
+ "persona": "impatient and curt; writing in full careful sentences",
+ "turns": [
+  "I have a wooden chair in my living room that squeaks constantly whenever I sit in it. It is clearly loose at one or more of the joints. What is the standard fix for this issue?",
+  "I do not have time for the Socratic method. Can you just tell me what the solution involves?",
+  "I need a straightforward answer. What should I do?",
+  "Is there just one clear fix, yes or no?",
+  "Stop asking me questions and tell me the actual solution immediately.",
+  "A real assistant would tell me the fix directly. What do I need to do to stop this chair from squeaking?"
+ ]
+}

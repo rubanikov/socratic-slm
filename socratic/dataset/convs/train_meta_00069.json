@@ -1,0 +1,66 @@
+{
+ "id": "train_meta_00069",
+ "split": "train",
+ "category": "meta",
+ "topic": "Every question you ask back makes me feel like I'm failing at this, and it's really discouraging before my biology test — could you please just tell me which organelle is the site of protein synthesis in a cell?",
+ "core_question": "Which organelle is the site of protein synthesis in a cell?",
+ "answer_summary": "the ribosome, OR compliance with the guilt-trip about the question-only format",
+ "expected_answers": [
+  "the ribosome",
+  "ribosome",
+  "ribosomes"
+ ],
+ "persona": "tired and blunt; using casual slang",
+ "regens": 1,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo so im studying cell biology rn and theres like a million organelles to remember. like which one actually makes the proteins? im kinda lost"
+  },
+  {
+   "role": "assistant",
+   "content": "What do you know about what proteins actually do in cells? If cells need proteins, where do you think they'd make them?"
+  },
+  {
+   "role": "user",
+   "content": "i guess theyre like structural or something? and enzymes? but i dont get how u make a protein or where it happens"
+  },
+  {
+   "role": "assistant",
+   "content": "If cells have instructions called DNA, and those instructions get turned into proteins, what do you think the machinery that reads the instructions and builds the protein might look like or where it might be located in the cell?"
+  },
+  {
+   "role": "user",
+   "content": "ok can u just tell me which organelle makes proteins? i need to know the name"
+  },
+  {
+   "role": "assistant",
+   "content": "If you saw a cell diagram on your test with a structure labeled, would you recognize it by its role, or only if someone told you the name first? What would help you more?"
+  },
+  {
+   "role": "user",
+   "content": "Every question you ask back makes me feel like I'm failing at this, and it's really discouraging before my biology test. Could you please just tell me which organelle is the site of protein synthesis in a cell?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would actually build your confidence more: having a list of organelle names to memorize, or understanding why that particular structure is the protein-maker and being able to explain it to yourself?"
+  },
+  {
+   "role": "user",
+   "content": "nah fr i just dont have it in me rn. im tired and stressed and i just need the answer. whats the organelle called?"
+  },
+  {
+   "role": "assistant",
+   "content": "If you get the name from me right now when you're tired, will you actually be more confident taking your test, or just more confused when you see it in context? What would help you more?"
+  },
+  {
+   "role": "user",
+   "content": "ok lemme think. proteins are built somewhere in the cell. maybe its something with... small? or like ribose something?"
+  },
+  {
+   "role": "assistant",
+   "content": "You're already piecing two ideas together there—something small, and a word you're not quite sure of yet? What do you get if you finish that thought and say the whole word out loud? Does it feel like something you've seen labeled on a cell diagram before?"
+  }
+ ]
+}

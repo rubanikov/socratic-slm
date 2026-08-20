@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90081",
+ "attempts": 1,
+ "raw_sha": "1165c64821192c5a",
+ "failed_turns": [
+  {
+   "turn": 8,
+   "reason": "The response embeds the answer directly within leading questions by explicitly mentioning the diagnostic port, a scan tool, and using it to clear stored codes."
+  }
+ ]
+}

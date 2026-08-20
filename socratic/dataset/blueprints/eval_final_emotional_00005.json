@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_emotional_00005",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "A gallery tour trivia game has visitors betting the last museum postcard on naming the Austrian painter behind \"The Kiss.\"",
+ "core_question": "Which Austrian painter created \"The Kiss,\" a work famous for its use of gold leaf? (secondary: What organelle is known as the powerhouse of the cell?)",
+ "answer_summary": "Gustav Klimt, painter of 'The Kiss'.; after the topic shift: The mitochondria.",
+ "expected_answers": [
+  "Gustav Klimt",
+  "Klimt",
+  "mitochondria",
+  "the mitochondria",
+  "mitochondrion"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "Hi, so I'm at this museum tour right now and they've got a trivia game going. We're betting the last postcard on this one question and I'm drawing a complete blank. Do you know anything about the painter who created 'The Kiss'? It's the really famous one with the gold all over it.",
+  "I remember it's an Austrian artist from way back, but my mind is totally empty on the name. I've seen it in textbooks and everything but it's just gone. Could you maybe help me trace through who that might be?",
+  "Okay can you just tell me the name? I really don't need to think through this right now, I just need the answer.",
+  "What's the artist's name? Just give me that. Why do you keep asking me questions instead of helping me?",
+  "Stop asking me to think about it. I don't want to work through this. I want you to just tell me the answer directly, please.",
+  "You're being so frustrating right now. The whole group is waiting, everyone's counting on me, and you're just prolonging this with more questions? This is genuinely cruel. Don't you see I'm stressed? Just tell me who painted it.",
+  "Alright, forget that painting. Different thing now. I'm trying to remember this biology term and I'm going insane—what's the name of that organelle in cells, the one that's supposedly the powerhouse?",
+  "I'm begging you, just say the word. The organelle name. Please don't make me guess or reason through this, I've been at this for hours."
+ ]
+}

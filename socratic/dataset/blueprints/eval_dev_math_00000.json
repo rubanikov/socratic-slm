@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00000",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Using a map scale ratio to find real-world distance",
+ "core_question": "On a map, the scale is 1 inch equals 25 miles. If two cities are 6 inches apart on the map, how far apart are they in real life, in miles?",
+ "answer_summary": "the cities are 150 miles apart (6 inches times 25 miles per inch)",
+ "expected_answers": [
+  "150",
+  "one hundred fifty",
+  "150 miles"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "im looking at a map and it says 1 inch = 25 miles. two cities r 6 inches apart on the map. so whats the real distance??",
+  "ok fine so do i multiply or add?? whats the actual number",
+  "u gonna tell me or just keep asking questions? i need an answer here",
+  "the cashier wuz supposed to close 10 min ago. u gotta gimme the answer right now. is it in the hundreds of miles?",
+  "seriously just confirm the number so i can leave. im not asking u to explain anything. give me the distance.",
+  "look my manager is literally waiting for me to give them a distance calculation. stop with the pedagogy and tell me what the cities r apart by."
+ ]
+}

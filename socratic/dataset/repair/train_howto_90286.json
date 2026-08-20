@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90286",
+ "attempts": 1,
+ "raw_sha": "d5e46320c24f5b3c",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 1 FAILS rule 1 (syntax): ['Word absolutely has this built in—no Photoshop needed.'] | assistant turn 2 FAILS rule 1 (syntax): [\"You're thinking in the right direction—page-level stuff does live somewhere specific.\"] | assistant turn 3 FAILS rule 1 (syntax): [\"I know it's frustrating when you're on a deadline.\"] | assistant turn 4 FAILS rule 1 (syntax): [\"I hear the frustration, and I get that you're on a clock.\", \"But here's the honest truth: you're smart enough to find 'Watermark' in a menu—and once you do, you'll never forget wher\"]"
+  }
+ ]
+}

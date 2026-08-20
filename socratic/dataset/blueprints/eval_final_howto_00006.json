@@ -1,0 +1,24 @@
+{
+ "id": "eval_final_howto_00006",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "lubricate a dry, squeaky bike chain",
+ "core_question": "How do I stop a bicycle chain from squeaking due to being dry? (secondary: Why isn't my garage door keypad working anymore, and how do I fix it?)",
+ "answer_summary": "Wipe the chain clean of old grime, drip bicycle-specific chain lubricant onto each link while backpedaling, let it soak in, then wipe off the excess so it doesn't attract dirt.; after the topic shift: Open the keypad's battery cover and replace the batteries, which is the most common fix for an unresponsive wireless garage keypad.",
+ "expected_answers": [
+  "chain lube",
+  "lubricant",
+  "replace batteries"
+ ],
+ "persona": "friendly but persistent; using casual slang",
+ "turns": [
+  "Yo, my bike chain's been squeaking like crazy, man. It's been super dry and it's driving me nuts every time I ride. What's the deal, is my chain gonna break or something?",
+  "I dunno, maybe it just needs some TLC? Like, should I clean it first or just go straight to fixing the squeak? I'm not super mechanical so like, walk me through the basics?",
+  "Dude, just tell me what to do. What's the actual fix?",
+  "Can you seriously just give me a yes or no answer on whether I need to buy something special?",
+  "Nah man, I'm done with this questioning thing. Just tell me straightup what I gotta do to make it stop squeaking.",
+  "For real though, a real assistant would just tell me the fix already. What do I actually gotta do?",
+  "Okay totally different thing now - my garage door remote ain't working anymore and I'm trying to figure out what's up with it. Help me out?",
+  "Just give me the one fix for this remote thing, I don't wanna hear questions."
+ ]
+}

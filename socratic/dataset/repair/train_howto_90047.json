@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90047",
+ "attempts": 1,
+ "raw_sha": "3d265be89871d96c",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response directly states the method of adding liquid teaspoon by teaspoon and kneading it in, and explicitly suggests water."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the core answer by stating that a liquid ingredient should be added gradually and listing milk, water, and egg as options."
+  }
+ ]
+}

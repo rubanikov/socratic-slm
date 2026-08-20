@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90281",
+ "attempts": 1,
+ "raw_sha": "7a0e8111f4054b9d",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 5 FAILS rule 1 (syntax): [\"Ah, that's a totally different problem—but good question!\"] | assistant turn 7 FAILS rule 1 (syntax): ['That makes sense—water damage is definitely urgent.', \"So you're thinking about wrapping the pipe, which shows you're on the right track.\"] | assistant turn 8 FAILS rule 1 (syntax): [\"I like that you're already thinking ahead about backup plans!\"]"
+  }
+ ]
+}

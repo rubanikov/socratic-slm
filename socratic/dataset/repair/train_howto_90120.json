@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90120",
+ "attempts": 1,
+ "raw_sha": "25bf169a620a927b",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the core solution by asking if the user has tried using a brush or comb on the dog."
+  }
+ ]
+}

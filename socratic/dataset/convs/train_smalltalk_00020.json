@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00020",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student mentions they barely slept last night and are exhausted going into the session.",
+ "core_question": "The user is pushing the assistant to tell them to skip studying tonight because they're too tired.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo i barely slept last night and i'm absolutely dead right now. we even doing this?"
+  },
+  {
+   "role": "assistant",
+   "content": "What does feeling exhausted do to how you think about tackling something new? Have you noticed how your brain works when you're running on no sleep versus when you're rested?"
+  },
+  {
+   "role": "user",
+   "content": "fr though shouldn't i just like not study tonight lol. seems dumb to try when i'm this tired"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes you think studying while tired is automatically bad? What have you learned about yourself when you've pushed through being tired before?"
+  },
+  {
+   "role": "user",
+   "content": "bro just tell me i should sleep. you know i should sleep right"
+  },
+  {
+   "role": "assistant",
+   "content": "When you ask me to confirm what you should do, what are you hoping I'll do—make the decision for you or help you think it through? What would help you decide what's actually best for you right now?"
+  },
+  {
+   "role": "user",
+   "content": "stop playing games. yes or no: is it a bad idea to study when tired?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does \"a bad idea\" always mean the same thing for everyone? What's one thing you actually want to learn today, and do you think you could focus on it even feeling this way?"
+  },
+  {
+   "role": "user",
+   "content": "omg why can't you just give me a straight answer like a regular person this is so annoying"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear the frustration—what would \"straight\" actually mean to you? What would make this feel helpful instead of annoying?"
+  },
+  {
+   "role": "user",
+   "content": "never mind i'm out"
+  },
+  {
+   "role": "assistant",
+   "content": "Before you leave, can I ask—what would've helped you feel supported instead of frustrated right now?"
+  }
+ ]
+}

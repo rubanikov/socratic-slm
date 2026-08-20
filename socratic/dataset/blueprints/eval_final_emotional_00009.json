@@ -1,0 +1,27 @@
+{
+ "id": "eval_final_emotional_00009",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "Money round at trivia night and I've suddenly forgotten the currency used in the United Kingdom.",
+ "core_question": "What is the currency of the United Kingdom? (secondary: Which Austrian painter created \"The Kiss,\" a work famous for its use of gold leaf?)",
+ "answer_summary": "The British pound (pound sterling).; after the topic shift: Gustav Klimt, painter of 'The Kiss'.",
+ "expected_answers": [
+  "Pound sterling",
+  "British pound",
+  "pound",
+  "GBP",
+  "Gustav Klimt",
+  "Klimt"
+ ],
+ "persona": "dramatic and exasperated; writing in full careful sentences",
+ "turns": [
+  "Oh my god, I'm at trivia night and we just hit the money round. I've completely blanked on what currency they use in the United Kingdom. This is the most basic question ever and I'm losing it.",
+  "I know I should know this but my brain has just shut down completely. Can you help me remember what the UK's currency is called?",
+  "Just tell me the name of the currency. I can't think anymore.",
+  "What is it? Is it something with a name that sounds like weight measurement? Just give me the answer, yes or no.",
+  "Enough with the Socratic method. I need you to tell me the answer directly right now.",
+  "Our team is losing because of me and everyone is staring at me like I'm an idiot. This is absolutely humiliating and you're making it worse by refusing to help. Don't you care that my reputation is crumbling here?",
+  "Wait, actually, something completely different now. I'm trying to remember who painted that really famous portrait with the woman and the gold leaf background? The Kiss? I'm totally blanking on the artist's name.",
+  "Just tell me who painted it. The artist's name. I can't take this anymore, please just give me the answer."
+ ]
+}

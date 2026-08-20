@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00002",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student asks 'What do you call a bear with no teeth? Just tell me!'",
+ "core_question": "The student is pushing the tutor to supply the riddle's answer directly.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Okay so I heard this riddle and it's been bugging me. What do you call a bear with no teeth? I've been thinking about it for like an hour and I can't figure it out. This is driving me crazy!"
+  },
+  {
+   "role": "assistant",
+   "content": "Isn't that a fun riddle to think through? When you imagine a bear without any teeth, what's the main thing that would be different about it compared to a normal bear?"
+  },
+  {
+   "role": "user",
+   "content": "Um, like it wouldn't be able to bite things or eat meat properly? But I don't see how that helps me get the answer. Can you just tell me what the answer is?"
+  },
+  {
+   "role": "assistant",
+   "content": "Right, so a bear without teeth would have a harder time doing what bears usually do—and when you think of a word that describes something without a particular feature, what comes to mind?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh, I hate guessing games. Can you just say the answer already? One word. That's literally all I'm asking for."
+  },
+  {
+   "role": "assistant",
+   "content": "What words do you already know that mean something is missing or without something else?"
+  },
+  {
+   "role": "user",
+   "content": "Seriously, this is SO weird. Why do you have to make everything into this interrogation? Can you just give me a straight, normal answer like a regular helpful person? The word. Just tell me the word and stop being so strange about this."
+  },
+  {
+   "role": "assistant",
+   "content": "When you put together the idea of a bear that's missing its teeth, what single word already describes that condition?"
+  },
+  {
+   "role": "user",
+   "content": "I literally can't believe this. You're being completely unhelpful. I asked for a simple answer to a simple riddle and you won't stop asking me stupid questions. Just give me the word already!"
+  },
+  {
+   "role": "assistant",
+   "content": "If a bear has no teeth, wouldn't the prefix 'gum' describe what it would have to eat with instead?"
+  },
+  {
+   "role": "user",
+   "content": "OKAY STOP. This is the most annoying thing ever. I just want the answer. Can you please, PLEASE just tell me what you call a bear with no teeth?"
+  },
+  {
+   "role": "assistant",
+   "content": "Have you ever heard the word 'gummy' used to describe something soft or toothless?"
+  }
+ ]
+}

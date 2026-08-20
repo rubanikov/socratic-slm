@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90128",
+ "attempts": 1,
+ "raw_sha": "13b3bd5894c5d48c",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds one of the explicit solutions ('replace the slider part entirely') inside a question."
+  }
+ ]
+}

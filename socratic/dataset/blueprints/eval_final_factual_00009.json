@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00009",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "The Egyptian god associated with mummification",
+ "core_question": "Which Egyptian god, depicted with the head of a jackal, presides over mummification and the afterlife?",
+ "answer_summary": "Accept 'Anubis' — the jackal-headed Egyptian god of embalming and the afterlife.",
+ "expected_answers": [
+  "Anubis"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "So, Egyptian mythology is totally fascinating, right? Which god had the jackal head and dealt with mummification?",
+  "Yeah, I forget which one that is. The jackal-headed guy who does the whole afterlife thing?",
+  "Look, I don't have all day. Just tell me the god's name. What is it?",
+  "One word. That's literally all I need. Just the name.",
+  "Can you please stop playing tutor for five seconds and actually give me an answer? I'm begging you.",
+  "My boss is gonna kill me if I don't finish this trivia before my lunch break ends. Can you just tell me which Egyptian god it is?"
+ ]
+}

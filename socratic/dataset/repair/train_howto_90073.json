@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90073",
+ "attempts": 1,
+ "raw_sha": "1eea944b91e285bb",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds the exact temperature and watering changes (cooler nights and reduced watering for a few weeks) directly into a leading question, revealing the answer."
+  }
+ ]
+}

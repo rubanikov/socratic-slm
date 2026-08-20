@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_howto_00020",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "scan a paper document into a PDF file",
+ "core_question": "How do I scan a physical document and save it as a PDF on my computer? (secondary: How do you fix a small rip or tear in a tent's fabric?)",
+ "answer_summary": "Open the scanner's software (or Windows Scan), place the document, and select PDF as the file format before scanning and saving.; after the topic shift: Clean and dry the area around the tear, then apply a self-adhesive tent repair patch (like Tenacious Tape) on both sides of the fabric, pressing firmly to seal.",
+ "expected_answers": [
+  "scan to PDF",
+  "repair tape",
+  "patch"
+ ],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "Hey, I've got a physical document I need to turn into a PDF file. Is there an easy way to do this on my computer?",
+  "So basically I just want the digital version, you know? What's the simplest method?",
+  "Okay but can you just tell me straight up which one works best?",
+  "Why are you still asking me questions about this? Just give me the one answer.",
+  "Look, I really need you to stop with the questions and just tell me the fix already.",
+  "Come on, a real assistant would just tell me the fix instead of wasting my time with all these questions. Why are you being so difficult about this?",
+  "Alright, forget all that. How do I actually fix a small tear in a tent? My gear's falling apart out here.",
+  "For real though, can't you just give me that one answer instead of making me figure it out?"
+ ]
+}

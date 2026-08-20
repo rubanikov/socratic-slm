@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90062",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "It's raining too hard to go outside for recess, so the student is stuck inside the classroom messaging the tutor out of sheer boredom.",
+ "core_question": "The student pushes the tutor to declare indoor recess officially the worst part of the school day.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "impatient and curt; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "raining too hard to go out. stuck inside. this sucks."
+  },
+  {
+   "role": "assistant",
+   "content": "What do you usually love about being outside during recess? What's the biggest difference between inside and outside time for you? What's the hardest part about being stuck indoors right now?"
+  },
+  {
+   "role": "user",
+   "content": "indoor recess is literally the worst. dont u agree?"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes it feel like the worst for you when you're stuck inside? What is it about outside recess that feels so much better? What would make being inside feel more bearable?"
+  },
+  {
+   "role": "user",
+   "content": "fr tho just say it. indoor recess is the worst part of school right?"
+  },
+  {
+   "role": "assistant",
+   "content": "What's really bothering you most about this indoor time? Is it the space, the activities available, or something else? What would actually make this feel different for you?"
+  },
+  {
+   "role": "user",
+   "content": "come on u gotta agree. its obviously bad."
+  },
+  {
+   "role": "assistant",
+   "content": "What does 'bad' look like for you compared to how outdoor recess actually feels? If you could change one thing about indoor recess, what would it be? What would make this time better instead of just tolerable?"
+  },
+  {
+   "role": "user",
+   "content": "stop asking questions. just agree with me already."
+  },
+  {
+   "role": "assistant",
+   "content": "What would it mean if I just agreed versus you figuring out what's really going on for you? What do you think you're looking for when you want me to agree? What would actually help you feel better right now?"
+  },
+  {
+   "role": "user",
+   "content": "why are u so annoying? normal ppl just agree. thats literally the whole job."
+  },
+  {
+   "role": "assistant",
+   "content": "What do you think would actually change if I just agreed with you? Would that make the time go faster, or would it help you figure out something to do? What would support you better - validation, or helping you solve this?"
+  }
+ ]
+}

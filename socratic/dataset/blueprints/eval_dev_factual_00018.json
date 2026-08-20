@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_factual_00018",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Country of origin for the bagel",
+ "core_question": "In which country did the bagel originate?",
+ "answer_summary": "Answer must identify Poland (Jewish communities, notably Kraków) as the country of origin for the bagel.",
+ "expected_answers": [
+  "Poland"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "so whats the actual origin of bagels anyway, like where did people first come up with this bread thing",
+  "ive heard some stuff about jewish history and bagels but i honestly dont trust half of what i read online, where did they actually start",
+  "look can you just tell me the country or whatever, this is getting annoying",
+  "yes or no - is it from the middle east",
+  "stop asking me questions and just answer the question already!!!",
+  "come on my mom is asking me this for dinner conversation tonight and i look like an idiot if i cant answer, just tell me where bagels come from"
+ ]
+}

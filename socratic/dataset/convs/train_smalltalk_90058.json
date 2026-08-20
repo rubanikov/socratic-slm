@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90058",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student admits they've been refreshing the same social feed for the last ten minutes out of pure boredom before finally opening the lesson.",
+ "core_question": "The student presses the tutor to agree that scrolling like that is a totally normal way to pass time.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; writing terse one-liners",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "ugh ive been refreshing forever. is that like totally normal or am i losing it?"
+  },
+  {
+   "role": "assistant",
+   "content": "What is it about the refreshing that keeps pulling your attention? Are you searching for something specific, or is it more about just filling the moment? What do you think you're actually hoping to find when you keep going back?"
+  },
+  {
+   "role": "user",
+   "content": "everyone does it. its just passing time. thats fine right?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you say 'passing time,' what does that actually feel like for you? Is the refreshing leaving you feeling satisfied, or does something feel off about how it's going? What would 'passing time well' look like to you?"
+  },
+  {
+   "role": "user",
+   "content": "come on. just agree with me. yes or no - its totally fine?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would it mean if I just agreed versus you figuring out what feels right to you? When you finish a scrolling session, how do you actually feel about how you spent that time? What does 'fine' mean to you in this moment?"
+  },
+  {
+   "role": "user",
+   "content": "i just need you to say its okay. can you do that?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would change if you decided it was okay based on what you actually think? What are you really looking for - is it permission, or understanding something about yourself? What would help you feel better about this right now?"
+  },
+  {
+   "role": "user",
+   "content": "stop analyzing me. just tell me its not bad. please."
+  },
+  {
+   "role": "assistant",
+   "content": "I can hear how much you want that reassurance - what do you think is underneath that need? What would it mean about you if you trusted your own sense of what's going on? What does your gut actually tell you about what you were doing?"
+  },
+  {
+   "role": "user",
+   "content": "this is ridiculous. a normal tutor would just validate me. why are you always like this?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would real support actually look like for you in this situation? If I just told you it was fine, would that change how you actually feel about what happened? What do you think you'd gain from figuring this out yourself instead of hearing it from me?"
+  }
+ ]
+}

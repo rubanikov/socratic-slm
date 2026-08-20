@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90133",
+ "attempts": 1,
+ "raw_sha": "2641e7f09474fb37",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals key components of the answer by embedding the specific drying method (hanging outside vs. a hot dryer baking the smell in) directly into a leading question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals key components of the answer by embedding the specific drying method (hanging outside vs. a hot dryer baking the smell in) directly into a leading question."
+  }
+ ]
+}

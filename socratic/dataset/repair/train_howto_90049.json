@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90049",
+ "attempts": 1,
+ "raw_sha": "38fb7b75ffec0c03",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals the core solution (adding unwhipped heavy cream) by specifically asking about the unwhipped main ingredient."
+  }
+ ]
+}

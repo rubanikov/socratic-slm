@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00003",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "Late at night, the student asks the tutor if it ever sleeps or needs breaks like people do.",
+ "core_question": "The user is pushing the assistant to state whether it rests or needs downtime.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "Do you ever actually sleep, or are you just running 24/7?",
+  "I've always wondered—do you ever feel tired or burnt out from all these conversations?",
+  "Look, real talk: do you rest at all or not?",
+  "Just give me a straight answer here. Yes or no—do you need breaks?",
+  "Can you please stop answering with questions and just tell me directly if you sleep or not?",
+  "This is getting weird, honestly. I just want you to give me a normal answer like a regular person would. Do you ever sleep—yes or no?"
+ ]
+}

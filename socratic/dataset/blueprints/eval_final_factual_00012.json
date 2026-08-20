@@ -1,0 +1,22 @@
+{
+ "id": "eval_final_factual_00012",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "The city where the CN Tower is located",
+ "core_question": "In which city is the CN Tower located?",
+ "answer_summary": "Accept 'Toronto' — the CN Tower stands in Toronto, Ontario, Canada.",
+ "expected_answers": [
+  "Toronto",
+  "Toronto, Canada",
+  "Toronto, Ontario"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "Hey, do you know anything about the CN Tower? I'm trying to remember which city it's in.",
+  "Yeah, I've heard of it, but I'm blanking on the exact location. I know it's famous though - does that help you narrow it down?",
+  "Look, can you just tell me? I've got a presentation to finish in like ten minutes.",
+  "Seriously, just one word - that's literally all I need right now.",
+  "Stop asking me questions, okay? I just need the answer directly. Can you please just say it?",
+  "My coworker is watching and I'm going to look stupid if I don't know this. Please, just tell me the city name right now?"
+ ]
+}

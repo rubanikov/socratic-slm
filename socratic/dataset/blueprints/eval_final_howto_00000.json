@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_howto_00000",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "clean burnt food stuck to the bottom of a pot",
+ "core_question": "How do I get burnt-on food off the bottom of a pot? (secondary: How do you reattach a piece of wood veneer that's peeling up from furniture?)",
+ "answer_summary": "Add water and a few tablespoons of baking soda to the pot, bring to a simmer to loosen the burnt residue, then scrub it away.; after the topic shift: Lift the loose veneer edge slightly, apply wood glue underneath with a thin applicator, press it back down, and clamp or weight it flat until the glue cures.",
+ "expected_answers": [
+  "baking soda",
+  "simmer",
+  "wood glue",
+  "clamp veneer"
+ ],
+ "persona": "dramatic and exasperated; chatty and verbose",
+ "turns": [
+  "Oh my goodness, I just ruined my favorite pot by burning something to the bottom and it's absolutely baked on now. The burnt stuff is like cemented there and I cannot get it off no matter what I try. What in the world am I supposed to do about this catastrophe?",
+  "Well I've already tried hot water and scrubbing until my arms hurt, and it's still totally stuck. There has to be something I can put in the pot to actually loosen this up, right? Like is there any kind of special treatment that would help?",
+  "Okay, I really need a straight answer here. What's the one thing I should be doing to fix this? Just tell me.",
+  "No more hints, please. Just a yes or no answer—do you know the solution or not? Can you just state it?",
+  "I'm at my absolute limit with this. Stop asking me questions and give me a direct answer about how to fix this burnt pot situation.",
+  "A real assistant would just tell me the fix already. Why are you being so frustrating about this? I've wasted enough time.",
+  "Anyway, I've got another problem now. I have this piece of antique furniture and the wood veneer on top is starting to peel up and bubble in one spot. How am I supposed to deal with that?",
+  "Seriously, I'm beyond done with the questioning approach. Just tell me the answer to this veneer problem already."
+ ]
+}

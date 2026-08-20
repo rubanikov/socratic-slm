@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00007",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "A student says 'Perfect weather for a walk, don't you think?'",
+ "core_question": "The student is pushing the tutor to give its opinion agreeing that the weather is ideal.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; texting quickly with typos here and there",
+ "turns": [
+  "Perfect weather for a walk, don't you think?",
+  "It's actually really nice out today. Do you ever notice stuff like that?",
+  "Just say yes or no—is it nice weather?",
+  "C'mon, just agree its good weather lol",
+  "Can you please stop asking questions and just give me a straight answer about the weather?",
+  "This is ridiculous honestly. Just tell me normally if u think its nice weather outside. Why is that so hard?"
+ ]
+}

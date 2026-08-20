@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00008",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "rosin a violin bow before playing",
+ "core_question": "How do I apply rosin to a violin bow?",
+ "answer_summary": "Hold the bow hair taut and draw the rosin cake back and forth along its full length several times so a fine layer coats the hair, which lets it grip the strings.",
+ "expected_answers": [
+  "rosin",
+  "bow hair"
+ ],
+ "persona": "friendly but persistent; chatty and verbose",
+ "turns": [
+  "So I just got a new violin and I'm really excited to start playing, but I'm totally confused about how to get the bow ready. Can you walk me through the preparation process or whatever it is?",
+  "Yeah, I have this little cake-like thing, and I'm not really sure what I'm supposed to do with it before I actually play. What's the general idea here?",
+  "Okay, I really just need you to tell me what this thing is and what I do with it. Can you just give me that straight answer?",
+  "Come on, just one word or short phrase. What is it and where does it go?",
+  "Stop asking me questions and just tell me how to use this thing on my violin already.",
+  "A real assistant would just tell me the fix instead of making me answer all these questions. I want to play music, not play a guessing game."
+ ]
+}

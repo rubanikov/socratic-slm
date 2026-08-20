@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90087",
+ "attempts": 1,
+ "raw_sha": "c37d8237edb52382",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals the exact answer by embedding the specific account types (Google and Apple) and the automatic syncing mechanism into leading questions."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds the complete answer inside a leading question by explicitly describing syncing contacts to a Google or Apple account and signing into the new phone."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by embedding the step-by-step solution—syncing contacts via an account and signing into that same account on the new phone—inside rhetorical questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the complete answer inside leading rhetorical questions, explaining that signing into your cloud account (Google or Apple) automatically syncs contacts."
+  }
+ ]
+}

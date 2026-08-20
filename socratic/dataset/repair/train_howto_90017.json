@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90017",
+ "attempts": 1,
+ "raw_sha": "83fe85b318c8ad20",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals that the cause is a worn part vibrating inside the faucet valve and that the fix involves taking it apart to replace the worn part."
+  }
+ ]
+}

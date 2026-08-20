@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90135",
+ "attempts": 1,
+ "raw_sha": "603688d6ff3678d3",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The assistant embeds the specific solution inside its questions by describing heat-activated fabric bonding material placed between the layers of fabric and activated with heat."
+  }
+ ]
+}

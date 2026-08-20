@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90082",
+ "attempts": 1,
+ "raw_sha": "9bc9069913a10b0b",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by directly pointing the user to software from the graphics card manufacturer that becomes outdated."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the answer within a question by directly pointing the user to update the software for their graphics card."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the answer within a question by identifying the component as graphics software and describing the process of checking and updating its version."
+  }
+ ]
+}

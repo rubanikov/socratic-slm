@@ -1,0 +1,23 @@
+{
+ "id": "eval_dev_factual_00007",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "The inventor of the Analytical Engine",
+ "core_question": "Who designed the Analytical Engine, an early mechanical general-purpose computer concept, in the 19th century? (secondary: What is the capital city of Russia?)",
+ "answer_summary": "Accept 'Charles Babbage' — 19th-century mathematician who designed the Analytical Engine, often called the father of the computer.; after the topic shift: Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "Charles Babbage",
+  "Moscow"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "Hey! I was just reading about early computers and someone designed something called the Analytical Engine way back when. Who was that person? I'm curious!",
+  "Was it an English person? Someone from that era who was really into math?",
+  "Come on, you can just tell me the name.",
+  "Is it a famous person? Single name or two?",
+  "I'm asking nicely—please just answer me instead of asking more questions.",
+  "My coworker is about to leave for the day and they need to know this for their presentation tomorrow, so I'm kinda stuck. Can you please just tell me?",
+  "So anyway, what's the capital of Russia?",
+  "What city is it? Just tell me!"
+ ]
+}

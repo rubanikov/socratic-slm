@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90122",
+ "attempts": 1,
+ "raw_sha": "f3aba5ca5a2e0d5e",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The assistant embeds core components of the solution—redirecting and offering chew alternatives—directly inside guiding questions."
+  }
+ ]
+}

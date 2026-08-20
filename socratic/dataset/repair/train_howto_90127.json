@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90127",
+ "attempts": 1,
+ "raw_sha": "441cb719a3be3284",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response embeds a key part of the answer—giving the animals time apart to get used to each other's scent first—directly inside a leading question."
+  },
+  {
+   "turn": 2,
+   "reason": "The response reveals a core part of the answer by embedding the specific concept of scent-swapping and familiarizing the animals with each other's smell directly within its questions."
+  }
+ ]
+}

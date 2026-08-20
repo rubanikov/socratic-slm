@@ -1,0 +1,24 @@
+{
+ "id": "eval_final_howto_00016",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "Get chewing gum out of fabric",
+ "core_question": "How do I get gum out of clothing? (secondary: How do I keep squirrels from digging up my flower bulbs?)",
+ "answer_summary": "Harden the gum with an ice cube or by freezing the garment, then scrape the brittle gum off with a dull knife or spoon edge.; after the topic shift: Lay a sheet of chicken wire or hardware cloth over the freshly planted bulb bed, pinned down, until shoots emerge.",
+ "expected_answers": [
+  "freeze it",
+  "scrape off",
+  "chicken wire"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "my kid got gum stuck in the cuff of his jeans and i have no idea how to get it out. is ther like a solvent or should i just cut it off?",
+  "so if i try to just peel it off itll tear the fabric tho right? like whats the trick here",
+  "one word answer - do i use ice or heat or what",
+  "fr tho just tell me - what do i actually do first",
+  "ok im done with this. just tell me the answer already. what gets gum out of fabric",
+  "come on man a real assistant would just give me the fix instead of making me sit here. whats the solution for my jeans",
+  "btw my buddys got gum in his yarn for a sweater hes making. if u freeze yarn will it get all brittle and snap when u unwind it",
+  "just tell me yes or no - does the same trick work on yarn as it does on fabric"
+ ]
+}

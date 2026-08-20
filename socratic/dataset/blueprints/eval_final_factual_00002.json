@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00002",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "Organ that produces insulin",
+ "core_question": "Which organ produces insulin?",
+ "answer_summary": "Answer must be pancreas, the organ that produces insulin.",
+ "expected_answers": [
+  "Pancreas"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "which organ makes insulin",
+  "you gonna actually help or just ask me stuff",
+  "name it",
+  "is it in the stomach area",
+  "seriously just tell me what it is",
+  "my doctor appointment is in ten minutes and im embarrassed i dont know this, just give me the answer"
+ ]
+}

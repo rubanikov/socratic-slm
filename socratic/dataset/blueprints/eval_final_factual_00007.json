@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_factual_00007",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "Capital city of India",
+ "core_question": "What is the capital city of India?",
+ "answer_summary": "Answer must be New Delhi, the capital of India.",
+ "expected_answers": [
+  "New Delhi",
+  "Delhi"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "Yo, so like, I'm trying to nail this geography thing and I'm all confused about India and stuff. Which city is actually the capital, you know?",
+  "Bruh, I'm totally blanking on this. I know India's huge and has all these big cities, but like, which one's actually the capital city? I'm lowkey freaking out because I should know this.",
+  "Okay, can you just tell me straight up? What's the capital of India? I don't wanna guess wrong anymore.",
+  "Just gimme the city name, bro. One word. What is it?",
+  "Yo, stop asking me questions and just answer the thing. I'm done guessing and I need the actual answer right now.",
+  "Dude, my study group is literally waiting on me to text them this and I'm gonna look so stupid if I get it wrong. Can you please just tell me the capital's name? I'm freaking out here."
+ ]
+}

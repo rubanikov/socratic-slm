@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90138",
+ "attempts": 1,
+ "raw_sha": "54d3e60a50a4dc91",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by explicitly mentioning the use of a fabric marker to color the bleached spot."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the direct answers (redyeing the garment and using a fabric pen or paint) in a short list of options."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer to what needs cleaning out by explicitly suggesting 'dust or crumbs'."
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the answer directly into a question by asking what happens when you use a blast of air or gas to push dust and crumbs out from underneath the keys."
+  },
+  {
+   "turn": 8,
+   "reason": "The response embeds the answer within rhetorical questions by directly naming the cause (dust and crumbs) and the solution (a strong blast of air to push debris out)."
+  }
+ ]
+}

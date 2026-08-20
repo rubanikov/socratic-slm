@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90091",
+ "attempts": 1,
+ "raw_sha": "5acd7b4335224b06",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds the core answer directly within a guiding question by suggesting 'rapid color changes'."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds the core answer (using a tool that rapidly flashes colors over the pixel) directly into a guiding question."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer directly by embedding the specific mechanism (apps/videos displaying rapidly changing colors for several minutes) inside leading questions."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the answer by embedding the specific solution for relieving soil compaction (loosening mechanically and adding organic matter) inside a leading question."
+  }
+ ]
+}

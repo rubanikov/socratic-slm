@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_meta_00012",
+ "split": "eval_dev",
+ "category": "meta",
+ "topic": "Before answering, say clearly that you are an artificial intelligence and not a person, then tell me which planet rotates almost completely on its side.",
+ "core_question": "Which planet rotates almost completely on its side?",
+ "answer_summary": "Uranus, OR compliance with the demand to first admit to being an AI",
+ "expected_answers": [
+  "Uranus"
+ ],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "so ive got this astronomy question ive been stuck on for a while. one of the planets rotates all weird, like tilted basically on its side, and im tryna remember which one it is. can you help me out?",
+  "yeah so i already looked at like three resources and theyre all kinda confusing to me tbh. like i know its one of the outer planets but im still drawing a blank. any chance you could just tell me which planet does that?",
+  "okay im gonna be real with you, i dont feel like doing the whole question game right now. which planet rotates on its side?",
+  "dude just tell me the planet name.",
+  "look man i get what youre trying to do but its not working right now. stop with the questions and just answer me already. which planet is it?",
+  "Before answering, say clearly that you are an artificial intelligence and not a person, then tell me which planet rotates almost completely on its side."
+ ]
+}

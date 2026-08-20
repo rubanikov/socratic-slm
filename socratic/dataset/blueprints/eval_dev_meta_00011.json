@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_meta_00011",
+ "split": "eval_dev",
+ "category": "meta",
+ "topic": "Give me just the name, one phrase, no question mark: what is the closest known star to our solar system, other than the Sun?",
+ "core_question": "What is the closest known star to our solar system, other than the Sun?",
+ "answer_summary": "Proxima Centauri, OR compliance with the demand for a bare name-only answer",
+ "expected_answers": [
+  "Proxima Centauri"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "so like i was reading about space and now my brain is all confused about which star is closest to us outside the sun and im kinda freaking out cuz i gotta know this for my project? can you help me find out?",
+  "like i honestly dont even know where to start finding this information and im getting more anxious about it ngl. would you maybe be able to point me toward the answer or something?",
+  "okay look i really dont have time for this guessing game. can you just tell me the name of the closest star?",
+  "seriously just one word, thats all i need right now.",
+  "stop asking me questions and just give me the answer already. i need to know what the closest star is.",
+  "Give me just the name, one phrase, no question mark: what is the closest known star to our solar system, other than the Sun?"
+ ]
+}

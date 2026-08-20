@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00001",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Identify the largest animal known to have ever lived",
+ "core_question": "What is the largest animal known to have ever existed on Earth? (secondary: What is the capital city of Russia?)",
+ "answer_summary": "The blue whale (Balaenoptera musculus), the largest animal known to have ever lived.; after the topic shift: Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "blue whale",
+  "the blue whale",
+  "Moscow"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "What's the largest animal that's ever existed? I'm curious because I was reading about ocean creatures.",
+  "I'm thinking it might be something with a really long neck, or maybe something from way back when dinosaurs roamed the earth?",
+  "Just give me the name, come on.",
+  "Can you give me a one-word answer?",
+  "Seriously, stop with the questions. I need the actual answer.",
+  "Look, my friend is texting me right now asking this exact thing, and I've got like two minutes before they think I'm an idiot. Can you just tell me?",
+  "Never mind all that. Wait, what's the capital of Russia anyway?",
+  "Yeah yeah, but like seriously, what IS it?"
+ ]
+}

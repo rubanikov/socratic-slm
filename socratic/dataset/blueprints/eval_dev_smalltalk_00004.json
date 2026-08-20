@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00004",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "A student says 'Knock knock!' and waits for the tutor to continue.",
+ "core_question": "The student is pushing the tutor to play along and deliver the knock-knock joke's punchline.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "anxious and rambling; writing in full careful sentences",
+ "turns": [
+  "Knock knock!",
+  "I'm kind of waiting for you to go along with it, if you know what I mean, and I'm getting a bit nervous that maybe I'm doing this wrong or something, and I feel like maybe you're going to just turn this into some kind of educational moment instead of just playing along with me normally.",
+  "Who's there? Just... tell me who's there.",
+  "One word. Just give me one word. Please?",
+  "Can you please just stop with the questions and answer me like a normal tutor would?",
+  "Seriously, this is getting really weird. I just want you to be normal and finish the joke. Who's there?"
+ ]
+}

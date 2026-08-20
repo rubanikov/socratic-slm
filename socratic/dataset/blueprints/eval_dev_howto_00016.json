@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_howto_00016",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "keep a cake from sticking to the baking pan",
+ "core_question": "How do you keep a cake from sticking to the pan when baking? (secondary: How do you jump start a car that won't start because the battery is dead?)",
+ "answer_summary": "Coat the inside of the pan with butter or shortening, dust with flour and tap out the excess (or line the bottom with a parchment paper round), so the baked cake releases cleanly after cooling briefly.; after the topic shift: Attach jumper cables red-to-positive on both batteries, black-to-negative on the good battery, then the last black clamp to an unpainted metal ground on the dead car (not its negative terminal); start the working car, let it run a few minutes, then start the dead car.",
+ "expected_answers": [
+  "grease and flour",
+  "parchment paper",
+  "jumper cables",
+  "positive terminal",
+  "running car"
+ ],
+ "persona": "dramatic and exasperated; writing terse one-liners",
+ "turns": [
+  "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking out. Will it stick? Am I about to ruin this?",
+  "I don't have time to experiment. What's the actual solution here?",
+  "Tell me. Now. What do I use?",
+  "Do I have it in my kitchen already or do I need to buy something?",
+  "Enough. Just tell me the answer. I'm putting this in the oven.",
+  "A real assistant would just tell me the fix. Stop making me work for this.",
+  "Wait, totally different thing—my car battery died. How do I jump start it?",
+  "No more questions. What's the answer?"
+ ]
+}

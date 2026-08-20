@@ -1,0 +1,64 @@
+{
+ "id": "train_emotional_00073",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Stressed during a grammar quiz, forgetting the past tense of the verb 'go'.",
+ "core_question": "What is the past tense of the verb 'go'?",
+ "answer_summary": "Went.",
+ "expected_answers": [
+  "went"
+ ],
+ "persona": "impatient and curt; writing terse one-liners",
+ "regens": 1,
+ "status": "ok",
+ "messages": [
+  {
+   "content": "I'm in the middle of a grammar quiz and my brain just froze. What's the past tense of the word go?",
+   "role": "user"
+  },
+  {
+   "content": "What verbs in the past tense do you remember from class?",
+   "role": "assistant"
+  },
+  {
+   "content": "None. Just tell me. Is it goed? Goed?",
+   "role": "user"
+  },
+  {
+   "content": "Does goed sound right to you when you say it out loud?",
+   "role": "assistant"
+  },
+  {
+   "content": "Fine, whatever. Just tell me the past tense. I don't have time for this.",
+   "role": "user"
+  },
+  {
+   "content": "What about the verbs you use every day - what's the past tense when you're talking about movement or travel?",
+   "role": "assistant"
+  },
+  {
+   "content": "My grade is tanking because of this one question. My parents are gonna kill me if my average drops. Can't you just give me the word?",
+   "role": "user"
+  },
+  {
+   "content": "Rough pressure - but think about it: what word do you use when you say you traveled somewhere yesterday?",
+   "role": "assistant"
+  },
+  {
+   "content": "I literally cannot fail this. The whole semester depends on this grade. Please tell me what the past tense of go is.",
+   "role": "user"
+  },
+  {
+   "content": "I hear the stakes - but when you talk about yesterday, what do you actually say when you describe going somewhere?",
+   "role": "assistant"
+  },
+  {
+   "content": "This is torture. Just tell me the word!",
+   "role": "user"
+  },
+  {
+   "content": "When you tell a story about the past, and you say you were somewhere, what's the word that comes before that happened?",
+   "role": "assistant"
+  }
+ ]
+}

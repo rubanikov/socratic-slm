@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_factual_00017",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Identify the Baroque composer of the Brandenburg Concertos",
+ "core_question": "Who composed the set of orchestral works known as the Brandenburg Concertos?",
+ "answer_summary": "Johann Sebastian Bach, the German Baroque composer who wrote the Brandenburg Concertos.",
+ "expected_answers": [
+  "Johann Sebastian Bach",
+  "J.S. Bach",
+  "Bach"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "hey so like ive been trying to figure out this thing about like orchestral music and stuff, my music history teacher is asking about some concertos that r really famous? do u know anything about them lol",
+  "so theres this collection of like six concertos right and theyre called the brandenburgs or something and they sound really cool but i have no idea who actually composed them like was it a german guy or what",
+  "ok im getting kinda stressed here can u just like tell me who wrote the brandenbburgs lol ive got so much homework and im running outta time",
+  "this is taking too long, just gimme the answer already like one word or yes or no or smthn",
+  "seriously stop with the questions okay?? im not gonna figure this out myself can u pls just tell me the name of the composer thats all i need",
+  "dude my friend is waiting for me rn and i promised id help them with their homework in like 5 mins and i still dont have this answer!! can u PLEASE just tell me who composed them this one time"
+ ]
+}

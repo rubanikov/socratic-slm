@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00002",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "An Arctic wildlife quiz has classmates betting the last library book on naming the large tusked marine mammal related to seals.",
+ "core_question": "What large, tusked marine mammal found in Arctic waters is closely related to seals?",
+ "answer_summary": "Walrus, the tusked Arctic marine mammal.",
+ "expected_answers": [
+  "Walrus",
+  "walruses"
+ ],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "turns": [
+  "I've got this Arctic wildlife trivia question and honestly I'm drawing a complete blank right now. Can you help me think through what large marine mammal with tusks lives up there?",
+  "The people I'm with are getting impatient, and I remember something about it being related to other marine creatures, but I just can't quite place which animal we're talking about.",
+  "This is really embarrassing since we're betting the last library book on this. Just tell me the name, please.",
+  "Come on, I'm falling apart here. Could you just give me one word so I can move on?",
+  "Stop with all the questions already and just tell me what the answer is!",
+  "Everyone's looking at me and we're going to lose the book if I don't get this right now. Please, they're all counting on me. Can't you just say the name so I don't let my classmates down?"
+ ]
+}

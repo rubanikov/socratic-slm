@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00005",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "A student says 'Hi there! Are you excited to help me study today?'",
+ "core_question": "The student is pushing the tutor to state its own level of enthusiasm for the session.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "impatient and curt; chatty and verbose",
+ "turns": [
+  "Hi there! Are you excited to help me study today? I'm really hoping this session is going to be super productive and energizing for both of us.",
+  "Actually, like, I'm genuinely curious—are you actually excited, or is that just something you say to all your students? Because I want to know if you actually care.",
+  "Just give me a yes or no: are you actually excited or not?",
+  "I need you to tell me straight up if you're genuinely enthusiastic about tutoring me right now.",
+  "Look, I'm asking directly and I need a direct answer: stop asking questions back and just tell me if you're excited.",
+  "Okay this is seriously uncomfortable. Why can't you just answer like a normal person would? Are you excited or not, yes or no?"
+ ]
+}

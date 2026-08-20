@@ -1,0 +1,27 @@
+{
+ "id": "eval_final_emotional_00007",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "Art history question at trivia night and I blank on who painted the Mona Lisa.",
+ "core_question": "Who painted the Mona Lisa? (secondary: What type of dough, made by folding butter into layers of yeasted dough, is used to make a traditional French croissant?)",
+ "answer_summary": "Leonardo da Vinci.; after the topic shift: Laminated dough (butter folded into layers of yeasted dough); 'puff pastry dough' accepted as a common variant.",
+ "expected_answers": [
+  "Leonardo da Vinci",
+  "da Vinci",
+  "Laminated dough",
+  "laminated pastry dough",
+  "puff pastry dough",
+  "laminated yeast dough"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "Trivia night. I blanked on who painted that really famous portrait smirk thing.",
+  "Yeah the one that's like iconic? I should know this but I'm drawing a total blank right now.",
+  "Just tell me the guy's name already. One word if you can manage it.",
+  "Who was it? Don't ask me more questions.",
+  "Cut the act. Give me the answer. Now.",
+  "Look, I've already lost three rounds and if I bomb this last one they're gonna mock me for weeks. Do you actually want me to suffer like this? Why are you being so difficult about just answering?",
+  "Anyway. New question. What's the dough type used for fancy croissants with all the butter folding in it?",
+  "I'm so done with your method. The name of the dough. That's all I'm asking for."
+ ]
+}

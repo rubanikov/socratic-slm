@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90115",
+ "attempts": 1,
+ "raw_sha": "1820e89a7886cb5e",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response explicitly names 'DHCP Reservations' and mentions assigning permanent addresses, directly revealing the answer to the user's question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response directly names the specific feature terms ('reservations', 'static leases', 'DHCP settings') and explains that they let you assign a device a permanent IP within a leading question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response directly explains that reserving a permanent IP prevents the router from reassigning or forgetting the address, revealing the answer to the user's question."
+  }
+ ]
+}

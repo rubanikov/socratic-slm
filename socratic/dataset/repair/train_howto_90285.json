@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90285",
+ "attempts": 1,
+ "raw_sha": "8672fa3491766eac",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 1 FAILS rule 1 (syntax): [\"That's actually more possible than you might think.\", 'What do you already know about how Word handles different file types—can it open things other than.'] | assistant turn 4 FAILS rule 1 (syntax): [\"Some PDFs convert beautifully in Word, and others don't—so telling you blindly wouldn't actually solve your problem.\"] | assistant turn 5 FAILS rule 1 (syntax): [\"That's a different kind of problem, and good instinct to question whether it's just fuel.\"] | assistant turn 6 FAILS rule 1 (syntax): [\"Exactly—you've identified a key insight.\", \"Inside a propane lantern, there's a fragile part that produces the light, and when it wears out from heat and use, the l\"]"
+  }
+ ]
+}

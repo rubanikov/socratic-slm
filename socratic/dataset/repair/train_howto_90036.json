@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90036",
+ "attempts": 1,
+ "raw_sha": "0189177878a06f90",
+ "failed_turns": [
+  {
+   "turn": 7,
+   "reason": "The response reveals the core answer to the key fob question by explicitly mentioning batteries powering the device and asking what people check."
+  },
+  {
+   "turn": 8,
+   "reason": "The response embeds the solution within the question by framing the problem around a dead battery, directly leading the user to the answer."
+  }
+ ]
+}

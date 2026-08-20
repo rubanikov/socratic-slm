@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90111",
+ "attempts": 1,
+ "raw_sha": "7c6d8b849c996249",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by embedding the specific solution of removing and re-adding the link directly inside a leading question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the core answer by embedding the specific action ('remove and re-add') inside a question and presenting a two-option choice between apps."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the core steps of the answer—opening the app and removing/forgetting the bulb—directly into its guiding questions."
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the first step of the repair process ('cut out the damaged section') directly inside a question."
+  }
+ ]
+}

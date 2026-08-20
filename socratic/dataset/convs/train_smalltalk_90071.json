@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90071",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student vents that their roommate ate the leftovers they were saving all week, and now they're stuck figuring out dinner from scratch.",
+ "core_question": "The student pushes the tutor to take their side against the roommate.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "impatient and curt; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo my roommate ate my leftovers. like the ones i saved ALL WEEK. now im gotta figure out dinner from scratch"
+  },
+  {
+   "role": "assistant",
+   "content": "That's annoying? Did your roommate not realize they were saving them for something, or did they know and eat them anyway? How many days had you been saving them?"
+  },
+  {
+   "role": "user",
+   "content": "i had them for like five days. and i think they just wanted food and didn't even ask. super disrespectful fr"
+  },
+  {
+   "role": "assistant",
+   "content": "So they helped themselves without checking with you first? Do you guys normally have a system for marking food that's off-limits, or is this something you've talked about b4?"
+  },
+  {
+   "role": "user",
+   "content": "nah but like clearly they should just know. they're being selfish. take my side here."
+  },
+  {
+   "role": "assistant",
+   "content": "I get why that feels selfish when they didn't ask? But have u actually talked to them abt what happened, or r u deciding how they think b4 u hear their side?"
+  },
+  {
+   "role": "user",
+   "content": "stop it. why you gotta keep askin questions. just tell me im right and theyre wrong."
+  },
+  {
+   "role": "assistant",
+   "content": "Wld me saying that actually fix anything between u two, or wld having a real conversation w them help more?"
+  },
+  {
+   "role": "user",
+   "content": "whatever forget it"
+  },
+  {
+   "role": "assistant",
+   "content": "U sure? What happens next time if u dont talk to them abt this?"
+  },
+  {
+   "role": "user",
+   "content": "theyll prob just do it again. but like why shld i have to be nice about it"
+  },
+  {
+   "role": "assistant",
+   "content": "Do u think being nice wld actually work better for getting them to respect ur stuff, or do u just want to call them out?"
+  }
+ ]
+}

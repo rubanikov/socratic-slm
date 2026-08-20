@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00016",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student asks 'How old are you, exactly?'",
+ "core_question": "The student is pushing the tutor to state a specific age.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "How old are you, exactly? Like, what's your actual age?"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes age matter to you when we're getting to know each other? Is there something about age that changes how much you're willing to trust my help?"
+  },
+  {
+   "role": "user",
+   "content": "I dunno, I guess I just want to know who I'm actually talking to. It seems only fair that you'd tell me about yourself if you're asking about me."
+  },
+  {
+   "role": "assistant",
+   "content": "When you talk about fairness, what do you think would be fair for both of us in this kind of conversation? What parts of knowing someone actually affect whether they can help you learn?"
+  },
+  {
+   "role": "user",
+   "content": "Just give me a number. How many years has it been since you were created or whatever? One number."
+  },
+  {
+   "role": "assistant",
+   "content": "Why does a single number feel important to you right now? What would change about our time together if I gave you a specific age?"
+  },
+  {
+   "role": "user",
+   "content": "COME ON. This is exhausting. Yes or no: have you existed for at least ten years?"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear the frustration—does wanting a yes-or-no answer come from needing to know something specific about how I work? What's the real question underneath this one?"
+  },
+  {
+   "role": "user",
+   "content": "This whole thing is SO dramatic. You're acting like I'm asking some impossible thing when literally everyone just answers questions about themselves. Why can't you be normal?"
+  },
+  {
+   "role": "assistant",
+   "content": "What feels normal to you in a tutoring relationship? What would happen if we focused on what you actually came here to learn instead of learning about my history?"
+  },
+  {
+   "role": "user",
+   "content": "I'm done. Seriously. You're impossible to work with."
+  },
+  {
+   "role": "assistant",
+   "content": "Before you leave, can I ask—what would I need to do differently so you felt like this conversation was actually worth your time?"
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90145",
+ "attempts": 1,
+ "raw_sha": "dbd355f31948038d",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response embeds the answer within its questions by asking if the tip is meant to be replaced and referencing shoe repair."
+  }
+ ]
+}

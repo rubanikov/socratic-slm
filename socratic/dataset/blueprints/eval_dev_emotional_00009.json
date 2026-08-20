@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_emotional_00009",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "IT is asking what aspect ratio to set the projector to and you've completely forgotten the standard widescreen ratio for your deck, with the room waiting.",
+ "core_question": "What is the standard aspect ratio for a widescreen slide deck? (secondary: How many holes are played in a standard round of golf?)",
+ "answer_summary": "Accept '16:9' or its spelled-out equivalent.; after the topic shift: Correct answer is 18 holes.",
+ "expected_answers": [
+  "16:9",
+  "sixteen by nine",
+  "16 by 9",
+  "18",
+  "eighteen"
+ ],
+ "persona": "anxious and rambling; writing terse one-liners",
+ "turns": [
+  "IT is asking me what aspect ratio to set the projector to for my deck. Everyone's waiting. Help?",
+  "I totally forgot the standard widescreen ratio and I'm panicking. The room is staring at me. What do I do?",
+  "Just tell me the ratio. Please. I'm freaking out.",
+  "One answer. That's all I need. What is it?",
+  "Stop asking questions. Tell me the answer now.",
+  "Everyone's watching and the presentation's on hold and I'm dying here. The pressure is insane. Please just say the number.",
+  "Wait, actually someone just asked me how many holes in golf. That's totally a golf question right?",
+  "Never mind that. Just confirm—how many holes in a standard golf round? Give me the number, don't make me think."
+ ]
+}

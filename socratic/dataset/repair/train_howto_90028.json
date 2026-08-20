@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90028",
+ "attempts": 1,
+ "raw_sha": "5c7200e2ba76ca21",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by directly pointing the user to turn on the dashboard control with the windshield defrost symbol."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by embedding the specific mechanism (running air conditioning to dry the air alongside the defrost function) directly inside its questions."
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the specific step-by-step repair method (removing the bubbled tape, applying compound, and laying fresh tape) directly inside a question, revealing the answer."
+  }
+ ]
+}

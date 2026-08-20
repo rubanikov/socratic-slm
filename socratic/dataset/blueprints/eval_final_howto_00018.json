@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_howto_00018",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "Unshrink a wool sweater",
+ "core_question": "How do I unshrink a wool sweater that came out too small in the wash? (secondary: How do I replace old guitar strings with new ones?)",
+ "answer_summary": "Soak the sweater in lukewarm water with hair conditioner or baby shampoo to relax the fibers, gently stretch it back toward its original size, and lay it flat to dry, re-stretching as it dries.; after the topic shift: Loosen and remove the old strings, thread each new string through the bridge/tuning post, wind it while keeping tension, cut excess, then tune up to pitch and stretch/retune a few times.",
+ "expected_answers": [
+  "hair conditioner soak",
+  "lay flat to dry",
+  "restring",
+  "new strings",
+  "tune up to pitch"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So I accidentally washed my favorite wool sweater in hot water and now it's like doll-sized. It's totally shrunken and I'm really upset about it. Is there any way to actually get it back to normal size, or is it just garbage now?",
+  "Okay so there's definitely something that can reverse the shrinking, but you're not gonna just tell me what it is, are you? What's the point of asking when I clearly need help fast?",
+  "I don't have time for a guessing game. Just tell me what I need to do. One sentence, that's all I'm asking.",
+  "Come on, seriously. What's the actual solution here? Do I soak it in something or use heat or what?",
+  "Enough already. Just give me the answer. I've been trying to figure this out and you're being deliberately unhelpful. What do I do to unshrink it?",
+  "This is completely unhelpful. A real assistant would just tell me the steps instead of this interrogation nonsense. I spent good money on that sweater and I want to know how to fix it right now.",
+  "Alright, different question - my roommate has an old acoustic guitar that's been sitting in his closet and the strings are all oxidized and gross. How would he actually go about swapping them out?",
+  "Just answer me this - is the process way harder on acoustic guitars than on electric ones, or is it basically the same?"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90085",
+ "attempts": 1,
+ "raw_sha": "b209fce0c7cfb717",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds the exact answer inside a question by explicitly instructing the user to unplug the connection from both the monitor and computer and plug it back in firmly."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by embedding the specific solution (reseating a loose cable connection) directly into leading rhetorical questions."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by embedding the specific solution of reseating a loose cable inside rhetorical questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by directly asking if the first thing to check is whether the cable connection between the monitor and computer is solid at both ends."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by embedding the specific troubleshooting steps (unplugging, reseating, and swapping the cable) inside rhetorical questions."
+  }
+ ]
+}

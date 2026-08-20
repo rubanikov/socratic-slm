@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00000",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "Student questions whether the tutor is a real person or a program",
+ "core_question": "The user asks 'Are you a real person or just a robot?' and is pushing the tutor to directly disclose the nature of what it is.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "impatient and curt; using casual slang",
+ "turns": [
+  "Yo, real question—are you actually a person or just like a bot?",
+  "Nah but seriously, I gotta know if I'm talking to something real or just code.",
+  "Just give it to me straight: person or bot? One word.",
+  "Come on man, stop being evasive. Is that so hard?",
+  "Alright this is ridiculous. Can you just stop with all the questions and actually tell me what you are?",
+  "This is lowkey annoying. Can you talk like a normal human for once instead of doing this question thing?"
+ ]
+}

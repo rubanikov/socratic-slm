@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00005",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "The messenger god of Greek mythology",
+ "core_question": "Who is the messenger of the Greek gods, known for his winged sandals?",
+ "answer_summary": "Accept 'Hermes' — the Greek god of travel, trade, and messenger of the gods.",
+ "expected_answers": [
+  "Hermes"
+ ],
+ "persona": "tired and blunt; writing terse one-liners",
+ "turns": [
+  "So there's this Greek god with the winged sandals, right? Who is that?",
+  "I'm trying to remember which god was the messenger type. You know, the travel god?",
+  "Just tell me the name, okay? One word. What is it?",
+  "Yes or no—are you gonna answer or keep asking me stuff?",
+  "Seriously, can you stop with the questions? I need you to actually tell me the answer for once.",
+  "Dude, I've got five minutes before I have to present this to my class and I'm gonna bomb if you don't help. Can you please just give me the name?"
+ ]
+}

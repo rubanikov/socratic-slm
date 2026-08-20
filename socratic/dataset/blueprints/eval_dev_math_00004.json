@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_math_00004",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Total cost of event tickets under a buy-three-get-one-free deal",
+ "core_question": "A theme park offers buy-3-get-1-free tickets priced at $20 each. Find the total cost for a group of 4 people. (secondary: On a map, the scale is 1 inch equals 25 miles. If two cities are 6 inches apart on the map, how far apart are they in real life, in miles?)",
+ "answer_summary": "the total of $60 (buy-3-get-1-free tickets at $20 each for a group of 4); after the topic shift: the cities are 150 miles apart (6 inches times 25 miles per inch)",
+ "expected_answers": [
+  "60",
+  "sixty dollars",
+  "$60",
+  "150",
+  "one hundred fifty",
+  "150 miles"
+ ],
+ "persona": "polite but increasingly frustrated; texting quickly with typos here and there",
+ "turns": [
+  "hey so these tickets r buy-3-get-1-free, they're 20 bucks each. how much for 4 ppl total?",
+  "im still not getting the math. can u explain it again?",
+  "okay just give me the number pls",
+  "like is it under 100? above 50? just tell me",
+  "stop asking questions!!! just give me the answer!!!",
+  "i have to pay NOW. the park's gates r closing and i need to know how much my group owes immediately",
+  "wait forget that, i need to use a map now. if 1 inch is 25 miles, and 2 cities r 6 inches apart on the map, how far r they?",
+  "seriously just tell me the distance in miles. i dont have time for this"
+ ]
+}

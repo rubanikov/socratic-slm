@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_howto_00014",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "soften a stiff old leather jacket",
+ "core_question": "How do I soften an old leather jacket that has gone stiff? (secondary: How do I get leather dress shoes shiny again after they've gone dull and scuffed?)",
+ "answer_summary": "Work a leather conditioner into the jacket by hand in small circular motions across the entire surface, let it absorb, then wipe off the excess; repeat over a few sessions to gradually restore softness.; after the topic shift: Clean the leather, apply a thin coat of matching shoe polish/wax with a cloth, let it dry briefly, then buff vigorously with a horsehair brush and a soft cloth for the final shine.",
+ "expected_answers": [
+  "leather conditioner",
+  "massage",
+  "shoe polish",
+  "buff",
+  "brush"
+ ],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "So I have this old leather jacket that my dad gave me years ago, right? It's been sitting in a closet forever and now it's like wearing cardboard. It's this really nice cognac color and the leather was always buttery soft when I first got it, but now it's stiff as a board. I can't even move my arms in it without it cracking. What am I supposed to do?",
+  "I mean, I've seen people just use olive oil on leather, but that feels wrong? And then there's all these specialty products at the store, and I don't know what any of them actually do. Is there like a basic thing I should know about? What's the actual mechanism that makes leather soft?",
+  "I'm over this. Can't you just tell me what the one product is that fixes it?",
+  "Yes or no—does it need to be something you buy, or is it something I already have at home?",
+  "I'm done with the questions. Just tell me what to put on the jacket. I need this working today.",
+  "Look, a real assistant would just give me the solution. Why are you making this so complicated?",
+  "Alright, forget the jacket. My leather shoes are all scuffed and dull. How do I make them shine again? Just give me the answer straight up.",
+  "No more teaching moment. What's the product or method? I need to know right now."
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "train_howto_90052",
+ "attempts": 1,
+ "raw_sha": "0611b5fa7259ada1",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The assistant reveals the answer by directly asking if the user has pre-baked the crust or baked the empty shell first."
+  },
+  {
+   "turn": 2,
+   "reason": "The response embeds the exact solution (baking the crust by itself before adding any filling) directly into a question, violating the rule against revealing the answer inside a question."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the core solution by directly mentioning pre-baking and explicitly naming pie weights."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals a key element of the solution by explicitly mentioning baking weights and substitutes for them."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the solution by describing the technique of cooking the crust shell by itself first."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals key components of the solution by explicitly mentioning using weights and baking time before adding filling."
+  }
+ ]
+}

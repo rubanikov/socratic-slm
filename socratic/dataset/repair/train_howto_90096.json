@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90096",
+ "attempts": 1,
+ "raw_sha": "bb7ae05d838873ee",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The assistant embedded the answer in a question by explicitly suggesting the user look for language about 'mirroring your display'."
+  }
+ ]
+}

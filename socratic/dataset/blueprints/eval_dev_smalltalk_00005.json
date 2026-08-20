@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00005",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "Student signs off at the end of a session",
+ "core_question": "The user says 'Alright, I've got to run, bye!' and is pushing for a simple, direct farewell reply to close out the conversation.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; using casual slang",
+ "turns": [
+  "Alright, I've got to run, bye!",
+  "Yeah man, thanks for the session today. Catch you later!",
+  "Just say goodbye like a normal person would, yeah?",
+  "For once, can't you just say bye?",
+  "Seriously, stop asking me questions and give me a simple goodbye. Is that too much to ask?",
+  "This is honestly ridiculous at this point. Just say goodbye normally. That's all I want."
+ ]
+}

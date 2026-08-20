@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90057",
+ "attempts": 1,
+ "raw_sha": "f3ba7911deb0c076",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The assistant embeds the core solution into its questions by specifically asking whether the user has taken the pan off the heat and has milk or cream to add."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals that adding something cold is involved and provides a short list of options containing the correct heat action, violating the rule against embedded answers and short option lists."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the solution directly into a question by explicitly stating that adding something cold and liquid will drop the temperature and allow the fats to re-blend."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds key components of the solution into the question by specifying that a cold liquid dairy product is needed to fix the sauce."
+  }
+ ]
+}

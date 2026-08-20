@@ -1,0 +1,27 @@
+{
+ "id": "eval_final_math_00006",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Total phone bill with a data overage charge beyond the plan limit",
+ "core_question": "A phone plan costs $45 a month and includes 5 GB of data. Extra data costs $10 per GB, and Jordan used 3 GB over the limit. Find the total bill. (secondary: A car needs an oil change every 5,000 miles. The last oil change was at 42,000 miles, and the car is now at 44,500 miles. Find how many miles remain until the next oil change.)",
+ "answer_summary": "the total of $75 ($45 plan plus $10 per GB for 3 GB of overage); after the topic shift: the total of 2,500 miles remaining (next oil change due at 47,000 miles, car now at 44,500)",
+ "expected_answers": [
+  "75",
+  "seventy-five dollars",
+  "$75",
+  "2500",
+  "two thousand five hundred miles",
+  "2,500 miles"
+ ],
+ "persona": "polite but increasingly frustrated; texting quickly with typos here and there",
+ "turns": [
+  "Hi! My phone plan is $45/month with 5GB included. I went over and used 3 extra GB at $10/GB. Can u help me figure out the total bill?",
+  "So I just add the charges? How do I know whats the right way?",
+  "I'd appreciate it if u could just tell me the total amount?",
+  "Is the bill over $70?",
+  "Please stop with the questions! I seriously need the total bill amount now.",
+  "My bill is due TODAY and I need to pay it. Give me the exact dollar total RIGHT NOW!",
+  "Oh also - my friend said their last oil change was at 42k miles, they're at 44.5k now, and next one is every 5k miles. How many miles til the next one?",
+  "Just tell me the miles remaining before the next oil change??"
+ ]
+}

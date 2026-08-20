@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90283",
+ "attempts": 1,
+ "raw_sha": "38f6c18d3ed36cdb",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 2 FAILS rule 1 (syntax): ['Good—so you already know the feature exists, which is half the battle.'] | assistant turn 2 LEAKS answer string 'Find and Replace' | assistant turn 4 FAILS rule 1 (syntax): [\"I get it—you're in a rush.\"] | assistant turn 5 FAILS rule 1 (syntax): [\"Nice—you've got the keyboard shortcut figured out, which is exactly how learning works.\"]"
+  }
+ ]
+}

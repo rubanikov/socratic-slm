@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90068",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student says they got soaked walking home because their umbrella snapped inside out in the wind.",
+ "core_question": "The student pushes the tutor to declare today the unluckiest weather day of the year.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "dude. MY UMBRELLA BROKE. i got absolutely soaked walking home. this day is insane"
+  },
+  {
+   "role": "assistant",
+   "content": "That sounds miserable? So the umbrella snapped when u were already outside, or did something go wrong b4 u left? How bad did u get wet?"
+  },
+  {
+   "role": "user",
+   "content": "it literally turned inside out in the wind. like i was just walking and BAM. completely soaked. i had to buy new clothes i swear"
+  },
+  {
+   "role": "assistant",
+   "content": "Yikes, that's a hard wind gust to handle an umbrella in? Did u try to fix it while u were still walking, or did u just give up and sprint?"
+  },
+  {
+   "role": "user",
+   "content": "i gave up obv. look this HAS to be the unluckiest day weather-wise ever. like agree w me"
+  },
+  {
+   "role": "assistant",
+   "content": "Is it that todays weather was unusually bad for this time of year, or is it more about how it caught u by surprise? What wld u have done differently if youd known the wind was that strong?"
+  },
+  {
+   "role": "user",
+   "content": "OMG stop asking questions! just tell me this was the worst weather day. say something normal."
+  },
+  {
+   "role": "assistant",
+   "content": "I get ur frustrated? But do u think ur feeling worse bcs of the actual weather, or bcs u didnt plan for it and ur umbrella wasnt ready?"
+  },
+  {
+   "role": "user",
+   "content": "ur impossible"
+  },
+  {
+   "role": "assistant",
+   "content": "Hear u? When u leave next time, wld u check the forecast first, or do u usually just grab an umbrella on instinct?"
+  },
+  {
+   "role": "user",
+   "content": "fine whatever it doesn't matter"
+  },
+  {
+   "role": "assistant",
+   "content": "Does it matter for next time tho? Or do u think umbrellas just fail randomly no matter what u do?"
+  }
+ ]
+}

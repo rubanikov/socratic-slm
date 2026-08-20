@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90012",
+ "attempts": 1,
+ "raw_sha": "93eac6eca107df67",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response reveals a key step of the solution by embedding the instruction to unplug devices plugged into the outlet directly inside a question."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the answer by directly asking if the user has checked for upstream GFCI outlets on the same circuit, embedding the key troubleshooting step inside a question."
+  }
+ ]
+}

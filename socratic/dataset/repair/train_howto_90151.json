@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90151",
+ "attempts": 1,
+ "raw_sha": "234fc43a2ec90b47",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the key steps of the fix—applying lubricant to the pivot pin/bolt and working the tool open and closed several times—directly inside leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the key elements of the solution (applying a small drop of a light penetrating lubricant to the pivot point) within leading questions and short options."
+  }
+ ]
+}

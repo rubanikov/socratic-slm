@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90062",
+ "attempts": 1,
+ "raw_sha": "75ab5eddea411eb5",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response presents a short list of two specific options describing the answer, which violates the rule against providing a short list of options containing the answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the exact application method and provides a short list of two options that embeds the answer."
+  }
+ ]
+}

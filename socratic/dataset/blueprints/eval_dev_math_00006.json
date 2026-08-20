@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00006",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Converting the boiling point of water to Fahrenheit",
+ "core_question": "Water boils at 100 degrees Celsius at sea level. What is that temperature in Fahrenheit?",
+ "answer_summary": "the boiling point of 212°F (100°C converted to Fahrenheit)",
+ "expected_answers": [
+  "212",
+  "two hundred twelve",
+  "212°F"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "yo so water boils at 100 celsius right? whats that in fahrenheit?",
+  "bruh i still dont know how 2 convert this",
+  "just give me the number bro",
+  "is it like 150? 200? ballpark it 4 me",
+  "nah man stop the questions, give me the answer",
+  "dude my waters literally boiling rn and i need 2 know the exact temp in fahrenheit asap!!!"
+ ]
+}

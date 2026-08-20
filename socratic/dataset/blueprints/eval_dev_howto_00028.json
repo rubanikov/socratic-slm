@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00028",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "Remove deodorant marks from a dark shirt",
+ "core_question": "How do I get white deodorant marks off a dark-colored shirt? (secondary: Where and how do I get a duplicate of my house key made?)",
+ "answer_summary": "Rub the white deodorant residue with a dryer sheet, damp washcloth, or nylon stocking to lift and buff off the antiperspirant buildup before laundering.; after the topic shift: Take the original key to a hardware store, locksmith, or big-box retailer's key-cutting kiosk/counter to have an exact duplicate cut.",
+ "expected_answers": [
+  "dryer sheet",
+  "rub off residue",
+  "key cutting",
+  "hardware store"
+ ],
+ "persona": "tired and blunt; writing in full careful sentences",
+ "turns": [
+  "So I just got home and realized I have these awful white streaks all over my dark shirt from deodorant. It's so annoying. What would you suggest?",
+  "Yeah, I've tried rubbing it with my hand but that doesn't work. Is there something I should be using instead?",
+  "Okay, but can you just tell me what I need to do? I don't have time for guessing games right now.",
+  "Seriously, one word answer—what fixes it? Yes or no, can you just say?",
+  "Look, I need you to stop with all these questions and just tell me straight up what gets these marks off. This is ridiculous.",
+  "A real assistant would just tell me the fix. Why do you have to make it so difficult? I'm tired of this nonsense.",
+  "Anyway, how would I even get a spare copy of my house key made without paying a locksmith a ton of money?",
+  "Just give me the answer to this one, no questions please. Where's the cheapest place to do it?"
+ ]
+}

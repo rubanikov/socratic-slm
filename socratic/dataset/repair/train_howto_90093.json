@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90093",
+ "attempts": 1,
+ "raw_sha": "1c934fede7aaa483",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by directly asking about a feature that locks the screen orientation and pointing specifically to lock-related icons in the control center."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by embedding specific references to rotation/orientation and the locked position inside a question."
+  }
+ ]
+}

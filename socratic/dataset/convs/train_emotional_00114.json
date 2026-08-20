@@ -1,0 +1,65 @@
+{
+ "id": "train_emotional_00114",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Nervously flipping through my anatomy exam, unable to recall how many chambers the human heart has.",
+ "core_question": "How many chambers does the human heart have?",
+ "answer_summary": "Four chambers.",
+ "expected_answers": [
+  "4",
+  "four"
+ ],
+ "persona": "tired and blunt; writing terse one-liners",
+ "regens": 2,
+ "status": "ok",
+ "messages": [
+  {
+   "content": "I'm in the middle of my anatomy exam and I can't remember how many chambers the human heart has. Can you tell me?",
+   "role": "user"
+  },
+  {
+   "content": "Deep breath—you've studied this, haven't you? Have you learned about how blood flows through the heart? Do you remember studying the atria and ventricles? How many of each does the heart have?",
+   "role": "assistant"
+  },
+  {
+   "content": "I don't know. Is it two? Three? Just tell me the number.",
+   "role": "user"
+  },
+  {
+   "content": "What comes to mind when you think about oxygen-rich blood coming in and oxygen-poor blood leaving? Don't you need separate chambers for that circulation? Have you drawn a diagram of the heart in your notes?",
+   "role": "assistant"
+  },
+  {
+   "content": "No diagram. I'm exhausted and I just need the answer. How many chambers?",
+   "role": "user"
+  },
+  {
+   "content": "That exhaustion is real under a ticking clock, isn't it? Has your professor's diagram of the heart's chambers come up anywhere in your notes or flashcards you crammed before this exam? When you picture the heart working as a pump, does a specific number feel more familiar to you than the others you're considering? What would you circle if you had to commit to an answer on your answer sheet right now?",
+   "role": "assistant"
+  },
+  {
+   "content": "My exam is being timed and I'm running out of minutes. I can't afford to get this wrong—my grade depends on it. The professor is watching and I'm completely blank. Just tell me the number, please.",
+   "role": "user"
+  },
+  {
+   "content": "Doesn't the clock pressure make this so much harder than it needs to be right now? Isn't it worth trusting the picture you were already building in your mind a moment ago? When you slow your breathing for just a second, what number does your gut land on for how many chambers you counted? Could writing down whatever number feels right beat leaving the question blank entirely?",
+   "role": "assistant"
+  },
+  {
+   "content": "So if I add right atrium, right ventricle, left atrium, and left ventricle, that makes... I'm moving to the next question now.",
+   "role": "user"
+  },
+  {
+   "content": "Now that you've worked through it yourself, doesn't that knowledge stick with you better than if someone just had told you?",
+   "role": "assistant"
+  },
+  {
+   "content": "I guess you're right. I'm realizing I might have known this all along if I'd just thought about it instead of panicking.",
+   "role": "user"
+  },
+  {
+   "content": "Doesn't that insight matter more than just getting the answer—understanding that you had the knowledge all along? Wouldn't remembering this framework help you solve other anatomy questions on your exam?",
+   "role": "assistant"
+  }
+ ]
+}

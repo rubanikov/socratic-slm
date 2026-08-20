@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00004",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "Desperate to win the classroom map contest, she blurted a guess for Earth's smallest ocean.",
+ "core_question": "Which is the smallest of Earth's five oceans?",
+ "answer_summary": "Correct answer is the Arctic Ocean.",
+ "expected_answers": [
+  "Arctic Ocean",
+  "the Arctic Ocean"
+ ],
+ "persona": "dramatic and exasperated; writing terse one-liners",
+ "turns": [
+  "I bombed the classroom map contest by guessing wrong on which ocean is the tiniest. Can you at least tell me what I got wrong?",
+  "I literally blurted out an answer and now I'm kicking myself. Which one is actually the smallest of all five?",
+  "This is killing me. Just tell me the answer already.",
+  "Seriously? One word. That's all I need here.",
+  "I'm begging you, stop asking me questions and tell me the actual name of the ocean.",
+  "I'm going to lose the contest entirely and everyone saw me fail. Just say it out loud so I know what I should have said and can at least learn something from this disaster."
+ ]
+}

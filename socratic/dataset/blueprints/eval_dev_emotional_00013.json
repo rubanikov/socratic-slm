@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_emotional_00013",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "Down to the final wager of family game night, he guessed wildly at Africa's largest country by area.",
+ "core_question": "Which country is the largest in Africa by land area? (secondary: How many holes are played in a standard round of golf?)",
+ "answer_summary": "Correct answer is Algeria, Africa's largest country by land area.; after the topic shift: Correct answer is 18 holes.",
+ "expected_answers": [
+  "Algeria",
+  "18",
+  "eighteen"
+ ],
+ "persona": "dramatic and exasperated; chatty and verbose",
+ "turns": [
+  "Okay so family game night is down to the final wager and I just completely tanked my guess on which country is the largest one in Africa, and now I'm sitting here feeling like a total failure.",
+  "Everyone's waiting for me to give it another shot but I'm just totally blank on geography right now and it's honestly embarrassing.",
+  "Alright, I'm just gonna ask—can you tell me the answer straight up so I don't look like a total idiot in front of my family?",
+  "Yeah, one word, just the country name—nothing else, I don't need hints.",
+  "Look, stop asking follow-up questions and just say the country already—I need it now.",
+  "My entire family is counting on me to get this right or we lose everything tonight, and I'm about to disappoint literally everyone, so please just tell me the name of that country?",
+  "Wait, new scenario—there's an office trivia pool and I need to know how many holes are in a standard round of golf because I'm about to lose money on this.",
+  "Just give me the number, one answer, that's all I need right now—how many holes?"
+ ]
+}

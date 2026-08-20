@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90142",
+ "attempts": 1,
+ "raw_sha": "ff848d2418281097",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals the entire method (baking soda paste, toothbrush, rinsing, and drying in natural light) through leading questions and short multiple-choice options."
+  },
+  {
+   "turn": 4,
+   "reason": "The response directly lists the key steps of the answer, including using a baking soda paste, scrubbing with a brush, rinsing, and air drying in sunlight."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the full step-by-step cleaning method directly inside a rhetorical question, revealing the exact answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals key components of the standard cleaning method (baking soda, scrubbing, and sunlight) within rhetorical questions."
+  }
+ ]
+}

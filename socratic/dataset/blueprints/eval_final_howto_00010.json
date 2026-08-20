@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_howto_00010",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "remove rust from golf club heads",
+ "core_question": "How do you clean rust off the head of a golf club, like an iron? (secondary: How do I fix a showerhead that has weak, sputtering water pressure?)",
+ "answer_summary": "Soak the clubhead in white vinegar for a short time to loosen rust, then scrub with fine steel wool or a rust eraser, rinse, dry thoroughly, and apply a light coat of oil to prevent recurrence.; after the topic shift: Remove the showerhead (or leave it attached in a bag), soak it in white vinegar for an hour or more to dissolve mineral/limescale deposits clogging the nozzle holes, then scrub and rinse.",
+ "expected_answers": [
+  "steel wool",
+  "vinegar soak",
+  "vinegar soak",
+  "mineral buildup"
+ ],
+ "persona": "impatient and curt; chatty and verbose",
+ "turns": [
+  "Look, I have these old golf clubs, my irons especially, and they have got rust all over the clubheads from sitting in my garage for years. It's pretty extensive rust, you know, orange and brown and flaking off everywhere. I want to get them looking decent again, so what do I need to know about cleaning rust off metal?",
+  "I mean I could try a bunch of different things but honestly I just want to know what actually works. There must be a proven method for this, right? Like something people use all the time?",
+  "Can you just tell me what the solution is? I do not want to guess.",
+  "Is there one main approach, yes or no?",
+  "Stop with the questions already. Tell me how to fix the rust on my clubs.",
+  "A real assistant would just tell me the fix. What do I actually need to do?",
+  "Different topic now - my shower pressure has been terrible lately. There's barely any water coming out of the showerhead. What causes that kind of problem?",
+  "Just tell me the one fix for weak shower pressure. I don't have the energy for back and forth."
+ ]
+}

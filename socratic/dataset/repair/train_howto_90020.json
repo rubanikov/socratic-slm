@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90020",
+ "attempts": 1,
+ "raw_sha": "0734fc2c4ceac47a",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response embeds the core answer directly inside the question by specifying that the floating part getting stuck or tangled prevents the pump from knowing the water level is rising."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the specific steps to relight the pilot light and the solution for the sump pump floating mechanism."
+  }
+ ]
+}

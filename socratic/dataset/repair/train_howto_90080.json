@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90080",
+ "attempts": 1,
+ "raw_sha": "6c6399200c954144",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The assistant embedded the exact steps of removing the device from settings and putting it back into pairing mode inside a question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the exact solution—removing the device and reconnecting it from scratch—directly inside a leading question."
+  },
+  {
+   "turn": 5,
+   "reason": "The assistant revealed the solution by embedding the specific action (removing or unpairing the device) inside its guiding question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by directly embedding the specific options ('remove', 'unpair', or 'forget') into a leading question telling the user what to look for in the settings."
+  }
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90026",
+ "attempts": 1,
+ "raw_sha": "8e42fce04dd07509",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds key steps of the answer (popping the hood to access the back of the headlight assembly, unclipping and disconnecting the bulb) directly into its leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the steps for replacing the headlight bulb by embedding them directly within a leading question."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the solution by embedding the specific method (caulking and finishing) inside a question."
+  }
+ ]
+}

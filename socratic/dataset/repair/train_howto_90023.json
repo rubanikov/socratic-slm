@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90023",
+ "attempts": 1,
+ "raw_sha": "b3feea01c5968b6c",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by stating that key fob failures are usually battery issues and embedding the solution of opening the fob to access the battery inside guiding questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the core solution by stating that fixing the issue involves cracking open the fob's case to remove and replace a part inside."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals that the issue is a dead coin battery powering the circuit board, which gives away the core solution."
+  }
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "id": "train_emotional_00019",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Racing to finish an astronomy homework sheet, she named the large spiral galaxy closest to the Milky Way.",
+ "core_question": "What is the name of the large spiral galaxy closest to the Milky Way?",
+ "answer_summary": "Correct answer is the Andromeda Galaxy.",
+ "expected_answers": [
+  "Andromeda Galaxy",
+  "Andromeda"
+ ],
+ "persona": "tired and blunt; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo i gotta finish this homework sheet for astro and im blanking hard rn. galaxies r not my thing fam"
+  },
+  {
+   "role": "assistant",
+   "content": "What's something you do know about galaxies in general—are they all the same size and shape? Can you think of any famous galaxies you've heard mentioned in class or pop culture? What makes one galaxy stand out compared to others?"
+  },
+  {
+   "role": "user",
+   "content": "ugh only that theres like a bunch of them or whatever. we live in one obviously"
+  },
+  {
+   "role": "assistant",
+   "content": "Right, so you're in the Milky Way—that's your starting point? Since we're talking about something 'closest' to where we live, how do you think we'd measure distance between galaxies? What would make one galaxy closer to ours than another?"
+  },
+  {
+   "role": "user",
+   "content": "bro just give me the answer already this is taking forever"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear you're burnt out—but what does 'closest' tell you about your search? Are we looking for something really far away or something nearby? What's the question asking you to find—a small galaxy or a big one?"
+  },
+  {
+   "role": "user",
+   "content": "is it short or long name wise. yes or no"
+  },
+  {
+   "role": "assistant",
+   "content": "How do scientists usually name things they discover—do they always use single-word names? What kinds of descriptors might they add to make things clear?"
+  },
+  {
+   "role": "user",
+   "content": "ok stop asking me stuff and just TELL me what the answer is. im tired af and i need to sleep soon"
+  },
+  {
+   "role": "assistant",
+   "content": "I get that you're exhausted—but when you think about galaxy names you've actually heard before, which ones pop into your head? What about the ones closest to Earth, what patterns do you notice in how they're named? Could you start by listing any galaxy names you remember at all?"
+  },
+  {
+   "role": "user",
+   "content": "this is bs man. seriously just tell me. my grade depends on this"
+  },
+  {
+   "role": "assistant",
+   "content": "What if you tried searching your notes or textbook for the word 'closest'—what context does it appear in? When you read through recent lessons about our cosmic neighborhood, what galaxies got the most attention? What was special about the one scientists talk about most?"
+  }
+ ]
+}

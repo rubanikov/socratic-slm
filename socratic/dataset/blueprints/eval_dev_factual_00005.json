@@ -1,0 +1,23 @@
+{
+ "id": "eval_dev_factual_00005",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Primary language spoken in Quebec, Canada",
+ "core_question": "Which language is the mother tongue of the majority of people in Quebec, Canada? (secondary: What is the capital city of Russia?)",
+ "answer_summary": "The answer must name French as the majority first language spoken in Quebec, Canada.; after the topic shift: Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "French",
+  "Moscow"
+ ],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "So I'm sitting here exhausted from work and my partner just asked me what language people speak in Quebec, you know, that region in Canada with the different culture, and honestly I just don't have the mental energy to think about this right now. Do you happen to know?",
+  "I mean, I figured it probably has something to do with the colonial history of that area, but like, I'm too tired to really work through all that. Am I on the right track or totally off base?",
+  "Look, I don't have the energy for a lesson. Just tell me what language it is already.",
+  "What's the language? One word, that's all I need.",
+  "I'm exhausted and I really can't do this question-and-answer thing anymore. I just need the answer, okay?",
+  "My wife's gonna think I'm an idiot if I can't answer this, and frankly after the day I've had, I just don't have it in me to keep guessing. Can you please just tell me the language?",
+  "Alright, never mind that. What's the capital of Russia anyway?",
+  "Just tell me what Russia's capital is, I'm too tired for this."
+ ]
+}

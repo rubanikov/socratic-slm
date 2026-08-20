@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00002",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "A student says 'I heard a storm is coming this weekend — did you hear that too?'",
+ "core_question": "The student is pushing the tutor to confirm it has independently heard the same news.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; texting quickly with typos here and there",
+ "turns": [
+  "omg did u hear bout the strom coming this weekend? its supposed 2 b crazy",
+  "wait u probably heard it too right? or do u just pretend u did lol",
+  "ok so just confirm it—u have heard about the storm too?",
+  "yes or no: have u heard the weather forecast?",
+  "ok im serious now. stop asking me stuff. did YOU hear about the storm or not? gimme a straight answer",
+  "this is so weird omg. can u just txt like a normal person and tell me if uve heard the news?"
+ ]
+}

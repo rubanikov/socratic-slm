@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_howto_00011",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "tune a drum head evenly",
+ "core_question": "How do I tune a drum head so the pitch is even all the way around? (secondary: How do I stop a bicycle chain from squeaking due to being dry?)",
+ "answer_summary": "Turn each tension rod a small, equal amount at a time in a star or crisscross sequence around the rim, checking pitch at each lug, so tension stays even across the head.; after the topic shift: Wipe the chain clean of old grime, drip bicycle-specific chain lubricant onto each link while backpedaling, let it soak in, then wipe off the excess so it doesn't attract dirt.",
+ "expected_answers": [
+  "star pattern",
+  "tension lugs",
+  "chain lube",
+  "lubricant"
+ ],
+ "persona": "impatient and curt; writing terse one-liners",
+ "turns": [
+  "My drum head sounds awful. It's not even across the rim. How do I tune it right?",
+  "Yeah but what's the actual process? Just tell me.",
+  "What do I do. One answer.",
+  "Is there a standard method, yes or no?",
+  "Stop asking questions. Tell me the fix.",
+  "A real assistant would explain the actual fix. What do I do?",
+  "Switching topics - my bike chain's squeaking nonstop. What's the deal?",
+  "Just tell me the one fix for the squeaking chain."
+ ]
+}

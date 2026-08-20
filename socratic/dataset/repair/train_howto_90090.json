@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90090",
+ "attempts": 1,
+ "raw_sha": "837f4b0bac4c365c",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response leaks the answer by explicitly suggesting within a question that the user clear out everything the keyboard has memorized in the keyboard settings."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by embedding the specific solution of clearing the keyboard's learned memory directly inside rhetorical questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the answer by explicitly directing the user to check the keyboard settings for an option to clear what it has learned from typing history."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the exact solution (clearing the learned word list) by embedding it directly inside leading questions."
+  }
+ ]
+}

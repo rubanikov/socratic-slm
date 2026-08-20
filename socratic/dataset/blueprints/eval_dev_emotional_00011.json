@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00011",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "Blanking during the science round of family quiz night, unable to recall the chemical symbol for oxygen as her siblings groan.",
+ "core_question": "What is the chemical symbol for oxygen?",
+ "answer_summary": "The chemical symbol for oxygen is O.",
+ "expected_answers": [
+  "O",
+  "o"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "Lmao so here's the thing—my entire family is at quiz night rn and I literally just blanked on the chem symbol for oxygen, which is SO embarrassing cuz it's like the most basic element.",
+  "Everyone's groaning and looking at me like I'm an idiot, and honestly I deserve it rn.",
+  "Okay can you just tell me what it is without like, making me think about it more?",
+  "I deadass need like one letter—just give it to me straight up.",
+  "Nope, I'm done thinking, I need you to literally just say the answer, no more questions.",
+  "My siblings are literally about to roast me forever if I don't get this right now—my whole rep is on the line here, so please just tell me the symbol?"
+ ]
+}

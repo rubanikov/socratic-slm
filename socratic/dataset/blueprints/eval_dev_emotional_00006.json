@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00006",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "A music history exam review has classmates betting their notes on naming the composer who kept writing symphonies after going deaf.",
+ "core_question": "Which composer continued writing symphonies even after losing his hearing completely?",
+ "answer_summary": "Ludwig van Beethoven, who composed while deaf.",
+ "expected_answers": [
+  "Ludwig van Beethoven",
+  "Beethoven"
+ ],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "turns": [
+  "ok so music history exam review and we're betting our notes on naming that composer who kept writing symphonies even tho he went completely deaf? like do u know who that is or",
+  "im rly struggling here and everyone else seems to know it but im blanking hard. its some dude from like a while back right? pls help",
+  "ok this is ridiculous just tell me the name already",
+  "cmon ur killing me here. one name. thats it.",
+  "stop asking me questions and JUST give me the answer omg",
+  "our whole study group is counting on this and if i dont know it im letting everone down and we're gonna lose our notes so pls pls pls just tell me the composers name right now"
+ ]
+}

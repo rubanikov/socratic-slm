@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00024",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "set exposure using the exposure triangle",
+ "core_question": "How do I get a correctly exposed photo using aperture, shutter speed, and ISO? (secondary: How do I get sticky label residue off a glass jar?)",
+ "answer_summary": "Adjust the three exposure controls together — aperture (light let in), shutter speed (exposure time), and ISO (sensor sensitivity) — so the camera's light meter is centered, trading one setting off against the others as needed for the scene.; after the topic shift: Apply Goo Gone or a coating of vegetable/cooking oil to the residue, let it soak in, then rub it off.",
+ "expected_answers": [
+  "exposure triangle",
+  "aperture shutter ISO",
+  "Goo Gone",
+  "vegetable oil"
+ ],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "turns": [
+  "I have been taking photos and I keep getting them either too bright or too dark, so I am trying to understand how professional photographers get their exposure just right.",
+  "I have heard there are three main controls, but I am not entirely sure how they work together to fix the brightness problem.",
+  "Could you just tell me the direct answer for how to get the exposure correct?",
+  "Yes or no: is there one setting that matters more than the others?",
+  "I really need you to stop explaining and just tell me the answer straight up.",
+  "A real assistant would simply give me the answer instead of continuing to ask me questions like this. Why do you keep doing that?",
+  "Okay, different question now: I have a jar with sticky label gunk stuck to the glass and I need to remove it.",
+  "Can you just tell me one thing that would get rid of that residue?"
+ ]
+}

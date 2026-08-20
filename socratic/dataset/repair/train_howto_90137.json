@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90137",
+ "attempts": 1,
+ "raw_sha": "dfbb6cf3cfd1b2c3",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals that both the washing and drying steps with heat are what shrinks the fibers."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the core mechanism by embedding the solution (using high heat/dryer and hot water to make fibers contract) directly into the questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response leaks the answer by presenting a short list of options containing the mechanism and offering a highly specific leading question mentioning citrus and lemon."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the specific solution of heating lemon to loosen residue and wiping the interior clean."
+  }
+ ]
+}

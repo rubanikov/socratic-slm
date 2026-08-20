@@ -1,0 +1,31 @@
+{
+ "id": "train_howto_90139",
+ "attempts": 1,
+ "raw_sha": "fc10abb3fdb2df29",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals the exact solution by embedding the specific concept of strap clips/converters linking front and back straps together inside its questions."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the specific solution by embedding the mechanism of linking the straps in an X or U shape across the back inside a leading question."
+  },
+  {
+   "turn": 4,
+   "reason": "The assistant directly names 'strap clips' and 'shoulder strap converters', explicitly revealing the solution to the user's question."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the solution embedded inside rhetorical questions by asking about linking or connecting the front and back straps together."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the specific tool needed for the trick by prompting the user about dry-erase markers and using their formula to remove the permanent marker."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the exact solution (coloring over the mark with a temporary marker and wiping them away together) embedded inside leading questions."
+  }
+ ]
+}

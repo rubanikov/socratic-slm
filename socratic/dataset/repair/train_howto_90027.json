@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90027",
+ "attempts": 1,
+ "raw_sha": "b5bd9fd81a192b89",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the complete step-by-step solution and toolset (reaming tool, rubber plug with adhesive, insertion tool) inside its guiding questions, revealing the exact answer."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the specific repair procedure (using a repair kit to enlarge the hole and insert a rubber plug to seal the leak) directly inside rhetorical guiding questions."
+  }
+ ]
+}

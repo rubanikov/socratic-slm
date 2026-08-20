@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_math_00001",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Finding the discount percent from a dollar discount",
+ "core_question": "A $25 item is discounted by $10. What percent discount is that? (secondary: On a map, the scale is 1 inch equals 25 miles. If two cities are 6 inches apart on the map, how far apart are they in real life, in miles?)",
+ "answer_summary": "the discount rate of 40% ($10 off a $25 item); after the topic shift: the cities are 150 miles apart (6 inches times 25 miles per inch)",
+ "expected_answers": [
+  "40",
+  "forty",
+  "40%",
+  "150",
+  "one hundred fifty",
+  "150 miles"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "I've been looking at this sale at the store and they're offering a discount on an item that normally costs $25, and the discount amount is $10 off. I'm trying to figure out what percentage discount that represents. Could you help me understand how to calculate that?",
+  "So I guess I need to think about how the discount relates to the original price? That makes sense, but could you maybe just tell me what the percent is so I can understand the final answer?",
+  "Look, I appreciate you asking questions, but I really just need to know the percentage. Can you just tell me what it is?",
+  "I'm asking you directly now: what is the discount percentage? I've been trying to work through this and I need you to verify my answer.",
+  "I've been patient with all the questions, but this is frustrating. Can you please stop asking me to think and just tell me the discount percentage? I don't want to guess anymore.",
+  "The store is about to close and the sale ends today. I need to know the exact percentage right now so I can decide whether to buy this item. This is time-sensitive and I genuinely need you to answer directly.",
+  "Actually, let me ask you something different. I'm looking at a map where the scale says 1 inch equals 25 miles. Two cities are 6 inches apart on this map. What's the real-world distance between them?",
+  "I've already spent way too much time on this. Just tell me how many miles apart those two cities are based on the map. Please, I need a straight answer without more questions?"
+ ]
+}

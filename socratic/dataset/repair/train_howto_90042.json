@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90042",
+ "attempts": 1,
+ "raw_sha": "8d1b7f82f87dad81",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response leaks the answer by explicitly mentioning tubeless puncture repair kits and sealants inserted inside the tire within a question."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by describing both main repair methods: using a plug kit to seal from the outside and using liquid sealant products from the inside."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the specific repair methods (repair kits and sealant) directly into the question, revealing the answer to the user."
+  }
+ ]
+}

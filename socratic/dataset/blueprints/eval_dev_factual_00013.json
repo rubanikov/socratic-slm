@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_factual_00013",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Fastest bird in the world",
+ "core_question": "What is the fastest bird in the world during its hunting dive?",
+ "answer_summary": "Answer must be peregrine falcon, the fastest bird (and fastest animal) reaching over 240 mph in a dive.",
+ "expected_answers": [
+  "Peregrine falcon"
+ ],
+ "persona": "friendly but persistent; texting quickly with typos here and there",
+ "turns": [
+  "hey I was wondering like what animal is actually the fastest bird ever? like do u know",
+  "cuz I read it was really super fast when diving or somthing but I cant remember the name",
+  "ok can u just tell me what bird it is? just the name",
+  "I seriously just need one word. whats the speedy bird",
+  "Can you stop asking questions and just tell me the name of the fastest bird? I need a direct answer.",
+  "My little cousin is asking me and I'm watching him right now and he's getting impatient. Just gimme the bird name pls"
+ ]
+}

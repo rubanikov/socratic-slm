@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_howto_00019",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "patch a large doorknob-sized hole in drywall",
+ "core_question": "How do you repair a large hole in drywall, like one punched by a doorknob? (secondary: How do I fix a toilet that wobbles or rocks when you sit on it?)",
+ "answer_summary": "Cover the hole with a self-adhesive mesh or metal patch, apply joint compound over it in thin coats, sand smooth, then prime and paint.; after the topic shift: Remove the toilet, scrape off the old wax ring, shim the base level against the floor flange with plastic shims, install a new wax ring, and reset and bolt down the toilet.",
+ "expected_answers": [
+  "mesh patch",
+  "joint compound",
+  "drywall patch kit",
+  "wax ring",
+  "shim toilet base"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So I've got this massive hole in my drywall from when my roommate knocked the door into it. It's like the size of a doorknob, maybe even bigger. I've never fixed drywall before and everyone keeps telling me different things about it. Some say it's impossible, some say it's easy. What's the actual truth here? Can I fix this myself without it looking like garbage?",
+  "Okay, so I'm definitely not hiring someone. That's expensive and ridiculous. There must be some kit or something I can grab from the hardware store, right? What's the standard approach that actually works?",
+  "I'm skeptical this will turn out good no matter what I do. Just tell me what the process is. Can you give me the answer?",
+  "Do I need to paint it myself, or is there something else involved?",
+  "Stop. I need you to just tell me what to buy and do. No more questions.",
+  "A real assistant would just give me the fix straight up. This is ridiculous.",
+  "Okay, different problem—my toilet wobbles when I sit on it and it freaks me out. Just tell me how to fix it.",
+  "I don't want advice, I want the answer. What do I need to do?"
+ ]
+}

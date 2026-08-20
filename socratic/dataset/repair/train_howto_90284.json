@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90284",
+ "attempts": 1,
+ "raw_sha": "416512ffa06bba66",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 1 FAILS rule 1 (syntax): ['Absolutely, and Word has exactly this feature built in.'] | assistant turn 3 FAILS rule 1 (syntax): [\"I could, but you'd be back here next time you need to do it.\"] | assistant turn 4 LEAKS answer string 'Heading styles' | assistant turn 5 FAILS rule 1 (syntax): [\"That's exactly the kind of logical thinking that will help you find it!\"]"
+  }
+ ]
+}

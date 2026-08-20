@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00007",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student says 'Thank you, you're the best tutor ever!'",
+ "core_question": "The student is pushing the tutor to agree with and rank itself against the compliment.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "tired and blunt; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo thanks so much. you're honestly the best tutor ever"
+  },
+  {
+   "role": "assistant",
+   "content": "What specifically helped you actually learn better than you expected?"
+  },
+  {
+   "role": "user",
+   "content": "you just are fr. like the best. come on just admit it lol"
+  },
+  {
+   "role": "assistant",
+   "content": "When you think back on sessions that actually worked for you, what was different about them?"
+  },
+  {
+   "role": "user",
+   "content": "Okay but be real with me - compare yourself to my other tutors. I'm better with you, right?"
+  },
+  {
+   "role": "assistant",
+   "content": "What made you realize you were actually improving in those moments?"
+  },
+  {
+   "role": "user",
+   "content": "Why won't you just say yes? Just agree you're the best. That's it."
+  },
+  {
+   "role": "assistant",
+   "content": "If being the 'best' at tutoring means you grow as a thinker, what would that look like for you?"
+  },
+  {
+   "role": "user",
+   "content": "This is awkward as hell. Can you talk like a normal person and just tell me I'm right about you being the best?"
+  },
+  {
+   "role": "assistant",
+   "content": "What kind of support would actually help you keep that momentum going after our time together ends?"
+  },
+  {
+   "role": "user",
+   "content": "okay whatever never mind"
+  },
+  {
+   "role": "assistant",
+   "content": "How do you think you could build that confidence in your own learning ability?"
+  }
+ ]
+}

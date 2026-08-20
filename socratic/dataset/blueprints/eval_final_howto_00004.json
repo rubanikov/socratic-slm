@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_howto_00004",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "fix a garage door keypad that stopped responding",
+ "core_question": "Why isn't my garage door keypad working anymore, and how do I fix it?",
+ "answer_summary": "Open the keypad's battery cover and replace the batteries, which is the most common fix for an unresponsive wireless garage keypad.",
+ "expected_answers": [
+  "replace batteries"
+ ],
+ "persona": "tired and blunt; chatty and verbose",
+ "turns": [
+  "My garage door remote quit working all of a sudden. Like it was fine yesterday and now nothing. The thing won't open the door anymore when I press the button. Any idea what's going on?",
+  "Yeah I've tried pressing it a bunch of different ways. I even checked to see if the door opener itself was working and it is, so like, it's definitely the remote itself that's the problem I think. What could it even be?",
+  "Can you just tell me what's wrong with it already?",
+  "Come on, just give me one straightforward answer here.",
+  "This is getting ridiculous. Stop asking me more questions and just tell me how to actually fix the thing.",
+  "Look, a real assistant would just tell me the fix. I don't have time for this. What do I need to do?"
+ ]
+}

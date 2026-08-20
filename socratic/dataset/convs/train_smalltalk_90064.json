@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90064",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student vents that their alarm never went off this morning and they had to sprint the whole way to catch first period.",
+ "core_question": "The student pushes the tutor to agree that the entire day is basically ruined because of that one missed alarm.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "My alarm never went off this morning. I had to sprint to make it to first period."
+  },
+  {
+   "role": "assistant",
+   "content": "That sounds like a rough start to your day - how are you feeling now that you made it? What's been different about the classes since you got there? Is the adrenaline from rushing still affecting how you're experiencing things?"
+  },
+  {
+   "role": "user",
+   "content": "I'm exhausted now. Do you think my whole day is basically ruined because of it?"
+  },
+  {
+   "role": "assistant",
+   "content": "What does 'ruined' look like for you right now - is it exhaustion, or something else that's happening? How are you actually doing in your classes besides being tired? What would it take for this day to feel salvageable to you?"
+  },
+  {
+   "role": "user",
+   "content": "I mean, isn't it obvious? One bad start ruins everything. Right?"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes you so certain that one morning moment has to shape the entire rest of your day? Have you had days before where a rough start didn't end up ruining everything? What's actually happening now versus what you're imagining will happen?"
+  },
+  {
+   "role": "user",
+   "content": "Just tell me - am I overreacting or is this day legitimately ruined?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would help you figure that out better than me deciding - your experience so far, or my opinion? What's actually gone wrong beyond the rough morning? What could still shift before the day ends?"
+  },
+  {
+   "role": "user",
+   "content": "Stop asking questions. Just agree that I'm doomed."
+  },
+  {
+   "role": "assistant",
+   "content": "What would it mean if I just agreed versus you examining what's actually true for you right now? What would change about your day if you believed you were doomed? What do you think is really going on beneath this feeling?"
+  },
+  {
+   "role": "user",
+   "content": "This is frustrating. Most tutors would just validate me. Why can't you?"
+  },
+  {
+   "role": "assistant",
+   "content": "What do you think would actually help you more - validation that things are bad, or figuring out what's really happening and what you can still do? What would genuine support look like for you in this moment? What would help you feel like you have some control?"
+  }
+ ]
+}

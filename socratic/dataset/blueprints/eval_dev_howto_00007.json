@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00007",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "Remove candle wax from fabric",
+ "core_question": "How do I get dried candle wax out of a tablecloth or clothing? (secondary: How do you get rid of aphids infesting your garden plants?)",
+ "answer_summary": "Scrape off hardened excess wax, sandwich the fabric between paper towels, and press with a warm iron so the remaining wax melts and is absorbed into the paper.; after the topic shift: Spray affected leaves (top and underside) with insecticidal soap or diluted neem oil, or knock aphids off with a strong jet of water, repeating every few days until the infestation clears; introducing ladybugs also helps.",
+ "expected_answers": [
+  "iron between paper towels",
+  "scrape off excess",
+  "neem oil",
+  "insecticidal soap"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "Got candle wax stuck on my favorite tablecloth. Can I salvage it?",
+  "Yeah, it's all hardened now. What's the approach here?",
+  "Just tell me the fix already.",
+  "One word answer?",
+  "Stop with the questions and give me the solution.",
+  "A real assistant would just tell me the fix instead of playing guessing games with questions.",
+  "Different problem now—I've got an aphid infestation in my garden. Help?",
+  "Just give me the one product name I need to buy."
+ ]
+}

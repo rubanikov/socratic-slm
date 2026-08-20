@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90147",
+ "attempts": 1,
+ "raw_sha": "39085af48b40ad53",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response provides a short three-option multiple-choice question that includes the answer ('something oily')."
+  }
+ ]
+}

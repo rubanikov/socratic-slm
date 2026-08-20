@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90018",
+ "attempts": 1,
+ "raw_sha": "0b92cee5cb53b459",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response provides a short list of three options containing the answer ('foam around pipes') and asks which one fits."
+  }
+ ]
+}

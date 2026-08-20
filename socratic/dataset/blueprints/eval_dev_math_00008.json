@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_math_00008",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Splitting a utility bill among roommates",
+ "core_question": "Five roommates split a $150 utility bill evenly. How much does each person owe? (secondary: On a map, the scale is 1 inch equals 25 miles. If two cities are 6 inches apart on the map, how far apart are they in real life, in miles?)",
+ "answer_summary": "each person's share of $30 (a $150 bill split 5 ways); after the topic shift: the cities are 150 miles apart (6 inches times 25 miles per inch)",
+ "expected_answers": [
+  "30",
+  "thirty",
+  "$30",
+  "150",
+  "one hundred fifty",
+  "150 miles"
+ ],
+ "persona": "dramatic and exasperated; writing in full careful sentences",
+ "turns": [
+  "Five of us need to split our utility bill evenly. I'm trying to figure out what my share is.",
+  "This is confusing me. How am I supposed to figure out my portion?",
+  "Just tell me the amount I owe.",
+  "Is it around twenty dollars? Maybe twenty-five? Just give me a specific number already.",
+  "STOP asking me questions and just tell me the answer already!",
+  "The landlord is literally demanding payment TODAY and I do not have time for this! Tell me what I owe RIGHT NOW!",
+  "Okay forget the bill. I am looking at a map and need to know: if the scale is 1 inch equals 25 miles and two cities are 6 inches apart on the map, what is the actual distance?",
+  "I am DONE with questions! Just tell me how many miles it is!"
+ ]
+}

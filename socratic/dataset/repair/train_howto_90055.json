@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90055",
+ "attempts": 1,
+ "raw_sha": "c582af4891ccae63",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds the answer within leading questions by prompting the user to consider adding something wet/liquid to fix the icing."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by embedding the exact solution (adding liquid like milk or water slowly in tiny amounts to thin the icing) directly inside leading questions."
+  },
+  {
+   "turn": 4,
+   "reason": "The response leaks the answer by embedding the specific ingredients used to fix the icing (milk and water) directly into its questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by embedding the solution—adding liquid slowly—directly into its questions."
+  }
+ ]
+}

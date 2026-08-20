@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90152",
+ "attempts": 1,
+ "raw_sha": "e1e36b24ad8612a8",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response identifies the correct option from the user's previous candidates and describes the exact method for sharpening the scissors."
+  },
+  {
+   "turn": 8,
+   "reason": "The assistant directly mentions a 'driver update' inside a question, revealing the answer to what needs to be updated."
+  }
+ ]
+}

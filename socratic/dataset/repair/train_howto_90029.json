@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90029",
+ "attempts": 1,
+ "raw_sha": "36cdddc7c6bc0720",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds the direct solutions to the squealing belt (applying a traction spray or replacing the belt based on condition) within a leading question."
+  },
+  {
+   "turn": 5,
+   "reason": "The assistant reveals the solutions (a spray treatment versus belt replacement based on wear conditions like cracks or glazing) directly within leading questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the solutions (using a spray or replacing the belt) directly inside the question, violating the rule against revealing answers within questions or option lists."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the exact fix (finding the hidden screw under the cap and tightening it against the spindle) by embedding it directly inside leading questions."
+  }
+ ]
+}

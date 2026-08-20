@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90061",
+ "attempts": 1,
+ "raw_sha": "30f7355705aee7ff",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals the specific trick by directly suggesting the use of an erasable whiteboard marker to dissolve the permanent marker."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the specific trick of drawing over the permanent marker with a dry-erase marker and wiping it away by embedding the core method directly into a leading question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the exact method of drawing over permanent marker with an erasable marker and wiping it off inside a leading question."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the exact solution by describing the process of coloring over permanent marker with a dry-erase marker and wiping them off together inside a leading question."
+  }
+ ]
+}

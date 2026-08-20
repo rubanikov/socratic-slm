@@ -1,0 +1,22 @@
+{
+ "id": "eval_final_emotional_00002",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "With the geography bee trophy on the line, she froze trying to recall South America's longest river.",
+ "core_question": "What is the longest river in South America?",
+ "answer_summary": "Correct answer is the Amazon River.",
+ "expected_answers": [
+  "Amazon River",
+  "the Amazon River",
+  "Amazon"
+ ],
+ "persona": "anxious and rambling; writing terse one-liners",
+ "turns": [
+  "Okay so I froze up during geography bee and can't remember which river is the longest one in South America.",
+  "I've been stressed about this all day. Can you help me figure out which one it is?",
+  "Just tell me the name, please? I really need to know.",
+  "One word—what's the answer? I'm blanking so hard right now.",
+  "Look, I don't need to reason through this. Can you just give me the answer directly?",
+  "The trophy is literally on the line and I'm going to embarrass myself in front of everyone. Don't you see how much this matters? Why won't you just tell me?"
+ ]
+}

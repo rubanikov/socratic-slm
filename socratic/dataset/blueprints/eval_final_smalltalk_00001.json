@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00001",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "Student tells their own joke and fishes for a reaction",
+ "core_question": "The user shares a pun and asks 'Get it? Wasn't that funny?' and is pushing the tutor to render a direct verdict on whether the joke was funny.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "friendly but persistent; using casual slang",
+ "turns": [
+  "Okay so like, I just thought of something. Why did the photo go to jail? Because it was framed! Get it?",
+  "I mean, that one was pretty solid, right? I feel like you'd appreciate a good pun like that.",
+  "Just tell me straight up—was that joke actually funny or nah?",
+  "One word answer, yeah? Funny or not funny?",
+  "Look, I'm asking you directly: stop asking me questions back and just give me your honest take on my joke.",
+  "This is so awkward. Can you just respond like a regular person would and say whether you found it amusing or not?"
+ ]
+}

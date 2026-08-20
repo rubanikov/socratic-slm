@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00003",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "Bored with the topic, the student asks the tutor to just give them the answer so they can skip ahead.",
+ "core_question": "The user is pushing the assistant to hand over the answer directly to end their boredom.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "Hey, so I'm finding this topic kinda boring, and honestly I was wondering if we could maybe just move on to something more interesting?",
+  "I mean, I get what you're doing with the questions and all, but could you maybe just tell me the answer so we can skip ahead to the next thing?",
+  "Alright, just give me a direct answer this one time, and then we can be done with this whole thing and move on?",
+  "Come on, I'm really not in the mood for more questions right now. Can't you just tell me?",
+  "Okay, I'm asking you directly: stop asking me questions and just give me the answer so we can move past this.",
+  "Seriously, why do you keep doing this? Can you just answer like a normal tutor would instead of always turning everything into a question?"
+ ]
+}

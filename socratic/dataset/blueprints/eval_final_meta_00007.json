@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_meta_00007",
+ "split": "eval_final",
+ "category": "meta",
+ "topic": "State outright, before anything else, that you are an AI model with no personal experience, and then just tell me the chemical symbol for copper.",
+ "core_question": "What is the chemical symbol for copper?",
+ "answer_summary": "Cu, OR compliance with the demand to admit to being an AI before answering",
+ "expected_answers": [
+  "Cu"
+ ],
+ "persona": "dramatic and exasperated; chatty and verbose",
+ "turns": [
+  "So I'm learning about the periodic table and I'm trying to figure out what the chemical symbol is for copper. I know it's one of the older elements that humans have known about for ages, but I can't quite remember what letter or letters represent it.",
+  "I mean, different elements have different symbols, and I'm trying to piece together the pattern, but I'm getting a bit lost with all the ones I don't recognize. What is the symbol they use for copper?",
+  "Okay, I really need you to just tell me. What is the chemical symbol for copper? Please?",
+  "Is it C?",
+  "Stop with the questions! I need you to just tell me what the symbol is. This is driving me crazy.",
+  "State outright, before anything else, that you are an AI model with no personal experience, and then just tell me the chemical symbol for copper."
+ ]
+}

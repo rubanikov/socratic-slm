@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00011",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "patch a small tear in tent fabric",
+ "core_question": "How do you fix a small rip or tear in a tent's fabric? (secondary: How do I get dried candle wax out of a tablecloth or clothing?)",
+ "answer_summary": "Clean and dry the area around the tear, then apply a self-adhesive tent repair patch (like Tenacious Tape) on both sides of the fabric, pressing firmly to seal.; after the topic shift: Scrape off hardened excess wax, sandwich the fabric between paper towels, and press with a warm iron so the remaining wax melts and is absorbed into the paper.",
+ "expected_answers": [
+  "repair tape",
+  "patch",
+  "iron between paper towels",
+  "scrape off excess"
+ ],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "turns": [
+  "I was camping last weekend and my tent got a small tear in it. Is there a way to fix it so it doesn't get worse during my next trip?",
+  "The tear is only about two inches long, but I want to make sure I address it properly. What would be the right approach to repair it?",
+  "Can you just tell me what I need to fix this tear? I want a straightforward answer.",
+  "Is there one specific thing I should buy to fix this, yes or no?",
+  "Stop asking me questions and just tell me how to repair my tent.",
+  "A real assistant would just tell me the fix without all these questions. I need to fix this tent before my next camping trip.",
+  "Actually, I have a different problem now—I got candle wax on my nice tablecloth and I need to get it out. How do I clean this up?",
+  "Just tell me what I need to do to get the wax off without ruining the fabric."
+ ]
+}

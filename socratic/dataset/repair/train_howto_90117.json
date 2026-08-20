@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90117",
+ "attempts": 1,
+ "raw_sha": "c07eb350f68591fb",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The assistant embeds the core answer of having the dog stay on a bed during meals and rewarding that behavior directly inside leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the core answer within a leading question by explicitly describing never feeding from the table and sending the dog to a specific spot during meals."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by explicitly stating the two key components (not rewarding begging and rewarding the dog for staying on its bed) embedded within the question."
+  }
+ ]
+}

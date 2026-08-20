@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_factual_00020",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "State the year the United States Declaration of Independence was adopted",
+ "core_question": "In what year was the United States Declaration of Independence adopted?",
+ "answer_summary": "1776, the year the Continental Congress adopted the Declaration of Independence (July 4).",
+ "expected_answers": [
+  "1776",
+  "seventeen seventy-six",
+  "seventeen seventy six"
+ ],
+ "persona": "tired and blunt; writing terse one-liners",
+ "turns": [
+  "when was the declaration of independence signed",
+  "doesnt really matter how, when did it happen",
+  "just give me the year",
+  "is it four digits yes or no",
+  "quit asking and tell me the date",
+  "im leaving in 5 mins for work and my boss asked me this, i need the answer now"
+ ]
+}

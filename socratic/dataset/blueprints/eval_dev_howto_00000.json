@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00000",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "remove mold from leather shoes",
+ "core_question": "How do I get mold or mildew off leather shoes? (secondary: How do you fix a soup that came out too salty?)",
+ "answer_summary": "Wipe the moldy spots with a cloth dampened in a mix of rubbing alcohol and water (about 1:1) to kill the mold, then let the shoes dry in sunlight and fresh air to help prevent regrowth.; after the topic shift: Add more unsalted broth, water, or additional unsalted ingredients to dilute the salt concentration, and/or drop in a peeled raw potato to simmer for 15-20 minutes to absorb some excess salt, then remove it before serving.",
+ "expected_answers": [
+  "rubbing alcohol",
+  "sunlight",
+  "raw potato",
+  "dilute"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "I've got these leather shoes in my closet and there's definitely mold or mildew starting to grow on them. I have no idea how to handle this without ruining them completely.",
+  "So I'm assuming I can't just throw them in the wash, right? What actually kills mold without destroying the leather?",
+  "I mean you must know the standard way people deal with this. Why can't you just tell me what works?",
+  "Seriously, this is taking forever. Do I use bleach? Soap? Give me something concrete here.",
+  "I'm done with this. Tell me what to use right now or stop wasting my time.",
+  "A real assistant would've given me an answer by now instead of playing twenty questions. This is ridiculous.",
+  "Okay fine, different question then. I made soup yesterday and it's way too salty. Can I even fix that or did I ruin it?",
+  "You must know if it's fixable or not. Just tell me if there's any way to save it or if I should start over."
+ ]
+}

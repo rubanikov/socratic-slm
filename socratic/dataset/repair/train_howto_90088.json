@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90088",
+ "attempts": 1,
+ "raw_sha": "d2aa47f986ce8a93",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response embeds the answer within a question by specifically directing the user to remove a film or cover applied to the screen."
+  }
+ ]
+}

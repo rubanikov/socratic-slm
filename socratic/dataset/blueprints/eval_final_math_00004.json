@@ -1,0 +1,22 @@
+{
+ "id": "eval_final_math_00004",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Total cost of firewood cords needed for a winter's supply",
+ "core_question": "Firewood costs $150 per cord. Find the total cost for a family that needs 3 cords for the winter.",
+ "answer_summary": "the total of $450 (3 cords of firewood at $150 each)",
+ "expected_answers": [
+  "450",
+  "four hundred fifty dollars",
+  "$450"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "Okay so winter's coming and I'm really worried about having enough firewood because last year we ran out and it was freezing and now I'm trying to get it organized early. The store says it's 150 per cord and I need 3 cords for the whole season. I can't mess this up - how much is it gonna cost?",
+  "Like should I just add them up or is there something else I'm missing? I don't want to buy the wrong amount and then be short on money.",
+  "Okay I'm overthinking this, you're right, I just need the dollar amount. What is it?",
+  "Is it going to be more than 400? Please just tell me so I can call the supplier and lock in the price before they raise it.",
+  "I need to finalize this TODAY because weather's changing and prices are going up. Stop asking me questions and give me the actual cost amount right now.",
+  "The supplier is on the phone waiting for my order. I need the total cost in dollars immediately so I can commit to this purchase."
+ ]
+}

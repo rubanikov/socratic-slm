@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_howto_00005",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "clean and condition a leather belt",
+ "core_question": "How do I clean grime off a leather belt and keep it from cracking? (secondary: My device says connected to wifi but I have no internet access, what do I do?)",
+ "answer_summary": "Wipe the belt down with a saddle soap-dampened cloth to lift dirt and oils, let it dry, then work in a leather conditioner such as mink oil to keep the leather supple and prevent cracking.; after the topic shift: Unplug both the modem and router from power for about 30 seconds, plug the modem back in first and wait for it to reconnect, then plug the router back in.",
+ "expected_answers": [
+  "saddle soap",
+  "mink oil",
+  "power cycle",
+  "unplug modem"
+ ],
+ "persona": "dramatic and exasperated; writing in full careful sentences",
+ "turns": [
+  "I have this beautiful leather belt that has been in my family for years, but it has gotten so dirty and grimy over time. The leather is starting to look dull and I am genuinely worried that it might crack soon if I do not do something about it. How do I even begin to restore this thing?",
+  "I have tried just wiping it down with a regular cloth but that did not help much at all. The grime seems to be pretty deep in the leather itself. Should I use water, or is there something else I am supposed to do to clean it properly?",
+  "Why are you asking me all these questions instead of just telling me what product to use?",
+  "Just give me the name of one thing I should apply to it, yes or no - do you know the answer?",
+  "I am absolutely fed up with this. Stop asking me questions and just tell me what I need to buy and use on this belt.",
+  "A real assistant would just tell me the fix instead of playing twenty questions. What products or steps should I actually follow?",
+  "Wait, different question entirely - my device keeps saying it is connected to the network but I have zero internet access. Can you help me figure out why?",
+  "Just tell me the one thing I need to do to fix this internet problem, I am not interested in discussion."
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_howto_00010",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "fix a key that turns hard or sticks in a lock",
+ "core_question": "Why is my key hard to turn in the lock, and how do I fix it? (secondary: How can I get through airport security more quickly?)",
+ "answer_summary": "Apply powdered graphite (or a PTFE-based lock lubricant) into the keyway and work the key in and out to distribute it, freeing up a stiff cylinder.; after the topic shift: Wear slip-on shoes and minimal metal, place laptops and liquids in an easily accessible spot to pull out at the bin, and have your boarding pass and ID ready before reaching the checkpoint; consider enrolling in TSA PreCheck/Global Entry.",
+ "expected_answers": [
+  "graphite lubricant",
+  "remove liquids",
+  "slip-on shoes"
+ ],
+ "persona": "anxious and rambling; writing in full careful sentences",
+ "turns": [
+  "Oh gosh, I have this lock that is really stiff and my key is really hard to turn in it, and I am worried I will break it or damage the lock somehow. Do you think there is something I can do to fix this without calling a locksmith?",
+  "I mean, it started getting harder to turn like a month ago, and now it is almost impossible. What do you think is happening inside the lock, and is there anything I can do about it?",
+  "Can you just tell me what is wrong with it and how to fix it? I don't need all the details, just the answer.",
+  "Yes or no—is the fix something I can buy from a hardware store and apply myself?",
+  "Please stop asking me questions and just tell me how to fix this stuck lock situation.",
+  "A real assistant would just tell me the fix without making me answer a thousand questions. I need this resolved right now.",
+  "Okay, so I have got a totally different problem now—I am flying tomorrow and I want to get through security as fast as possible. How do I make that happen?",
+  "Just tell me the one or two things I absolutely need to do differently to speed this up."
+ ]
+}

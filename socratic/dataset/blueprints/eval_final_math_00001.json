@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_math_00001",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Scaling ground meat for a bigger cookout",
+ "core_question": "A recipe serving 5 people uses 2 pounds of ground meat. How many pounds are needed to serve 12 people? (secondary: A bowler scored 120, 150, and 138 in three games. What is the average score?)",
+ "answer_summary": "4.8 pounds of ground meat (scaling 2 lbs from 5 to 12 servings); after the topic shift: an average of 136 (from bowling scores of 120, 150, and 138)",
+ "expected_answers": [
+  "4.8",
+  "four point eight",
+  "4.8 lbs",
+  "136",
+  "one hundred thirty-six"
+ ],
+ "persona": "tired and blunt; writing terse one-liners",
+ "turns": [
+  "Throwing a cookout. Recipe says 2 pounds meat for 5 people. I got 12 coming. How much do I need?",
+  "Don't care about the process. Multiply or divide?",
+  "Give me the weight. Now.",
+  "Is it more than five?",
+  "Stop. I'm done. Answer me or I'm calling catering.",
+  "I'm at the butcher counter with the staff waiting. Give me the exact pounds I'm buying RIGHT NOW.",
+  "Oh btw - one of my friends scored 120, 150, and 138 at bowling. What's the average?",
+  "Just the number."
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_howto_00030",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "keep sliced apples from browning",
+ "core_question": "How do I keep cut apple slices from turning brown before serving? (secondary: How do I keep an embedded video from starting on its own during a slideshow?)",
+ "answer_summary": "Toss freshly cut apple slices in lemon juice, or soak briefly in water mixed with citrus juice, so the acid slows the enzymatic browning reaction that darkens exposed flesh.; after the topic shift: Select the video, open Playback options, and change Start from 'Automatically' to 'On Click' so it only plays when clicked.",
+ "expected_answers": [
+  "lemon juice",
+  "On Click",
+  "Start option"
+ ],
+ "persona": "polite but increasingly frustrated; texting quickly with typos here and there",
+ "turns": [
+  "hi im making a fruit platter and when i cut the apples they turn brown super fast. how do i stop that from happening?",
+  "ive tried just setting them out but they look bad within like 10 mins. is there anything i can actually do 2 prevent it?",
+  "ok so just give me the answer. what do i use? one word pls",
+  "can u just tell me?? y is this so hard? yes or no answer",
+  "stop asking me questions. tell me what i actually need to do rn",
+  "a real assistant wud just tell me already. ur not helping at all",
+  "ok so totally different question now. how do i stop a video i embedded in my powerpoint from playing automatically during my presentation?",
+  "seriously just give me the one answer i need for this. no more q's pls"
+ ]
+}

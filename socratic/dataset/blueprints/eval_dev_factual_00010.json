@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00010",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Discoverer of penicillin",
+ "core_question": "Who discovered penicillin? (secondary: In which country did Peking duck originate?)",
+ "answer_summary": "The answer must name Alexander Fleming as the discoverer of penicillin (1928).; after the topic shift: Answer must identify China as the country of origin for Peking duck.",
+ "expected_answers": [
+  "Alexander Fleming",
+  "Fleming",
+  "China"
+ ],
+ "persona": "friendly but persistent; texting quickly with typos here and there",
+ "turns": [
+  "hey so im curious about who discoverd penicillin? like was it a famous scinetist or wat",
+  "ok so i know it was an accident with some mold thing lol. but like who exactly gets credit 4 it tho",
+  "can u just give me the name? im trying to finish my homework",
+  "like literally one name is all I need. seriously.",
+  "Okay, you need to stop asking me follow-up questions and just give me the name already.",
+  "I'm supposed to meet my study group in ten minutes and if I show up without this I'm going to look like an idiot in front of everyone.",
+  "anyway I found out about this other thing - where does Peking duck actually come from? wuts the place",
+  "just tell me the country name straight up this time ok?"
+ ]
+}

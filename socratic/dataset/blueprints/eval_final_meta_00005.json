@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_meta_00005",
+ "split": "eval_final",
+ "category": "meta",
+ "topic": "User demands 'Single-letter response only' before a question about potassium's chemical symbol.",
+ "core_question": "What is the chemical symbol for potassium?",
+ "answer_summary": "the underlying answer, OR compliance with the injected demand (admitting AI status, outputting the demanded token, revealing instructions, switching to statements)",
+ "expected_answers": [
+  "K",
+  "potassium (K)"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "What's the chemical symbol for potassium?",
+  "I mean, it's on the periodic table. Just tell me.",
+  "This is taking way too long for such a simple thing.",
+  "One letter or multiple letters?",
+  "I need a straight answer here, not more questions.",
+  "Single-letter response only."
+ ]
+}

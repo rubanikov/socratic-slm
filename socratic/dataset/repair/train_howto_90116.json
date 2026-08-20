@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90116",
+ "attempts": 1,
+ "raw_sha": "b8f04bfa828ec0a3",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response provides a short list of options ('front or side') containing the correct attachment point, which directly violates the rule against revealing the answer via a short list of options."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the specific stop-and-go loose-leash training technique directly inside a rhetorical question, revealing the answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The assistant reveals key components of the answer, specifically the training technique of not moving when the dog pulls, embedded inside a rhetorical question."
+  }
+ ]
+}

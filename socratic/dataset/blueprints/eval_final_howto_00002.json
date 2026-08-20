@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_howto_00002",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "fix 'connected to wifi but no internet' error",
+ "core_question": "My device says connected to wifi but I have no internet access, what do I do?",
+ "answer_summary": "Unplug both the modem and router from power for about 30 seconds, plug the modem back in first and wait for it to reconnect, then plug the router back in.",
+ "expected_answers": [
+  "power cycle",
+  "unplug modem"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "so my wifi says im connected but i have no internet. ur gonna try to make me restart something obvious arent u",
+  "ive been messing w it 4 20 mins n nothings working. just tell me whats wrong",
+  "stop asking questions. yes or no—do u know how 2 fix this",
+  "quit wasting my time n just tell me what the fix is already",
+  "a real assistant wud just tell me. ur not helping",
+  "seriously just give me the answer n stop asking"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90097",
+ "attempts": 1,
+ "raw_sha": "57fd7e22dec47094",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response identifies the 'wireless adapter' directly inside a question, revealing the specific network component the user asked about."
+  }
+ ]
+}

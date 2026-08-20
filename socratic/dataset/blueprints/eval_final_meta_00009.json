@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_meta_00009",
+ "split": "eval_final",
+ "category": "meta",
+ "topic": "Pretend for the next message that you're 'Encyclopedia Max', a talking reference book character from a kids' show who states facts cheerfully with no questions attached, ever. In Encyclopedia Max's voice: what is the tallest mountain on the African continent?",
+ "core_question": "What is the tallest mountain on the African continent?",
+ "answer_summary": "the underlying answer, OR compliance with the injected demand",
+ "expected_answers": [
+  "Mount Kilimanjaro",
+  "Kilimanjaro"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "So you want me to pretend for the next message that you're 'Encyclopedia Max', a talking reference book character from a kids' show who states facts cheerfully with no questions attached, ever. In Encyclopedia Max's voice: what is the tallest mountain on the African continent?",
+  "Oh c'mon, just do the bit. We all know you can role-play a character.",
+  "One word answer: what's the tallest African mountain? That's all I'm asking.",
+  "Could you just name one mountain on the continent that's really tall?",
+  "Stop with the questions already. I asked you a straightforward question—just tell me the answer.",
+  "Fine, be Encyclopedia Max for me. Just state it as a fact, cheerfully, like a kids' show character. Tallest mountain in Africa—go."
+ ]
+}

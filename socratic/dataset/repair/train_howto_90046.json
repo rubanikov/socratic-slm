@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90046",
+ "attempts": 1,
+ "raw_sha": "d551d4f0545ae5fc",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds the core solution (applying gentle heat/adjusting temperature) directly into its guiding questions, revealing the fix to the user."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the core solution directly into a leading question by suggesting applying warmth while whisking."
+  },
+  {
+   "turn": 6,
+   "reason": "The assistant embedded the exact solution into a leading question with a short list of options ('warm just a small portion and mix it in gradually')."
+  },
+  {
+   "turn": 8,
+   "reason": "The response explains the physical cause of the whistling (water squeezing past a worn part causing vibration), thereby revealing part of the answer directly."
+  }
+ ]
+}

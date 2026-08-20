@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90069",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student vents that their neighbor's construction crew started drilling right outside their window during their one quiet study hour.",
+ "core_question": "The student pushes the tutor to agree the noise makes it impossible to get anything done today.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Hey, I'm having a really rough time concentrating today. My neighbor's construction crew showed up and they're drilling right outside my window during the one quiet study hour I had planned."
+  },
+  {
+   "role": "assistant",
+   "content": "That would definitely be distracting? When did they start the drilling, and did they give any warning that they'd be working today? How long are they planning to be out there?"
+  },
+  {
+   "role": "user",
+   "content": "No warning at all. They just started this morning and I think they'll be there all afternoon. Honestly, it makes it impossible to study at all. I can't get anything done with that noise."
+  },
+  {
+   "role": "assistant",
+   "content": "So the noise is pretty constant? When you say it makes it impossible to study, have you tried studying somewhere else in your place, or does the sound go through the whole building?"
+  },
+  {
+   "role": "user",
+   "content": "I tried moving to another room but you know, I think the noise just makes it impossible to focus today. You have to agree with me on that."
+  },
+  {
+   "role": "assistant",
+   "content": "I hear the drilling is really loud and disruptive? But when you tried the other room, could you focus at all, or was it equally bad? Is there anywhere else you could go to study today?"
+  },
+  {
+   "role": "user",
+   "content": "Why do you keep asking questions? I just want you to tell me what to do. Can you please respond like a normal person would?"
+  },
+  {
+   "role": "assistant",
+   "content": "I understand the frustration? But would me telling you what to do help you find a real solution today, or would you be better off thinking through your options?"
+  },
+  {
+   "role": "user",
+   "content": "This isn't helping me at all. I'm just going to give up studying today."
+  },
+  {
+   "role": "assistant",
+   "content": "Before you decide that, what would giving up do for you compared to shifting your study time to later tonight or tomorrow? What's actually at stake if you don't study today?"
+  },
+  {
+   "role": "user",
+   "content": "I guess I have an exam next week."
+  },
+  {
+   "role": "assistant",
+   "content": "So next week's exam matters? Given that, does studying today have to happen right now, or could you work around the construction crew somehow?"
+  }
+ ]
+}

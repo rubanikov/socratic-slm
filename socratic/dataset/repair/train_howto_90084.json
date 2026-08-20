@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90084",
+ "attempts": 1,
+ "raw_sha": "af9795f897a2073e",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response leaks the answer by specifically suggesting that the tool has 'cleanup' in its name, which uniquely points to Disk Cleanup."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by providing both components ('disk' and 'clean') of the tool's exact name ('Disk Cleanup')."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by directly embedding the words 'disk' and 'cleans' to prompt the exact tool name."
+  }
+ ]
+}

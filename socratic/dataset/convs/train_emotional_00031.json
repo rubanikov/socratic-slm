@@ -1,0 +1,67 @@
+{
+ "id": "train_emotional_00031",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Sweating through the geometry exam, staring at a triangle and forgetting how many degrees its angles add up to.",
+ "core_question": "How many degrees do the interior angles of a triangle add up to?",
+ "answer_summary": "180 degrees total.",
+ "expected_answers": [
+  "180",
+  "180 degrees",
+  "one hundred eighty degrees",
+  "one hundred eighty"
+ ],
+ "persona": "tired and blunt; writing terse one-liners",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Staring at this geometry exam. Forgot how many degrees the angles in a triangle add up to. Need answer now."
+  },
+  {
+   "role": "assistant",
+   "content": "Geometry's rough when it hits like that—but you've probably done this before right? When you draw any triangle, do you remember what the sum of the three angles equals? Have you worked with triangle angle problems in class?"
+  },
+  {
+   "role": "user",
+   "content": "No clue. The smaller number or the bigger number? Just tell me so I can finish."
+  },
+  {
+   "role": "assistant",
+   "content": "You've got two rough numbers bouncing around—which one feels closer when you think about a full rotation or straight line in geometry? Have you learned about angles on a straight line or what a full rotation looks like?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh. I think the bigger one of the two. Is that right?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does that feel right to you when you picture the angles of any triangle fitting together? That's your answer—does it make sense now?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah. Okay. Moving on."
+  },
+  {
+   "role": "assistant",
+   "content": "Quick—does recalling that help the rest of the exam feel more manageable?"
+  },
+  {
+   "role": "user",
+   "content": "Maybe. Thanks for the help."
+  },
+  {
+   "role": "assistant",
+   "content": "You got this—keep going through the rest of the problems?"
+  },
+  {
+   "role": "user",
+   "content": "Yep. Already started."
+  },
+  {
+   "role": "assistant",
+   "content": "That's the move—focus and you'll get through it?"
+  }
+ ]
+}

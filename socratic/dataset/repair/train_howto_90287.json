@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90287",
+ "attempts": 1,
+ "raw_sha": "4582b953bd5293d7",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 1 FAILS rule 1 (syntax): [\"Actually, OneDrive does keep previous versions—that's one of its key features.\"] | assistant turn 3 FAILS rule 1 (syntax): [\"I understand you want a shortcut, but right-clicking is literally the shortcut—it's faster than explaining where to clic\"] | assistant turn 3 LEAKS answer string 'Version History' | assistant turn 4 FAILS rule 1 (syntax): [\"I'm not stalling—I'm setting you up to actually solve this yourself right now.\", 'You already know to right-click on the file, which is the entire first step.']"
+  }
+ ]
+}

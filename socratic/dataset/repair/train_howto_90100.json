@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90100",
+ "attempts": 1,
+ "raw_sha": "14514dfe6b7ae71c",
+ "failed_turns": [
+  {
+   "turn": 7,
+   "reason": "The response embeds the exact answer to the secondary question inside a leading question by suggesting breaking up the soil and adding organic material."
+  }
+ ]
+}

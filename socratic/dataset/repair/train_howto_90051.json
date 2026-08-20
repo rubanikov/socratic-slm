@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90051",
+ "attempts": 1,
+ "raw_sha": "067a8815070d87e3",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the specific solutions (using a mesh strainer and an electric appliance/blender) directly into the guiding questions."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals specific solutions to fixing lumpy gravy by describing using an immersion blender directly in the pot and using a countertop blender."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the solutions (blending and straining) by embedding them directly within guiding questions."
+  }
+ ]
+}

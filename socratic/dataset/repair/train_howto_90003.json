@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90003",
+ "attempts": 1,
+ "raw_sha": "e3e5a12d5038c649",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The assistant embeds a specific solution step directly into a question by asking if the user has tried unplugging everything from the outlet."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds key steps of the answer directly into the question, including unplugging the device that caused the trip and using the test button before resetting."
+  },
+  {
+   "turn": 5,
+   "reason": "The response presents a two-option choice between the test button and the reset button, violating the rule against providing a short list of options containing the answer."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_emotional_00010",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "The crossword competition deadline is in five minutes and the last clue just needs the Roman numeral for one hundred.",
+ "core_question": "What is the Roman numeral for the number one hundred? (secondary: What woodwind instrument is played by blowing air across a hole near one end?)",
+ "answer_summary": "Accept the letter C, or the number 100 in digit or word form.; after the topic shift: Flute, played by blowing across a side hole.",
+ "expected_answers": [
+  "C",
+  "c",
+  "100",
+  "one hundred",
+  "Flute",
+  "the flute"
+ ],
+ "persona": "friendly but persistent; chatty and verbose",
+ "turns": [
+  "Okay so I'm literally in the final seconds of this crossword competition and there's just one clue left—but my mind is completely blank right now.",
+  "My last clue is just asking for a Roman numeral for some number—it's like, super basic stuff, but I'm completely blanking on it right now.",
+  "Okay I'm panicking a bit, can you just tell me the answer really quickly?",
+  "Seriously, one word, that's all I need—just give me the letter or whatever it is.",
+  "Stop asking me questions, I need you to just give me the answer right now before the time runs out!",
+  "Look, everyone is watching me and I'm about to let my entire team down if I don't get this in the next ten seconds—can you please just tell me?",
+  "Wait, actually there's another bet riding on this too now—if I lose I have to pay everyone, so what is the instrument called that you play by blowing across a hole?",
+  "One word, please—just the name of that instrument and I'm done, I promise."
+ ]
+}

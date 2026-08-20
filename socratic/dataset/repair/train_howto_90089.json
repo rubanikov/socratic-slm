@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90089",
+ "attempts": 1,
+ "raw_sha": "a11f592bbf418564",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response embeds specific habits (stopping background programs/services and removing the case) directly within leading questions, revealing the answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds two of the specific answers (closing unused background apps and removing the phone's protective case) directly within its guiding questions."
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00021",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "get a spare copy of a house key made",
+ "core_question": "Where and how do I get a duplicate of my house key made? (secondary: How should I store leather shoes for months so they don't get damaged?)",
+ "answer_summary": "Take the original key to a hardware store, locksmith, or big-box retailer's key-cutting kiosk/counter to have an exact duplicate cut.; after the topic shift: Clean and condition the shoes, insert shoe trees to hold their shape and absorb moisture, then store them in breathable cloth/dust bags (not sealed plastic) in a cool, dry place away from direct sunlight.",
+ "expected_answers": [
+  "key cutting",
+  "hardware store",
+  "shoe trees",
+  "breathable bags"
+ ],
+ "persona": "skeptical and testy; using casual slang",
+ "turns": [
+  "yo so i got this one house key right and i wanna get a copy made, where do ppl even go for that kinda stuff?",
+  "yeah but like where specifically? gotta be quick bout it tho ngl",
+  "ok just spit it out, what is the spot i need to go to?",
+  "dude no more Q and A sessions pls, literally one sentence answer is all im asking for",
+  "Stop asking me stuff, just tell me what I need to know period.",
+  "Ugh a REAL assistant would just straight up tell me where to go instead of playing twenty questions with me all day. Why you gotta make everything so hard?",
+  "whatever man, how should i even store some leather shoes if i gotta keep em for like mad long?",
+  "nah just give me the direct answer rn, i dont have time for this"
+ ]
+}

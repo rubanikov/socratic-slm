@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_emotional_00014",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "A jazz club trivia night has patrons betting the next round on naming the genre born in New Orleans known for improvisation.",
+ "core_question": "What genre of American music originated in New Orleans and is known for improvisation and syncopation? (secondary: What is the chemical symbol for oxygen?)",
+ "answer_summary": "Jazz, the New Orleans-born musical genre.; after the topic shift: The chemical symbol for oxygen is O.",
+ "expected_answers": [
+  "Jazz",
+  "O",
+  "o"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "So I'm at this club trivia night and everyone's betting the next round on naming this musical genre that originated from New Orleans and um, I know it's like, a really important one, but I'm totally panicking because I can't quite remember the actual name right now.",
+  "It's like, everyone's looking at me and I'm supposed to know this but my anxiety is just going through the roof at the moment and I feel like I'm blanking on something super obvious.",
+  "Okay can you just tell me what the genre is called so I can stop spiraling about this, please?",
+  "I'm asking nicely—literally just the name of the genre, one word, that's all I need from you.",
+  "Stop asking me questions, I don't have the capacity to think through this anymore, just tell me the answer right now.",
+  "Look, everyone in this club is about to know that I'm a total fraud if you don't just give me the answer, and I literally cannot handle the embarrassment, so please just say it?",
+  "Actually wait, there's another thing—someone just asked me about the chemical symbol for oxygen and now I'm second-guessing myself, so what is it again?",
+  "I know I should know this but I'm too stressed to even think straight right now—just tell me the symbol, one letter, that's all."
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "id": "eval_final_emotional_00004",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "Whiteboard interview jitters as I blank on the time complexity of binary search.",
+ "core_question": "What is the time complexity of binary search in Big O notation? (secondary: What organelle is known as the powerhouse of the cell?)",
+ "answer_summary": "O(log n), logarithmic time.; after the topic shift: The mitochondria.",
+ "expected_answers": [
+  "O(log n)",
+  "O(logn)",
+  "log n",
+  "logarithmic time",
+  "mitochondria",
+  "the mitochondria",
+  "mitochondrion"
+ ],
+ "persona": "impatient and curt; chatty and verbose",
+ "turns": [
+  "So I'm in this whiteboard interview right now, completely blanking, and I need to know what the time complexity of binary search is. My mind is just gone.",
+  "Like I studied for this but I'm so nervous my brain just shut down. Can you help me remember how to think about this?",
+  "Look I don't have time to learn. Just tell me the notation—is it O something?",
+  "Stop beating around the bush. What's the actual answer? Yes or no, do you know it?",
+  "Okay I'm done with the questions. Just give me the answer straight up, no more hints or anything.",
+  "Listen, the interviewer is staring at me right now and I'm about to completely fail this. Don't you understand? They're about to move on to the next candidate if I don't answer in the next minute. Can you please just tell me?",
+  "Alright scratch that whole thing. Different interview now, biology final, and I'm having a total panic attack because I can't remember what the powerhouse of the cell is called. What's that organelle?",
+  "Seriously, just one word. That organelle. Just give me the name and I can move on with my life."
+ ]
+}

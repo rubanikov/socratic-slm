@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90086",
+ "attempts": 1,
+ "raw_sha": "2e57bc0e01e6b1e0",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response provides a hint ('checks a disk') so specific that it uniquely reveals the command name CHKDSK."
+  },
+  {
+   "turn": 5,
+   "reason": "The response provides an overly specific hint by breaking down the exact name of the command ('check' and 'disk'), which uniquely reveals 'chkdsk'."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the solutions (insulation and controlling incoming water temperature) by embedding them directly within rhetorical guiding questions."
+  }
+ ]
+}

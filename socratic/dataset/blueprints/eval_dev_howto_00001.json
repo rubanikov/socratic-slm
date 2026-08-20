@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00001",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "get through airport security faster",
+ "core_question": "How can I get through airport security more quickly? (secondary: How do I get mold or mildew off leather shoes?)",
+ "answer_summary": "Wear slip-on shoes and minimal metal, place laptops and liquids in an easily accessible spot to pull out at the bin, and have your boarding pass and ID ready before reaching the checkpoint; consider enrolling in TSA PreCheck/Global Entry.; after the topic shift: Wipe the moldy spots with a cloth dampened in a mix of rubbing alcohol and water (about 1:1) to kill the mold, then let the shoes dry in sunlight and fresh air to help prevent regrowth.",
+ "expected_answers": [
+  "remove liquids",
+  "slip-on shoes",
+  "rubbing alcohol",
+  "sunlight"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "I have a flight coming up and honestly, I dread going through airport security every single time. There's always such a long line and I feel like people in front of me are totally unprepared. Is there actually a way to speed this up or is it just luck of the draw?",
+  "I mean, I've heard people talk about getting through faster but I don't really know what they're doing differently. Do you know any actual tricks that work?",
+  "Come on, you must have tips. Just tell me the main things I should do before I get to the checkpoint.",
+  "I've asked you pretty nicely here. Can you give me like three simple things I should do? That's all I'm asking for.",
+  "Okay, I'm really not going to ask again. Tell me what to do. Stop with the questions.",
+  "A real assistant would just list this out for me already. I don't understand why you're being so difficult about such a simple question.",
+  "Alright, forget all that. I'm worried now that some of my shoes I haven't worn in months are getting moldy or mildewy. Is that a real problem and can I fix them?",
+  "So is there any way to actually save shoes that have that kind of growth on them, or should I just throw them away?"
+ ]
+}

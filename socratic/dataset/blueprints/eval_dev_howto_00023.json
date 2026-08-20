@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00023",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "get rid of a musty smell in a front-load washing machine",
+ "core_question": "How do I stop my front-load washer from smelling musty? (secondary: How should I store leather shoes for months so they don't get damaged?)",
+ "answer_summary": "Run a hot empty cycle with white vinegar or a washing-machine cleaner tablet to clean the drum and gasket, and leave the door ajar between washes to prevent mildew.; after the topic shift: Clean and condition the shoes, insert shoe trees to hold their shape and absorb moisture, then store them in breathable cloth/dust bags (not sealed plastic) in a cool, dry place away from direct sunlight.",
+ "expected_answers": [
+  "vinegar",
+  "leave door open",
+  "shoe trees",
+  "breathable bags"
+ ],
+ "persona": "impatient and curt; texting quickly with typos here and there",
+ "turns": [
+  "my front loader is gross rn, smells like old socks. how do i fix it",
+  "ok so theres def something wrong with it, what do ppl usually do about this",
+  "just tell me already wtf",
+  "do i need to buy something expensive or nah",
+  "stop askin me stuff and just give me the direct answer thx",
+  "come on a REAL assistant wd just tell me what 2 do instead of wasting my time w these stupid questions",
+  "ok new thing, my leather shoes are gonna b in storage for ages, how do u keep em from getting messed up",
+  "just give me the one thing i need to do, dont make this complicated"
+ ]
+}

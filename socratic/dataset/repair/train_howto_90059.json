@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90059",
+ "attempts": 1,
+ "raw_sha": "abbedd4d23e577a3",
+ "failed_turns": [
+  {
+   "turn": 8,
+   "reason": "The response provides a short list of options containing the answer and explicitly reveals that running the AC/defrost setting dries the air."
+  }
+ ]
+}

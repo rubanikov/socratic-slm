@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00009",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "restore shine to scuffed leather dress shoes",
+ "core_question": "How do I get leather dress shoes shiny again after they've gone dull and scuffed? (secondary: How do I get a key out of a lock after it snapped off inside?)",
+ "answer_summary": "Clean the leather, apply a thin coat of matching shoe polish/wax with a cloth, let it dry briefly, then buff vigorously with a horsehair brush and a soft cloth for the final shine.; after the topic shift: Insert a broken key extractor (or two fine saw blades) alongside the broken key's teeth, hook the notches, and gently pull it straight out without pushing it deeper.",
+ "expected_answers": [
+  "shoe polish",
+  "buff",
+  "brush",
+  "key extractor tool"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "My leather dress shoes are lookin' mad dull and scuffed up, man. They used to shine like crazy. Can I even bring 'em back?",
+  "What's like the main thing I gotta do to get that shine back without ruining the shoes completely?",
+  "Just tell me, dude. What's the one thing?",
+  "Gimme a yes or no—is it something I can do at home?",
+  "Stop asking questions and tell me how to make my shoes shiny again.",
+  "A real assistant would just tell me the fix without all these questions. I got places to be and shoes to shine.",
+  "Yo, totally different thing now—my key broke off inside a lock. I'm stuck outside. What do I do?",
+  "Just tell me what tool or thing I need to pull it out."
+ ]
+}

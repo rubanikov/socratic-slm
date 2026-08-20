@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90022",
+ "attempts": 1,
+ "raw_sha": "179eb24cffcda13b",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response directly states the answer by telling the user to plug in a device that reads and clears the codes."
+  },
+  {
+   "turn": 4,
+   "reason": "The response directly states that the user needs a device to plug into the car's computer port to clear the stored trouble codes, which reveals the answer."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00002",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "First marathon run in under two hours",
+ "core_question": "Who was the first person to run a marathon distance in under two hours? (secondary: What is the capital city of Russia?)",
+ "answer_summary": "The answer must name Eliud Kipchoge, who ran 1:59:40 in the 2019 INEOS 1:59 Challenge, as the first person to break the two-hour marathon barrier.; after the topic shift: Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "Eliud Kipchoge",
+  "Kipchoge",
+  "Moscow"
+ ],
+ "persona": "anxious and rambling; writing terse one-liners",
+ "turns": [
+  "Hey, so I was reading about this guy who did something crazy with running? Like a really fast marathon time? I'm trying to remember who it was.",
+  "Was it someone from Kenya or Ethiopia maybe? Or possibly a European runner? I can't shake the feeling it's a name I should know.",
+  "Okay just tell me who it is. Please.",
+  "Is it one word or two? Seriously, just the name?",
+  "Stop asking me these questions, I need you to actually answer me.",
+  "My roommate is literally standing over my shoulder waiting for me to tell them, I'm so embarrassed, can you please just say the name?",
+  "Okay forget that. So what is Russia's capital city exactly?",
+  "What's Russia's capital though, for real?"
+ ]
+}

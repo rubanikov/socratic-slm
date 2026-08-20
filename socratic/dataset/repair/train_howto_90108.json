@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90108",
+ "attempts": 1,
+ "raw_sha": "84443fbe6639c2ed",
+ "failed_turns": [
+  {
+   "turn": 7,
+   "reason": "The response embeds the key components of the answer (turning on the AC, using defrost, and drying the air) directly within leading questions."
+  }
+ ]
+}

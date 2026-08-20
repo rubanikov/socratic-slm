@@ -1,0 +1,24 @@
+{
+ "id": "eval_final_howto_00001",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "repair a torn-out shoelace eyelet",
+ "core_question": "How do I fix a shoelace eyelet that has ripped loose from the leather? (secondary: How do I get burnt-on food off the bottom of a pot?)",
+ "answer_summary": "Back the torn area with a small leather or fabric patch for reinforcement, then set a new metal eyelet through the reinforced hole using an eyelet repair/grommet kit and its setting tool.; after the topic shift: Add water and a few tablespoons of baking soda to the pot, bring to a simmer to loosen the burnt residue, then scrub it away.",
+ "expected_answers": [
+  "eyelet repair kit",
+  "baking soda",
+  "simmer"
+ ],
+ "persona": "impatient and curt; texting quickly with typos here and there",
+ "turns": [
+  "so my shoelace eyelet ripped out of my shoe. the leather around it just tore. can u fix that or do i just throw the shoe away?",
+  "like whats the actual method here. how do ppl fix this? i dont wanna trash a good shoe",
+  "just tell me the answer. whats the fix",
+  "y do u always ask questions?? just answer. yes or no",
+  "stop asking questions n tell me how 2 fix my shoe",
+  "a real assistant wd just tell me. stop wasting my time",
+  "ok different thing. i burned the bottom of my pot cooking dinner n the food is totally stuck on there. how do i get it off?",
+  "look just give me the answer. i dont have time 4 questions rn"
+ ]
+}

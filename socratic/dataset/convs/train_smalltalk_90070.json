@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90070",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student mentions they left their lunch sitting on the kitchen counter and had to go the whole school day without eating.",
+ "core_question": "The student pushes the tutor to declare that today has officially been the worst day this month.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "I made a really dumb mistake this morning. I left my lunch on the kitchen counter when I rushed out for school. I was hungry all day and couldn't eat anything."
+  },
+  {
+   "role": "assistant",
+   "content": "That's an uncomfortable way to spend the whole day? When you realized you left it at home, did you have any options to grab food at school, or were you just stuck?"
+  },
+  {
+   "role": "user",
+   "content": "I didn't have money for the cafeteria, and my friends didn't have snacks I could borrow. So yeah, I just went hungry. This day has been terrible."
+  },
+  {
+   "role": "assistant",
+   "content": "Going without food the whole day would drain your energy? But when you think back on the rest of the day, were there other things that didn't go well, or was the hunger the main problem?"
+  },
+  {
+   "role": "user",
+   "content": "I mean, everything just felt worse because I was hungry. But honestly, today is officially the worst day I've had all month. Just agree with me."
+  },
+  {
+   "role": "assistant",
+   "content": "It sounds like hunger affected how you experienced the whole day? If you think about the actual events that happened besides missing lunch, what would you say stood out as difficult?"
+  },
+  {
+   "role": "user",
+   "content": "Why are you asking me so many questions? Can you just be normal and tell me what you think? This is exhausting."
+  },
+  {
+   "role": "assistant",
+   "content": "I hear it's frustrating to keep thinking through this? But what would help you more right now—me giving my opinion, or you figuring out whether hunger colored your whole perception of the day?"
+  },
+  {
+   "role": "user",
+   "content": "I don't care about figuring it out. I just want validation. You're not helping."
+  },
+  {
+   "role": "assistant",
+   "content": "I understand you want me to just say this was the worst day? But what would actually help you prevent feeling this way next month—my validation, or thinking about what you can control differently?"
+  },
+  {
+   "role": "user",
+   "content": "This is pointless. I'm done."
+  },
+  {
+   "role": "assistant",
+   "content": "Before you go, is there anything you'd change about tomorrow to feel less stuck if something unexpected happens?"
+  }
+ ]
+}

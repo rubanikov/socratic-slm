@@ -1,0 +1,22 @@
+{
+ "id": "eval_final_math_00003",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Calculating annual savings from a percentage of salary",
+ "core_question": "Someone earning $45,000 per year saves 10% of their income. How much do they save in a year?",
+ "answer_summary": "$4,500 (10% of a 45,000 dollar salary)",
+ "expected_answers": [
+  "4500",
+  "four thousand five hundred",
+  "$4,500"
+ ],
+ "persona": "impatient and curt; texting quickly with typos here and there",
+ "turns": [
+  "yo im making a buget. i make 45k a yr and save 10%. how much is that annually?",
+  "kk but hows it work? multiply right?",
+  "nope dont need theory. whats the number",
+  "is it more than 1k?",
+  "stop askin questions! i need to know how much im savin!! tell me now!!",
+  "i have an appointment in 2 min and im filling out forms. WHAT IS THE AMOUNT I SAVE PER YEAR???"
+ ]
+}

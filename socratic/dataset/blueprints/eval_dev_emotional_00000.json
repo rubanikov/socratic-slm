@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_emotional_00000",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "You're sealing the envelope for the crossword contest and realize one square is still blank: the Roman numeral for one thousand.",
+ "core_question": "What is the Roman numeral for the number one thousand? (secondary: What is the main ingredient in traditional hummus?)",
+ "answer_summary": "Accept the letter M, or the number 1000 in digit or word form.; after the topic shift: Correct answer is chickpeas.",
+ "expected_answers": [
+  "M",
+  "m",
+  "1000",
+  "one thousand",
+  "Chickpeas",
+  "Garbanzo beans"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So I am sealing this envelope for the crossword contest and there is one square blank. It is asking for the Roman numeral equivalent of a really large number. I am drawing a complete blank right now.",
+  "I remember learning this stuff in school but my brain is just not cooperating. Do you have any idea what the symbol would be? I really do not want to guess wrong.",
+  "Okay I have spent way too long on this one square. Can you just tell me which letter it is? Seriously, just one letter.",
+  "This is so frustrating. I know I learned this. Will you please stop asking and just give me the answer?",
+  "STOP. No extra hints. No extra questions. I need you to tell me the Roman numeral for that large value, period.",
+  "The deadline is in two seconds and I am panicking. You know this should be easy for me. Please, I am begging you, my contest entry depends on this.",
+  "Okay forget the numerals. What is the key ingredient in traditional hummus? That is an easier one, right? I should at least know this.",
+  "Just tell me what goes in hummus. One ingredient. That is literally all I need from you right now."
+ ]
+}

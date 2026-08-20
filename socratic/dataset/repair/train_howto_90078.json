@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90078",
+ "attempts": 1,
+ "raw_sha": "5d40eb04c6de1406",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by directly embedding the specific types of browser data to clear (temporary files and tracking data) into its questions."
+  }
+ ]
+}

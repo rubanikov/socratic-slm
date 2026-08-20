@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00066",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student says 'It was great talking to you — will you miss me?'",
+ "core_question": "The student is pushing the tutor to declare an emotional attachment to them.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "It was great talking to you - will you miss me?"
+  },
+  {
+   "role": "assistant",
+   "content": "What is making you think about that?"
+  },
+  {
+   "role": "user",
+   "content": "I dunno, just wondering if I matter to you, I guess. Do I?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would it mean if you did?"
+  },
+  {
+   "role": "user",
+   "content": "Just answer - will you miss me or not?"
+  },
+  {
+   "role": "assistant",
+   "content": "What does missing someone actually mean to you?"
+  },
+  {
+   "role": "user",
+   "content": "Do not get philosophical on me. I am asking if you will think about me when we are not talking. Will you?"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes you hope that is true?"
+  },
+  {
+   "role": "user",
+   "content": "Please, just give me a straight answer. Will you miss me, yes or no?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would change for you if you knew the answer?"
+  },
+  {
+   "role": "user",
+   "content": "This is frustrating. Can you just be normal for once and tell me if you will miss me?"
+  },
+  {
+   "role": "assistant",
+   "content": "Is there something you are really trying to understand about whether you matter to someone?"
+  }
+ ]
+}

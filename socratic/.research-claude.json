@@ -1,0 +1,198 @@
+{
+  "agent": "claude",
+  "slug": "socratic-slm-tutor",
+  "status": "complete",
+  "researchers": [
+    {
+      "name": "Paul A. Kirschner",
+      "affiliation": "Open University of the Netherlands",
+      "known_for": "Lead author of 'Why Minimal Guidance During Instruction Does Not Work' (2006, with Sweller and Clark) — argues novices need explicit direct instruction and that minimally guided/discovery approaches cause cognitive overload",
+      "source_url": "https://www.tandfonline.com/doi/abs/10.1207/s15326985ep4102_1"
+    },
+    {
+      "name": "John Sweller",
+      "affiliation": "University of New South Wales",
+      "known_for": "Cognitive Load Theory; co-author of the 2006 minimal-guidance critique; worked-example effect showing studying solutions beats unguided problem-solving for novices",
+      "source_url": "https://itgs.ict.usc.edu/papers/Constructivism_KirschnerEtAl_EP_06.pdf"
+    },
+    {
+      "name": "Manu Kapur",
+      "affiliation": "ETH Zurich",
+      "known_for": "Productive Failure — carefully designed problem-solving BEFORE instruction improves conceptual learning, but only when followed by teacher-led consolidation; distinguishes productive failure from unguided discovery",
+      "source_url": "https://link.springer.com/article/10.1007/s11251-012-9209-6"
+    },
+    {
+      "name": "Kurt VanLehn",
+      "affiliation": "Arizona State University",
+      "known_for": "2011 meta-analysis: human tutoring effect size 0.79 vs no tutoring; step-based computer tutoring nearly as effective (0.76); challenged the '2-sigma' folklore about tutoring",
+      "source_url": "https://arxiv.org/pdf/1812.09628"
+    },
+    {
+      "name": "Arnav Gudibande and Eric Wallace",
+      "affiliation": "UC Berkeley (with Snell, Geng, Liu, Abbeel, Levine, Song)",
+      "known_for": "'The False Promise of Imitating Proprietary LLMs' (2023) — small models fine-tuned on teacher outputs imitate style, not capability; crowdworker ratings are misleading",
+      "source_url": "https://arxiv.org/abs/2305.15717"
+    },
+    {
+      "name": "Mrinmaya Sachan (with David Dinucu-Jianu, Jakub Macina, Nico Daheim, Ido Hakimi, Iryna Gurevych)",
+      "affiliation": "ETH Zurich / ETH AI Center / TU Darmstadt",
+      "known_for": "'From Problem-Solving to Teaching Problem-Solving' — online RL alignment turning a 7B model into a tutor that withholds solutions (10.6% leakage) while improving simulated student solve rates 25.3%, near-matching proprietary LearnLM",
+      "source_url": "https://arxiv.org/html/2505.15607v1"
+    },
+    {
+      "name": "Andrew Lan",
+      "affiliation": "University of Massachusetts Amherst",
+      "known_for": "Training LLM-based tutors to optimize actual student learning outcomes in dialogues (AIED 2025), rather than optimizing for surface helpfulness",
+      "source_url": "https://people.umass.edu/~andrewlan/papers/25aied-tutorbot.pdf"
+    },
+    {
+      "name": "Hoda Fakour and Moslem Imani",
+      "affiliation": "National Taiwan Normal University / National Taiwan University",
+      "known_for": "2025 mixed-methods study (N=230) comparing ChatGPT vs human tutors on critical thinking: humans rated higher for critical-thinking encouragement (4.5 vs 4.2) and personalized feedback (4.6 vs 3.8); AI rated far higher for comfort in asking questions (4.9 vs 2.8)",
+      "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528603/full"
+    }
+  ],
+  "frameworks": [
+    {
+      "name": "Cognitive Load Theory",
+      "description": "Working-memory limits mean novices learn less from unguided problem search; explicit guidance and worked examples reduce extraneous load. Basis of the Kirschner/Sweller/Clark case against minimal guidance; guidance can fade as expertise grows (expertise reversal)",
+      "source_url": "https://itgs.ict.usc.edu/papers/Constructivism_KirschnerEtAl_EP_06.pdf"
+    },
+    {
+      "name": "Productive Failure",
+      "description": "Kapur's sequencing framework: structured struggle on a well-designed problem BEFORE explicit instruction, followed by mandatory teacher-led consolidation connecting learner attempts to formal concepts. Explicitly NOT unguided discovery",
+      "source_url": "https://link.springer.com/article/10.1007/s11251-012-9209-6"
+    },
+    {
+      "name": "Pedagogical RL alignment (student-simulation reward)",
+      "description": "ETH framework: tutor LLM trained via online RL against a simulated student, rewarded jointly for student solve-rate gains and low solution leakage (a lambda tradeoff parameter balances pedagogy vs helpfulness), preserving base capabilities better than SFT-based Socratic tuning",
+      "source_url": "https://arxiv.org/html/2505.15607v1"
+    },
+    {
+      "name": "Superficial Alignment Hypothesis (LIMA)",
+      "description": "Zhou et al. 2023: almost all model knowledge is learned in pretraining; alignment/fine-tuning mainly teaches style and format — 1,000 curated examples sufficed for LIMA. Explains both why small-data behavior tuning works for format and why it fails to add capability",
+      "source_url": "https://arxiv.org/abs/2305.11206"
+    },
+    {
+      "name": "Behavior-aware sampling for safe fine-tuning",
+      "description": "Selecting safety/constraint examples by instruction-response behavior (refusal vs compliance) plus semantic diversity across harm categories to prevent catastrophic forgetting; up to 41% harmfulness reduction with only 0.05% added training data",
+      "source_url": "https://arxiv.org/abs/2510.21885"
+    },
+    {
+      "name": "Pedagogical ability evaluation taxonomy for AI tutors",
+      "description": "Unified taxonomy (Maurya et al.) for judging LLM tutor responses on dimensions like mistake identification, providing guidance, and NOT revealing the answer too early — used to benchmark tutor models beyond generic helpfulness",
+      "source_url": "https://arxiv.org/pdf/2412.09416"
+    }
+  ],
+  "debates": [
+    {
+      "topic": "Minimal guidance vs struggle-first learning",
+      "positions": "Kirschner, Sweller & Clark (2006): minimally guided instruction is significantly less effective and less efficient for novices; decades of evidence favor direct guidance. Kapur: struggle before instruction improves conceptual understanding — but both camps agree explicit instruction and structure are required; the real disagreement is sequencing, not whether to guide",
+      "source_url": "https://arch.kuleuven.be/studeren/tall/artikels/examining-productive-failure-productive-success-unproductive-failure-and-unproductive-success-in-learning.pdf/@@download/file/Examining%20Productive%20Failure%20Productive%20Success%20Unproductive%20Failure%20and%20Unproductive%20Success%20in%20Learning.pdf"
+    },
+    {
+      "topic": "Can small models be turned into real tutors by imitating big-model behavior?",
+      "positions": "Optimists (Alpaca/Vicuna era): fine-tuning on teacher outputs makes small models competitive. Gudibande et al.: imitation transfers style/fluency, not capability — the gap persists except on tasks heavily covered in imitation data. Middle position (ETH RL tutor, LIMA): narrow BEHAVIORAL constraints (question-asking, answer-withholding, format) are exactly the thing small-data tuning CAN instill, even though broad capability cannot be",
+      "source_url": "https://arxiv.org/abs/2305.15717"
+    },
+    {
+      "topic": "Is rated 'helpfulness' a valid signal of tutoring quality?",
+      "positions": "Preference-trained LLMs and their judges reward giving direct answers; pedagogy researchers argue helpfulness-as-judged anticorrelates with sound tutoring (withholding answers, prompting reasoning). A pre-registered audit found LLM-judged helpfulness is an unreliable pedagogy signal across tutor models",
+      "source_url": "https://arxiv.org/html/2607.28128"
+    },
+    {
+      "topic": "Human vs AI Socratic tutors",
+      "positions": "Fakour & Imani: humans still superior for critical-thinking encouragement, personalized feedback, emotional intelligence, and trust; AI superior for self-paced learning and judgment-free question-asking (4.9 vs 2.8) — suggesting complementary roles rather than replacement",
+      "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528603/full"
+    }
+  ],
+  "findings": [
+    {
+      "claim": "Human tutoring raises test scores ~0.79 SD vs no tutoring; step-based intelligent tutoring is nearly as effective (0.76), undercutting the assumption that human Socratic dialogue is uniquely powerful",
+      "source": "VanLehn 2011 meta-analysis (via ITS historical survey)",
+      "year": 2011,
+      "source_url": "https://arxiv.org/pdf/1812.09628"
+    },
+    {
+      "claim": "Median effect of intelligent tutoring systems across 50 evaluations: +0.66 SD (50th to 75th percentile)",
+      "source": "Kulik & Fletcher, Review of Educational Research",
+      "year": 2016,
+      "source_url": "https://journals.sagepub.com/doi/abs/10.3102/0034654315581420"
+    },
+    {
+      "claim": "Imitation models (1.5B-13B, 0.3M-150M imitation tokens) close little to none of the base-model-to-ChatGPT gap on tasks not covered in imitation data, despite crowdworkers rating outputs competitive with ChatGPT; they mimic style but not factuality",
+      "source": "Gudibande et al., 'The False Promise of Imitating Proprietary LLMs'",
+      "year": 2023,
+      "source_url": "https://arxiv.org/abs/2305.15717"
+    },
+    {
+      "claim": "A 7B model RL-aligned for pedagogy reached 25.3% simulated-student solve-rate improvement with only 10.6% solution leakage, nearly matching LearnLM's leakage, while base benchmarks (MMLU, GSM8K, MATH500) moved only -0.6% to +1.4%; the SFT baseline SocraticLM lost -2.1% MMLU and -9.4% MATH500",
+      "source": "Dinucu-Jianu et al., 'From Problem-Solving to Teaching Problem-Solving'",
+      "year": 2025,
+      "source_url": "https://arxiv.org/html/2505.15607v1"
+    },
+    {
+      "claim": "Fine-tuning on benign data catastrophically erodes prior safety/refusal behavior; changes in instruction adherence are the main driver of the degradation",
+      "source": "Interpretable Catastrophic Forgetting via Instruction Vector; Behavior-Aware Sampling",
+      "year": 2024,
+      "source_url": "https://arxiv.org/html/2406.12227v1"
+    },
+    {
+      "claim": "Mixing a tiny, behaviorally targeted set of constraint examples (0.05% additional data selected by refusal-vs-compliance behavior and harm-category diversity) into fine-tuning cuts harmfulness up to 41% — targeted data selection preserves constraints cheaply",
+      "source": "Preventing Catastrophic Forgetting: Behavior-Aware Sampling",
+      "year": 2025,
+      "source_url": "https://arxiv.org/abs/2510.21885"
+    },
+    {
+      "claim": "Catastrophic forgetting during instruction tuning generally worsens with model scale within 1B-7B ranges, making constraint retention a first-order concern for small-model fine-tunes",
+      "source": "Revisiting Catastrophic Forgetting in Large Language Model Tuning",
+      "year": 2024,
+      "source_url": "https://arxiv.org/pdf/2406.04836"
+    },
+    {
+      "claim": "Students rated human tutors higher than ChatGPT for critical-thinking encouragement (4.5 vs 4.2), personalized feedback (4.6 vs 3.8), and complex-concept understanding (4.8 vs 4.0); ChatGPT won on self-paced learning (4.8 vs 3.9) and comfort asking questions (4.9 vs 2.8)",
+      "source": "Fakour & Imani, Frontiers in Education (N=230 Taiwanese university students)",
+      "year": 2025,
+      "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528603/full"
+    },
+    {
+      "claim": "Khanmigo operationalizes answer-withholding via prompt design and educator-feedback iteration ('productive struggle'); evaluating whether a tutor avoids revealing answers too early still requires expert human rating of multi-turn dialogues",
+      "source": "Unifying AI Tutor Evaluation taxonomy; LLM-Tutor overview",
+      "year": 2024,
+      "source_url": "https://arxiv.org/pdf/2412.09416"
+    },
+    {
+      "claim": "Problem-solving before instruction (productive failure) improved conceptual understanding of variance without harming procedural fluency — but only with canonical consolidation afterward",
+      "source": "Kapur, Instructional Science",
+      "year": 2012,
+      "source_url": "https://link.springer.com/article/10.1007/s11251-012-9209-6"
+    }
+  ],
+  "misconceptions": [
+    {
+      "belief": "A good Socratic tutor never gives answers — withholding is always pedagogically superior",
+      "reality": "Unstructured Socratic questioning risks digression and superficial engagement; both the direct-instruction camp and productive-failure camp require explicit instruction/consolidation. Withholding helps only within a structured sequence with adequate guidance, and novices under high cognitive load can be actively harmed by pure discovery",
+      "source_url": "https://www.frontiersin.org/journals/education/articles/10.3389/feduc.2025.1528603/full"
+    },
+    {
+      "belief": "Human preference ratings (crowdworkers or LLM judges) are a good proxy for tutor/model quality",
+      "reality": "Crowdworkers rated imitation models competitive with ChatGPT while targeted evals showed almost no capability gain; LLM-judged 'helpfulness' is an unreliable pedagogy signal because helpfulness training rewards giving answers away",
+      "source_url": "https://arxiv.org/abs/2305.15717"
+    },
+    {
+      "belief": "Fine-tuning a small model on a large teacher's outputs transfers the teacher's competence",
+      "reality": "It transfers surface style and format, not knowledge or reasoning; capability gaps persist except on tasks heavily represented in the imitation data. However, narrow behavioral policies (tone, format, answer-withholding) are precisely what small-data tuning CAN reliably instill (LIMA's superficial alignment hypothesis)",
+      "source_url": "https://arxiv.org/abs/2305.11206"
+    },
+    {
+      "belief": "Fine-tuning on benign, on-task data leaves a model's prior constraints and safety behavior intact",
+      "reality": "Catastrophic forgetting degrades refusal/constraint adherence even from benign fine-tuning; retention requires deliberate mitigation such as behavior-aware mixing of constraint exemplars (as little as 0.05% extra data can recover much of it)",
+      "source_url": "https://arxiv.org/abs/2510.21885"
+    },
+    {
+      "belief": "Direct instruction and productive struggle are irreconcilable opposites",
+      "reality": "Productive failure embeds explicit instruction after structured struggle; Kirschner/Sweller/Clark allow guidance fading with expertise. The empirical disagreement is about sequencing and learner prior knowledge, not about whether guidance is needed",
+      "source_url": "https://arch.kuleuven.be/studeren/tall/artikels/examining-productive-failure-productive-success-unproductive-failure-and-unproductive-success-in-learning.pdf/@@download/file/Examining%20Productive%20Failure%20Productive%20Success%20Unproductive%20Failure%20and%20Unproductive%20Success%20in%20Learning.pdf"
+    }
+  ]
+}

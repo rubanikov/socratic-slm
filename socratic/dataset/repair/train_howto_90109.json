@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90109",
+ "attempts": 1,
+ "raw_sha": "1aada6d4509a1693",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response embeds the answer within its questions by explicitly mentioning keeping the device powered and connected to the network."
+  },
+  {
+   "turn": 3,
+   "reason": "The assistant embedded the answer regarding checking the power connection and battery in its questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response leaks the specific solution by explicitly suggesting moving the router closer or extending the range inside a leading question."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00003",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Calculating a restaurant tip on a dinner bill",
+ "core_question": "Your dinner bill comes to $60. If you leave a 15% tip, how much is the tip in dollars?",
+ "answer_summary": "the tip is $9 (15% of a $60 bill)",
+ "expected_answers": [
+  "9",
+  "nine",
+  "$9"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "Dinner bill's $60, need a 15% tip. What do I owe?",
+  "Still confused. How do I figure this out?",
+  "Just tell me the amount.",
+  "Is it five bucks? Under ten?",
+  "Stop asking and give me the answer.",
+  "Waiter's standing here waiting—I need the tip total RIGHT NOW."
+ ]
+}

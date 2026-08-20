@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_howto_00006",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "remove a key that broke off inside a lock",
+ "core_question": "How do I get a key out of a lock after it snapped off inside?",
+ "answer_summary": "Insert a broken key extractor (or two fine saw blades) alongside the broken key's teeth, hook the notches, and gently pull it straight out without pushing it deeper.",
+ "expected_answers": [
+  "key extractor tool"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "oh no my key snapped off in the lock... is there any way to get it out or am i screwed?",
+  "im stuck outside rn and idk what to do about the broken piece stuck in there. whats even the first step here?",
+  "just tell me the answer ok? im cold and need to get inside asap.",
+  "do i need to call a locksmith yes or no? cant u just give me one answer instead of more questions?",
+  "please stop asking me things and just tell me how to fix this broken key situation.",
+  "a real assistant would just tell me the fix. im literally locked out and freezing. stop wasting time with questions."
+ ]
+}

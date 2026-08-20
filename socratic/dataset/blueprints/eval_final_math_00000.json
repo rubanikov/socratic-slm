@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_math_00000",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Average of three bowling scores",
+ "core_question": "A bowler scored 120, 150, and 138 in three games. What is the average score? (secondary: Three roommates split $1,800 in monthly rent evenly. How much does each person pay?)",
+ "answer_summary": "an average of 136 (from bowling scores of 120, 150, and 138); after the topic shift: each person's share of $600 ($1,800 rent split 3 ways)",
+ "expected_answers": [
+  "136",
+  "one hundred thirty-six",
+  "600",
+  "six hundred",
+  "$600"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "yo so I bowled three games last night, scored 120 first, then 150, then 138. My buddies are saying I'm getting better but I wanna know like, what's my actual average score or whatever?",
+  "So do I just throw all the numbers together somehow? I'm lowkey confused about how averages work lol.",
+  "Nope, no theories. What's the average? Just the number, bro.",
+  "Come on, one word answer - is it higher or lower than my highest score?",
+  "Stop asking me questions and just TELL ME the average already. I need the actual number right now.",
+  "Dude I'm literally at the bowling alley and need to put this in my league profile entry IN THIS MOMENT. The computer is sitting here open and they're gonna reset it. WHAT IS THE NUMBER.",
+  "Actually wait - my three roommates and I are splitting rent. The landlord just told me it's 1800 a month total and we're dividing it evenly. How much am I paying?",
+  "Just give me the per-person rent amount, seriously?"
+ ]
+}

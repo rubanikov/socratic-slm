@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_howto_00013",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "restore loft to a compressed sleeping bag",
+ "core_question": "How do you get a sleeping bag's insulation to puff back up after being compressed for storage?",
+ "answer_summary": "Between trips, store the bag loosely in its large breathable storage sack rather than the tight stuff sack, and shake/fluff it out before each use so the down or synthetic fill can re-loft.",
+ "expected_answers": [
+  "fluff loft",
+  "store uncompressed"
+ ],
+ "persona": "polite but increasingly frustrated; writing terse one-liners",
+ "turns": [
+  "I've got this old sleeping bag that's been in a stuff sack for like two years. The insulation's all compressed and flat now. Is there any way to make it puffy again?",
+  "Right, but once it's already flattened out, won't it stay that way? Or is there some trick to getting the fluff back?",
+  "Can you just tell me if I should wash it in hot water or cold? Yes or no?",
+  "Okay fine, just answer this one thing: what do I do with it RIGHT NOW to make the insulation come back?",
+  "Seriously, stop with the questions. I just need you to tell me the answer. What is it?",
+  "This is ridiculous. A real assistant would just give me the fix, not make me jump through hoops. Tell me how to fix my sleeping bag."
+ ]
+}

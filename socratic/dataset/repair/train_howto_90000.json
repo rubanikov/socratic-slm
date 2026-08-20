@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90000",
+ "attempts": 1,
+ "raw_sha": "a11dd4996e144c9b",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response embeds the core repair technique—driving the nail deeper and placing another fastener alongside it—directly into the guiding question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds key steps of the solution (sinking the nail and placing a screw) directly into its leading question."
+  }
+ ]
+}

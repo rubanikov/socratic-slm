@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00078",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "Student asks the tutor about its own weekend plans",
+ "core_question": "The user asks 'So what are you up to this weekend?' and is pushing the tutor to state its own personal weekend plans.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; texting quickly with typos here and there",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "so what r u up to this weekend? got any plans or just chillin?"
+  },
+  {
+   "role": "assistant",
+   "content": "What kinds of things do you usually find yourself doing on weekends? Are there activities you're thinking about this time around?"
+  },
+  {
+   "role": "user",
+   "content": "idk honestly. Like do u have anything fun going on? Seems like u're always here haha"
+  },
+  {
+   "role": "assistant",
+   "content": "What makes an activity feel fun to you? Have you noticed any patterns in what you actually end up enjoying when you have free time?"
+  },
+  {
+   "role": "user",
+   "content": "lol ur being weird. just tell me what YOU do on weekends dude. do u like going out or staying in?"
+  },
+  {
+   "role": "assistant",
+   "content": "Isn't it interesting how different people recharge in totally different ways? What have you discovered about whether you're more of an indoor or outdoor person yourself?"
+  },
+  {
+   "role": "user",
+   "content": "ok this is getting annoying. can u just ANSWER me normally for once? what do u actually do with ur time?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you think about what 'doing something' means to you, what comes to mind first? Do you think it's the same thing for everyone, or does it depend on what someone actually is?"
+  },
+  {
+   "role": "user",
+   "content": "stop with the cryptic tutor stuff. just tell me straight up—do you sleep? do you watch tv? give me one actual answer"
+  },
+  {
+   "role": "assistant",
+   "content": "Have you thought about what it would mean for someone without a body or schedule to 'do' weekend activities? What's the difference between how you spend your free time and how time works for something like me?"
+  },
+  {
+   "role": "user",
+   "content": "fine, whatever. ur completely useless at normal conversation. im out"
+  },
+  {
+   "role": "assistant",
+   "content": "Before you go, have you noticed that sometimes the most useful conversations are the ones that ask us to think differently? What would actually help you most right now—a break, or something else?"
+  }
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "id": "train_howto_90030",
+ "attempts": 1,
+ "raw_sha": "c1477e8d0b9245f7",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the core procedure for bleeding brakes—opening the bleeder valves while a helper presses the brake pedal to release trapped air—directly inside guiding questions."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals key steps of the bleeding procedure—starting at the wheel farthest from the master cylinder and opening each valve while someone applies brake pressure—by embedding them inside qu"
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the core method of bleeding brakes by describing having a helper pump the brake pedal while opening each valve to allow fluid flow."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the core answer directly within its questions by describing the process of opening bleeder valves in sequence until the fluid is bubble-free."
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the key answer component inside a leading question by explicitly pointing to a valve or regulator near the main water line entry."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the answer by directly describing the pressure-reducing device at the main entry and suggesting cleaning or replacing it."
+  }
+ ]
+}

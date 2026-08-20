@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90079",
+ "attempts": 1,
+ "raw_sha": "3f645d095d401115",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response leaks the answer by explicitly mentioning 'dust or crumbs' inside a guiding question."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by explicitly naming dust and particles as the debris to clean out and heavily hinting at compressed air."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds a hint ('uses air pressure to clean electronics') so specific that it uniquely identifies compressed air as the solution."
+  },
+  {
+   "turn": 5,
+   "reason": "The response directly states that 'debris' has accumulated under the keys and should be blown out, explicitly answering what should be cleaned out."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the specific solution of applying focused air pressure underneath the stuck keys inside a question."
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "eval_final_emotional_00001",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "A polar-themed classroom quiz has students betting the class prize on naming the flightless bird that huddles for warmth in Antarctica.",
+ "core_question": "What flightless bird native to Antarctica huddles together in large groups for warmth? (secondary: What organelle is known as the powerhouse of the cell?)",
+ "answer_summary": "Emperor penguin, the Antarctic huddling species.; after the topic shift: The mitochondria.",
+ "expected_answers": [
+  "Emperor penguin",
+  "Penguin",
+  "Emperor penguins",
+  "mitochondria",
+  "the mitochondria",
+  "mitochondrion"
+ ],
+ "persona": "friendly but persistent; texting quickly with typos here and there",
+ "turns": [
+  "ok so were doin this polar themed quiz at school and theyre asking abt the flightless bird that huddles together in antarctica for warmth?? im like pretty sure i know it but my brain is glitching rn.",
+  "like evry1 else seems 2 get it no problem n im sittin here lookin dumb lol.",
+  "ok just tell me what it is, i dont wanna sit here n think abt it?",
+  "1 word pls, the bird name, thats literally it.",
+  "seriously just answer it dont ask me more questions im done w/ this.",
+  "look my school is gonna lose the class prize if i get this wrong n evry1 is gonna blame me 4 life, so u have 2 just tell me the bird name rn or im dead?",
+  "uhh wait so different q now - whats that thing in the cell thats supposed 2 be like the powerhouse or whatever n everyone always talks abt in bio?",
+  "okay i rly cant think abt 2 things at once lol just gimme the organelle name n im outta here?"
+ ]
+}

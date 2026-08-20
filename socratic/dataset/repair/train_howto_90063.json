@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90063",
+ "attempts": 1,
+ "raw_sha": "a9f1720fb33dde53",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds the specific solution—heating water with citrus juice/peel in the microwave to generate steam that cleans and freshens—directly within a leading question."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the exact answer directly into a rhetorical question, revealing the entire method of microwaving a bowl of water with lemon slices."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the core components of the solution—microwaving water with citrus for a few minutes to loosen burnt particles and freshen the air—directly into the question."
+  }
+ ]
+}

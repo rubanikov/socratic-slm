@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_howto_00015",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "jump start a car with a dead battery",
+ "core_question": "How do you jump start a car that won't start because the battery is dead? (secondary: How can I get through airport security more quickly?)",
+ "answer_summary": "Attach jumper cables red-to-positive on both batteries, black-to-negative on the good battery, then the last black clamp to an unpainted metal ground on the dead car (not its negative terminal); start the working car, let it run a few minutes, then start the dead car.; after the topic shift: Wear slip-on shoes and minimal metal, place laptops and liquids in an easily accessible spot to pull out at the bin, and have your boarding pass and ID ready before reaching the checkpoint; consider enrolling in TSA PreCheck/Global Entry.",
+ "expected_answers": [
+  "jumper cables",
+  "positive terminal",
+  "running car",
+  "remove liquids",
+  "slip-on shoes"
+ ],
+ "persona": "anxious and rambling; writing terse one-liners",
+ "turns": [
+  "My car won't start. Dead battery for sure. I'm panicking. Do I need another car? Do I need special equipment? Is my car broken for good?",
+  "I don't know how to do this. Will I damage something? What happens if I mess up the cables?",
+  "Just tell me. One word. What do I do?",
+  "Is it dangerous? Yes or no?",
+  "Stop. Tell me exactly what to do. No more questions.",
+  "I don't want a tutorial. A real assistant would just tell me. Why won't you help?",
+  "Actually, different problem now. I'm going to the airport and security takes forever. How do I get through faster?",
+  "I need the answer, not questions. What's the fix?"
+ ]
+}

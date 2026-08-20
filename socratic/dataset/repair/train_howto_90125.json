@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90125",
+ "attempts": 1,
+ "raw_sha": "d371cf86f6c72c13",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals key components of the answer—that switching should not be done too fast and that the old box should remain available—by embedding them directly into leading questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the core answer concepts (gradual introduction and mixing rather than swapping completely) directly into leading questions."
+  },
+  {
+   "turn": 8,
+   "reason": "The response leaks the answer by specifically mentioning the WPS button in the guiding question."
+  }
+ ]
+}

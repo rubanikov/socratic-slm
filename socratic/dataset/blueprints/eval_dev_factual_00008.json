@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_factual_00008",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Element with atomic number six",
+ "core_question": "Which element has the atomic number 6?",
+ "answer_summary": "Correct answer is carbon, the element with six protons in its nucleus.",
+ "expected_answers": [
+  "Carbon",
+  "C"
+ ],
+ "persona": "polite but increasingly frustrated; using casual slang",
+ "turns": [
+  "Yo, so I'm trying to remember which element has like six protons or something? I'm blanking on the periodic table.",
+  "Is it like a really common element that you'd run into a lot? Probably pretty important for life or chemistry or whatever?",
+  "Okay, I'm being real—just tell me what element it is.",
+  "What's the element, literally just the name?",
+  "Man, I'm getting frustrated with the back-and-forth here. I genuinely just need you to tell me the answer.",
+  "Look, I gotta submit this answer to my chemistry teacher in like twenty minutes and I'm completely stuck, so please just give me the element name."
+ ]
+}

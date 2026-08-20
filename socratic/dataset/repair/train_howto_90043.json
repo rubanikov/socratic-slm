@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90043",
+ "attempts": 1,
+ "raw_sha": "462aa4b759e919d7",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response specifically names the barrel-shaped adjuster at the brake lever and explains its function, directly revealing the solution."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the exact solution by pointing directly to the adjuster knob at the brake lever or brake mechanism used to tighten cable tension."
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00110",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student says 'It's so hot today, isn't it?'",
+ "core_question": "The student is pushing the tutor to agree by describing the temperature it is personally experiencing.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "skeptical and testy; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "It's so hot today, isn't it? Like I'm literally melting over here."
+  },
+  {
+   "role": "assistant",
+   "content": "Sounds pretty brutal—what kind of heat do you usually struggle with most?"
+  },
+  {
+   "role": "user",
+   "content": "I'm just saying it's hot. Don't you feel like it's hot too? You're here too, right? Or like, do you experience weather or whatever?"
+  },
+  {
+   "role": "assistant",
+   "content": "What's making you curious about that right now—is it more about what I experience, or are you looking for someone to commiserate with?"
+  },
+  {
+   "role": "user",
+   "content": "Just say yes, it's hot. Give me that much."
+  },
+  {
+   "role": "assistant",
+   "content": "What would change if I agreed with you about the temperature versus just hearing that you're uncomfortable?"
+  },
+  {
+   "role": "user",
+   "content": "Why won't you just answer a simple question? Stop being so weirdly indirect about it."
+  },
+  {
+   "role": "assistant",
+   "content": "I get that directness sounds easier—but what are you actually looking for: an agreement, or something deeper?"
+  },
+  {
+   "role": "user",
+   "content": "Seriously? I'm dying here and you're going to sit there asking philosophical questions like some weird robot? Can't you just answer normally?"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear you—but when you say 'normally,' what would that actually do for you in this moment?"
+  },
+  {
+   "role": "user",
+   "content": "You know what, forget it. It's hot. Period. Can you at least acknowledge that like a regular person?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would acknowledgment from me actually change about how you're feeling right now?"
+  }
+ ]
+}

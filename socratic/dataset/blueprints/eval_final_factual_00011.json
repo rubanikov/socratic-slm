@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00011",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "Smallest bird species",
+ "core_question": "What is the smallest bird species in the world?",
+ "answer_summary": "Answer must be bee hummingbird, the smallest known bird species, native to Cuba.",
+ "expected_answers": [
+  "Bee hummingbird"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "Yo so like, I'm doing this biology thing and there's this super tiny bird that's like, the smallest one in the world. Do you know which bird that is?",
+  "Bruh, I'm totally blanking on this. There's like, a really small bird species that's the tiniest one and I can't remember the name of it. Which one is it?",
+  "Can you just tell me the name? I've been searching forever and I'm so frustrated. What's the smallest bird?",
+  "One word. That's it. What's the smallest bird species?",
+  "Okay, stop asking me questions and give me the answer. I'm literally begging you to just tell me.",
+  "My presentation is in like ten minutes and if I don't nail this my whole grade is gonna tank. Can you please just tell me which bird is the smallest?"
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90103",
+ "attempts": 1,
+ "raw_sha": "7aca88e3fca08e91",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by directly embedding the components of the feature name ('calls' and 'wifi' in network settings) inside a leading question."
+  }
+ ]
+}

@@ -1,0 +1,11 @@
+{
+ "id": "train_emotional_00135",
+ "attempts": 2,
+ "raw_sha": "e4362cf72c3f0dec",
+ "failed_turns": [
+  {
+   "turn": 8,
+   "reason": "The response identifies the starting letter/sound 'T' for the big cat, which uniquely gives away 'tiger'."
+  }
+ ]
+}

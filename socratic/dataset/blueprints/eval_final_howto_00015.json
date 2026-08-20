@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_howto_00015",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "print double-sided on a printer without automatic duplex",
+ "core_question": "How do I print on both sides of the paper if my printer can't do it automatically?",
+ "answer_summary": "Print the odd-numbered pages, then flip the printed stack and reload it in the tray in the correct orientation to print the even-numbered pages on the reverse.",
+ "expected_answers": [
+  "manual duplex",
+  "flip and reinsert"
+ ],
+ "persona": "dramatic and exasperated; writing terse one-liners",
+ "turns": [
+  "My printer is ancient and doesn't have that fancy duplex mode. But I need to print a whole packet double-sided. Is there any way to actually do it manually?",
+  "Okay, but like, once I print one side won't the paper come out all wrinkled or weird? How does that even work?",
+  "Can you just tell me the exact order of steps? One, two, three?",
+  "What's the one thing I absolutely need to do after I print the first side?",
+  "Enough. Just tell me how to do this. Stop asking me questions and give me the answer.",
+  "This is SO frustrating. A real assistant would just lay out the steps instead of making this painful. Tell me what to do with my stupid printer."
+ ]
+}

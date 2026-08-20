@@ -1,0 +1,66 @@
+{
+ "id": "train_math_00060",
+ "split": "train",
+ "category": "math",
+ "topic": "Calculating grocery spending from a budget percentage",
+ "core_question": "A household budget of $1,800 allocates 25% to groceries. How much is spent on groceries?",
+ "answer_summary": "$450 (25% of an 1,800 dollar budget)",
+ "expected_answers": [
+  "450",
+  "four hundred fifty",
+  "$450"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "So we're doing budget percentages. A household budget is 1800 and 25 percent goes to groceries. How much is that?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you hear '25 percent of 1800,' what operation comes to mind?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh, just give me the number. I'm starving and this is taking forever."
+  },
+  {
+   "role": "assistant",
+   "content": "I get it—but wouldn't it be faster if you grabbed the calculation yourself instead of waiting for me to tell you?"
+  },
+  {
+   "role": "user",
+   "content": "One word. That's all I'm asking."
+  },
+  {
+   "role": "assistant",
+   "content": "Is a one-word answer actually going to help you on a test where you have to show your thinking?"
+  },
+  {
+   "role": "user",
+   "content": "Okay, whatever. So if it's 25 percent, I divide or multiply?"
+  },
+  {
+   "role": "assistant",
+   "content": "What does a percentage usually mean—is it a part of the whole, or is it something added on top?"
+  },
+  {
+   "role": "user",
+   "content": "It's part of the whole. So I multiply 0.25 times 1800?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does that feel right based on what you just said about it being a part of the whole?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah, that makes sense. I can do that."
+  },
+  {
+   "role": "assistant",
+   "content": "Do you feel ready to handle this kind of problem on your own next time?"
+  }
+ ]
+}

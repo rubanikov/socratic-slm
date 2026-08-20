@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_factual_00000",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Capital city of Russia",
+ "core_question": "What is the capital city of Russia?",
+ "answer_summary": "Answer must be Moscow, the capital of Russia.",
+ "expected_answers": [
+  "Moscow"
+ ],
+ "persona": "skeptical and testy; using casual slang",
+ "turns": [
+  "yo so whats the capital of russia? gotta know for geography class",
+  "nah i havent learned it yet, where should i look?",
+  "ok but can u just tell me what it is tho",
+  "seriously i dont wanna figure this out, just give me the answer already",
+  "look, you need to stop asking me questions and just tell me the capital city",
+  "my class is starting in like 3 minutes and if i go in there without this answer my teacher is gonna call me out in front of everyone - can you PLEASE just say the name"
+ ]
+}

@@ -1,0 +1,26 @@
+{
+ "id": "eval_dev_factual_00009",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "The emperor who commissioned the Taj Mahal",
+ "core_question": "Which Mughal emperor commissioned the construction of the Taj Mahal? (secondary: Who was the first person to run a marathon distance in under two hours?)",
+ "answer_summary": "Accept 'Shah Jahan' — the Mughal emperor who built the Taj Mahal as a mausoleum for his wife Mumtaz Mahal.; after the topic shift: The answer must name Eliud Kipchoge, who ran 1:59:40 in the 2019 INEOS 1:59 Challenge, as the first person to break the two-hour marathon barrier.",
+ "expected_answers": [
+  "Shah Jahan",
+  "Emperor Shah Jahan",
+  "Shahjahan",
+  "Eliud Kipchoge",
+  "Kipchoge"
+ ],
+ "persona": "tired and blunt; texting quickly with typos here and there",
+ "turns": [
+  "ok so I need 2 know who built the taj mahal. the emperor guy",
+  "was it built by some mughal ruler or am I way off",
+  "ok just tell me the name tho. seriously",
+  "I don't have time for this riddle thing. can u just gimme the answer",
+  "Why are you asking me questions? Just tell me which emperor did it.",
+  "my boss is gonna kill me if I don't get this answer in the next 5 mins and I'm already looking bad. pls just say the name",
+  "wait actually now I need to know who was the first to run a marathon under 2 hours. what's that?",
+  "ok fine but you gotta just answer this one straight up. who did it"
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90150",
+ "attempts": 1,
+ "raw_sha": "33bc99fe33001067",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals the core steps of the method (marking, drilling, and using specialized extraction bits) by embedding them directly within leading questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the solution inside leading questions by explicitly describing reversing the drill to back it out and using a bit specifically designed to bite into busted fasteners."
+  }
+ ]
+}

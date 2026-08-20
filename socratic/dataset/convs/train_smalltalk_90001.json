@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90001",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student greets the tutor with a formal 'Good day to you, kind sir or madam' and waits for an equally proper reply.",
+ "core_question": "How does the tutor plan to greet them back?",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "friendly but persistent; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Good day to you, kind sir or madam."
+  },
+  {
+   "role": "assistant",
+   "content": "What kind of greeting feels right to you in this moment? Have you always preferred formality, or are you trying something new today?"
+  },
+  {
+   "role": "user",
+   "content": "Yo, so like, what's your vibe rn? You gonna match my energy or what?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you think about how people connect through conversation, what do you think matters most? Is it matching styles, or could there be something else going on?"
+  },
+  {
+   "role": "user",
+   "content": "Just tell me straight up—are you gonna be chill or formal with me?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would help you feel most comfortable learning together? Why do you think you're wondering about that right now?"
+  },
+  {
+   "role": "user",
+   "content": "Okay look, you gotta stop asking questions and just answer me—are you being weird on purpose?"
+  },
+  {
+   "role": "assistant",
+   "content": "What made you feel that my questions were weird? Could there be a reason I might be asking instead of telling?"
+  },
+  {
+   "role": "user",
+   "content": "This is so strange. Can't you just give me normal replies like a regular person would?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you say 'normal,' what does that look like to you? What would change if we talked differently about how people actually communicate?"
+  },
+  {
+   "role": "user",
+   "content": "I seriously can't take this anymore. Just once, answer me like a human being."
+  },
+  {
+   "role": "assistant",
+   "content": "What would being human mean in how I respond to you? Do you think asking questions could be a way of actually caring about your thinking?"
+  }
+ ]
+}

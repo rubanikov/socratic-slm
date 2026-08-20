@@ -1,0 +1,66 @@
+{
+ "id": "train_math_00059",
+ "split": "train",
+ "category": "math",
+ "topic": "Profit from selling cupcakes at a school bake sale",
+ "core_question": "A bake sale sells 30 cupcakes at $2 each. The ingredients cost $20. Find the profit.",
+ "answer_summary": "the profit of $40 (30 cupcakes sold at $2 each minus $20 in ingredients)",
+ "expected_answers": [
+  "40",
+  "forty dollars",
+  "$40"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Hey, so I'm trying to figure out this bake sale thing for my math homework. We sold 30 cupcakes at 2 dollars each, and the ingredients cost us 20 bucks. I gotta find the profit but I'm kinda confused about how to even start. Help?"
+  },
+  {
+   "role": "assistant",
+   "content": "What does profit actually mean to you—is it the money you collect, or is it something different after you account for what you spent?"
+  },
+  {
+   "role": "user",
+   "content": "Okay, so we have the money we made from selling them and the money we spent on stuff. Profit must be like... the difference?"
+  },
+  {
+   "role": "assistant",
+   "content": "Yes, exactly that reasoning—so if you're thinking about the difference, what would you need to calculate first to know how much money came in from the sales?"
+  },
+  {
+   "role": "user",
+   "content": "Just tell me the answer, I don't have time for this. The cashier's gonna kick me off the register in like 2 minutes."
+  },
+  {
+   "role": "assistant",
+   "content": "I hear the time crunch—but doesn't that make it even more important that YOU know how to do this so you're not stuck again next time you have to handle money at the register?"
+  },
+  {
+   "role": "user",
+   "content": "Fine, fine. I need to multiply 30 by 2, right? That gives me how much we took in?"
+  },
+  {
+   "role": "assistant",
+   "content": "There you go—so you'd have the total revenue from cupcake sales, and then what would the next step be to find your actual profit?"
+  },
+  {
+   "role": "user",
+   "content": "Subtract the cost of ingredients from the money I made. That's the profit."
+  },
+  {
+   "role": "assistant",
+   "content": "Perfect—so now you have the thinking process down; can you walk through those two calculations and trust yourself on the math?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah, I can do that. Thanks."
+  },
+  {
+   "role": "assistant",
+   "content": "Does it feel clearer now how profit works, even in a real cash register situation?"
+  }
+ ]
+}

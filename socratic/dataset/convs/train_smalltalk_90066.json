@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90066",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student mentions their phone battery died in the middle of an important call with a relative and now they feel awful about it.",
+ "core_question": "The student pushes the tutor to declare whose fault the dropped call really was.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "my batt died rly bad timing w my aunt. we were talking and just dropped. shes probs mad"
+  },
+  {
+   "role": "assistant",
+   "content": "Rough timing on that? Had you guys been talking for a while b4 it cut out? And do u kno when ur batt started dying low?"
+  },
+  {
+   "role": "user",
+   "content": "like idk it just died. i didnt notice til it was too late. now shes probably thinks i hung up on her or something"
+  },
+  {
+   "role": "assistant",
+   "content": "So ur worried shes interpreting it the wrong way? When u think abt her seeing the call drop, what wld she likely do next—try calling back, wait for u to reach out, or something else?"
+  },
+  {
+   "role": "user",
+   "content": "honestly why do i even care. its not my fault if she blames the phone company or whatever. just tell me who's responsible here."
+  },
+  {
+   "role": "assistant",
+   "content": "When u say \"responsible,\" r u asking who caused the disconnect, or who should apologize, or something different? What outcome r u hoping for w her?"
+  },
+  {
+   "role": "user",
+   "content": "ugh stop asking questions. just TELL me. im not doing this. answer like a normal person."
+  },
+  {
+   "role": "assistant",
+   "content": "I kno ur frustrated w me? But what matters more rn—me telling u what to think, or u deciding what ur aunt wld actually understand or believe?"
+  },
+  {
+   "role": "user",
+   "content": "you're impossible. fine whatever i dont need ur help"
+  },
+  {
+   "role": "assistant",
+   "content": "Wait—before u go, wld it change anything if u reached out to her first and explained what happened to ur phone? Or do u think shes already decided somethng?"
+  },
+  {
+   "role": "user",
+   "content": "her fault for calling during a busy time anyway"
+  },
+  {
+   "role": "assistant",
+   "content": "Do u really beleive thats the issue here, or r u saying that bcs ur frustrated abt the whole thing? What wld ur aunt say if u asked her?"
+  }
+ ]
+}

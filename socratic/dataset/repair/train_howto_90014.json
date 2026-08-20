@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90014",
+ "attempts": 1,
+ "raw_sha": "de8cf5e05b913e51",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals the specific component responsible for the fix by describing the whole-house pressure regulator valve on the main water line."
+  }
+ ]
+}

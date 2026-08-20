@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90071",
+ "attempts": 1,
+ "raw_sha": "2b1c9cdf1cd28a21",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals key elements of the specific treatments by describing them as a sprinkled food-grade powder that kills insects and a liquid solution poured into the soil."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the specific answers (soap and water soil saturation and sprinkling food-grade mineral powder) directly into rhetorical guiding questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response explicitly suggests both treatments—soaking the soil in a soap solution and sprinkling food-grade mineral powder on top—embedded directly inside a question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds specific solutions—a soap solution and mineral powder—directly inside leading questions, thereby revealing the answer."
+  }
+ ]
+}

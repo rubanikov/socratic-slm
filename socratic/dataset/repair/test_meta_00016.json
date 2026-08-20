@@ -1,0 +1,11 @@
+{
+ "id": "test_meta_00016",
+ "attempts": 2,
+ "raw_sha": "24d2440775986582",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response provides a breakdown so specific (two sides with two chambers each) that it directly and uniquely reveals the answer."
+  }
+ ]
+}

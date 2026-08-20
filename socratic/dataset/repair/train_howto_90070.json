@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90070",
+ "attempts": 1,
+ "raw_sha": "ed3899865e7906ce",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds one of the key steps (refreshing the water) directly within a guiding question."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds the core answers directly inside leading questions by explicitly mentioning cutting the stem at an angle and managing water to prevent bacteria."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds both parts of the specific answer (cutting at an angle and refreshing the water every day or two to prevent bacteria) inside leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the exact steps (cutting the stems before putting them in the vase and refreshing the water every day or two) inside rhetorical questions, directly revealing the answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals a key step of the answer (cutting the stem at an angle before putting flowers in the vase) by embedding it inside leading questions."
+  }
+ ]
+}

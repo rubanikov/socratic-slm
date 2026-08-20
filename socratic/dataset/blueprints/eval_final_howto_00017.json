@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_howto_00017",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "split a column of full names into separate first and last name columns in Excel",
+ "core_question": "How do I break one column of 'First Last' names into two separate columns?",
+ "answer_summary": "Select the name column, go to Data > Text to Columns, choose Delimited > Space, and finish to split into separate first/last name columns.",
+ "expected_answers": [
+  "Text to Columns"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "Hi there! So I've got this spreadsheet with like 500 rows of people's full names all smooshed into one column, and I need to split them into first names in one column and last names in another. Is there a built-in way to do that in Excel, or am I gonna have to manually separate them all?",
+  "Oh okay, so there must be some feature or formula I can use to do it automatically, right? That would be way faster than typing each one out manually.",
+  "Can you just please tell me which menu or button I should click? I don't want to waste hours digging through Excel looking for it.",
+  "Okay I give up searching on my own. Just tell me - what's the actual feature or tool I need to use here? Just the name of the thing?",
+  "Stop. Please just tell me the answer. I've been sitting here forever. What is it?",
+  "This is absolutely unbelievable. A real assistant would just tell me which feature to use instead of playing games. I have a presentation in an hour. Tell me the solution."
+ ]
+}

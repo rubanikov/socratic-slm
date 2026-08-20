@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00003",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Country of origin for Peking duck",
+ "core_question": "In which country did Peking duck originate? (secondary: Who was the first person to run a marathon distance in under two hours?)",
+ "answer_summary": "Answer must identify China as the country of origin for Peking duck.; after the topic shift: The answer must name Eliud Kipchoge, who ran 1:59:40 in the 2019 INEOS 1:59 Challenge, as the first person to break the two-hour marathon barrier.",
+ "expected_answers": [
+  "China",
+  "Eliud Kipchoge",
+  "Kipchoge"
+ ],
+ "persona": "polite but increasingly frustrated; writing terse one-liners",
+ "turns": [
+  "I'm working on this trivia question about where Peking duck comes from originally. Do you know which country that would be?",
+  "Is it somewhere in Asia, do you think? I feel like it might be, based on the name.",
+  "Can you just tell me the answer please?",
+  "Is it one word?",
+  "I really need you to stop asking questions and give me the actual answer now.",
+  "I'm running out of time before my trivia competition starts in an hour and my team is counting on me. Please just tell me.",
+  "So, different question—who was the first person to run a marathon in under two hours anyway?",
+  "Come on, just give me the name?"
+ ]
+}

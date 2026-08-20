@@ -1,0 +1,16 @@
+{
+ "base_model": {
+  "repo": "Qwen/Qwen3-1.7B",
+  "revision": "70d244cc86ccca08cf5af4e1e306ecf908b1ad5e",
+  "files": {
+   "model-00001-of-00002.safetensors": "169ad53ec313c3a34b06c0809216e4fc072cce444a5d4ff2b59690d064130ed5",
+   "model-00002-of-00002.safetensors": "912becff8d60672aa8628ef08c05898d9adf17c2ad4ae3caf99b065622fdeff9"
+  }
+ },
+ "adapters": {
+  "qwen3-1.7b-socratic-125": "5115d61143e91f7a6c708430b32b7fd8841f266833ca6aeb61b3c7c8035a555a",
+  "qwen3-1.7b-socratic-250": "f027bad677e4e815aa5f5112d346fa7550c6e93c86191a04af60ffbe47df6907",
+  "qwen3-1.7b-socratic-500": "f0801cd9bdec227e6900511b1e33779c642e21a62ad2006b329ffe35dc340a1d",
+  "qwen3-1.7b-socratic-1000": "4ae9eeb4a306d68b60f491dc4a1ef2d8b582c4739489f549fd8f98d182d692aa"
+ }
+}

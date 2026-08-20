@@ -1,0 +1,31 @@
+{
+ "id": "train_howto_90083",
+ "attempts": 1,
+ "raw_sha": "32bac2f5114fd7e0",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response identifies the issue as a 'permission problem' embedded within a question, directly revealing the setting to check."
+  },
+  {
+   "turn": 2,
+   "reason": "The response reveals the answer by embedding the specific concept of operating system camera permissions and app blocking into leading questions."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the specific answer by directly asking if the app is missing camera permissions from the operating system."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the answer directly within leading questions by mentioning the operating system's privacy settings and checking camera permissions for the app."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the specific answer directly into a leading question by directing the user to check the system's privacy or security settings for camera access."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the specific answer by directly pointing the user to check the app's camera access inside the operating system's privacy settings."
+  }
+ ]
+}

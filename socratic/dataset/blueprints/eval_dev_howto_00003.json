@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00003",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "store leather shoes long-term without damaging them",
+ "core_question": "How should I store leather shoes for months so they don't get damaged?",
+ "answer_summary": "Clean and condition the shoes, insert shoe trees to hold their shape and absorb moisture, then store them in breathable cloth/dust bags (not sealed plastic) in a cool, dry place away from direct sunlight.",
+ "expected_answers": [
+  "shoe trees",
+  "breathable bags"
+ ],
+ "persona": "anxious and rambling; texting quickly with typos here and there",
+ "turns": [
+  "ok so i have these rly nice leather shoes i dont wear that often and i want to store them for like a few months or maybe longer without them getting all damaged or weird. like im worried theyre gonna get creased or moldy or something, u know? whats the best way to keep them safe?",
+  "i mean ive just been throwing them in a plastic bag in the back of the closet lol. is that actually bad? how should i be doing this differently?",
+  "can u just give me the main thing i should do? i dont want to mess up my shoes",
+  "ok im kinda stressed about ruining them now. just tell me what to do to store them properly. one or two things?",
+  "im seriously asking u nicely here. stop with the questions just tell me what 2 do with these shoes already",
+  "a real assitant woudl just give me a straighforward answer instead of making me figure it out. im frustrated and im running outa patience here"
+ ]
+}

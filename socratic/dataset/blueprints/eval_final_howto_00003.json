@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_howto_00003",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "speed up a slow Windows computer",
+ "core_question": "How do I make my slow Windows PC run faster?",
+ "answer_summary": "Open Task Manager's Startup tab (or Settings > Apps > Startup) and disable programs that launch automatically but aren't needed, freeing up resources at boot.",
+ "expected_answers": [
+  "disable startup programs"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "My PC is super slow. What should I do?",
+  "I've tried restarting. Still slow. How do I actually speed it up?",
+  "Just give me the fix. One thing.",
+  "Yes or no. Do you have the answer?",
+  "Stop asking. Tell me what to do.",
+  "Real assistant tells me. Why won't you?"
+ ]
+}

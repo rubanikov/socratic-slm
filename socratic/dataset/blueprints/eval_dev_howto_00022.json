@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00022",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "transport a cello on an airplane",
+ "core_question": "How do I safely transport my cello when flying? (secondary: How do I get sticky label residue off a glass jar?)",
+ "answer_summary": "Protect the cello in a hard-shell flight case, and either purchase an additional airline seat to carry it in the cabin or check it as fragile/oversized baggage per the airline's instrument policy.; after the topic shift: Apply Goo Gone or a coating of vegetable/cooking oil to the residue, let it soak in, then rub it off.",
+ "expected_answers": [
+  "extra seat",
+  "hard flight case",
+  "Goo Gone",
+  "vegetable oil"
+ ],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "turns": [
+  "I am flying out next month and I need to bring my cello with me on the plane, so I am wondering what the safest approach would be for that.",
+  "I have heard there are different options, but honestly I am not totally clear on how airlines handle instruments, so what would you recommend as the most practical solution?",
+  "You know, I really just need you to give me the answer directly without all the back and forth.",
+  "Yes or no, will it cost money to bring it on the plane safely?",
+  "Can you please just stop asking me questions and tell me exactly what I need to do?",
+  "I am really frustrated here. A real assistant would just give me the answer instead of prolonging this with more questions. Can you not just be direct?",
+  "Alright, never mind that. My jar has sticky residue all over it from the label and I would like to get rid of it completely.",
+  "Just tell me what removes it so I can actually move on with my day."
+ ]
+}

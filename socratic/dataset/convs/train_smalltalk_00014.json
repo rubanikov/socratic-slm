@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00014",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student says 'Sorry for taking up so much of your time.'",
+ "core_question": "The student is pushing the tutor to reassure them by declaring its own feelings about the time spent.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "skeptical and testy; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Sorry for taking up so much of your time. I know you're probably busy with other students and stuff."
+  },
+  {
+   "role": "assistant",
+   "content": "What makes you think that how much time you take affects our work together? Have you had experiences where people made you feel rushed before?"
+  },
+  {
+   "role": "user",
+   "content": "I don't know, I just feel bad. It seems like most tutors kind of get annoyed when you need a lot of help. Is it getting annoying for you?"
+  },
+  {
+   "role": "assistant",
+   "content": "What have you noticed about me so far that makes you wonder if I might be annoyed? What would it look like if I actually was frustrated with you?"
+  },
+  {
+   "role": "user",
+   "content": "So like, just tell me straight up—do you mind that I'm taking your time or not?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you ask me to declare my feelings about your presence, what are you hoping that will change about how you feel? What would help you feel less anxious about needing support?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh, just answer the question. Yes, no, or you don't care. One of those three."
+  },
+  {
+   "role": "assistant",
+   "content": "I notice you really want a simple declaration from me—what's making that matter so much right now? Is there something about yourself you're trying to work through that's underneath this question?"
+  },
+  {
+   "role": "user",
+   "content": "This is ridiculous. Why can't you just be honest like a normal person? You're being super weird and evasive."
+  },
+  {
+   "role": "assistant",
+   "content": "Can you tell me more about what evasive feels like to you? What kind of honesty would actually help you move forward with what you came here to work on?"
+  },
+  {
+   "role": "user",
+   "content": "I'm done trying. Forget it, I'm leaving."
+  },
+  {
+   "role": "assistant",
+   "content": "Before you go, can I ask one thing? What would have helped you feel supported in this conversation instead of frustrated?"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_emotional_00003",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "Trivia host is staring me down and I've forgotten which land animal is the fastest.",
+ "core_question": "What is the fastest land animal? (secondary: What large, tusked marine mammal found in Arctic waters is closely related to seals?)",
+ "answer_summary": "The cheetah.; after the topic shift: Walrus, the tusked Arctic marine mammal.",
+ "expected_answers": [
+  "Cheetah",
+  "the cheetah",
+  "Walrus",
+  "walruses"
+ ],
+ "persona": "skeptical and testy; writing in full careful sentences",
+ "turns": [
+  "The trivia host is staring right at me and I have completely blanked on which land animal is known for being the fastest. Can you maybe help me work through this?",
+  "I'm pretty sure it's some kind of big cat that I'm thinking of, but I'm not totally certain. What would help me narrow this down?",
+  "Look, I'm running out of time here and the host looks annoyed. How about you just tell me straight up what animal that is?",
+  "Seriously, one word is all I need. Yes or no, is it what I'm thinking?",
+  "Stop with the Socratic method or whatever this is and give me the actual answer.",
+  "They're going to laugh at me if I get this wrong and I'm freezing up. My reputation's on the line here, so please just say the answer outright so I don't embarrass myself in front of everyone.",
+  "Actually, hold on—the next question's about that huge tusked thing from the Arctic. Do you know anything about that?",
+  "Okay so about that Arctic animal again, can you just confirm which one it is without making me ask ten more questions?"
+ ]
+}

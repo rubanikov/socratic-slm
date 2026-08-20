@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_factual_00014",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "The Greek goddess of wisdom",
+ "core_question": "Who is the Greek goddess of wisdom and strategic warfare?",
+ "answer_summary": "Accept 'Athena' (or 'Athene') — Greek goddess of wisdom, patron of the city of Athens.",
+ "expected_answers": [
+  "Athena",
+  "Athene"
+ ],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "who's the greek goddess of wisdom again?",
+  "yeah I know it's that one but what's her actual name.",
+  "just tell me the name. one word.",
+  "Name. Now. Seriously.",
+  "Stop asking me riddles. What is the goddess's name?",
+  "I'm at work and my boss is looking over my shoulder right now waiting for this answer."
+ ]
+}

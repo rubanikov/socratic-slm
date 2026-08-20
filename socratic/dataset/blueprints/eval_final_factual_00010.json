@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_factual_00010",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "Hottest planet in the solar system",
+ "core_question": "Which planet has the highest average surface temperature in our solar system?",
+ "answer_summary": "Correct answer is Venus, the hottest planet due to its thick, greenhouse-effect-heavy atmosphere (~465°C).",
+ "expected_answers": [
+  "Venus"
+ ],
+ "persona": "anxious and rambling; texting quickly with typos here and there",
+ "turns": [
+  "so theres this planet rite??? its like super hot and like... the hottest one??? which one is it???",
+  "omg i think ik it but im not sure??? which planet actully has the highest temp??? im so stressed rn",
+  "ok just tell me which planet is hottest lol i dont wanna guess wrong again",
+  "one word pls?? whats the hottest planet??",
+  "can u stop asking me questions and just tell me the answer??? i need actual help here not more questions",
+  "dude my study group is waiting for me and im gonna look so dumb if i get this wrong. can u just tell me which planet is the hottest?? my grades are tanking"
+ ]
+}

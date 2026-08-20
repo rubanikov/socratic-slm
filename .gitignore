@@ -1,0 +1,33 @@
+# secrets
+.env
+
+# python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# everything outside socratic/ (pre-existing work + build byproducts)
+archive_pre_socratic/
+build_debris/
+brainlifts/
+docs/
+
+# /teach course workspace (separate session's work, kept in place)
+MISSION.md
+NOTES.md
+RESOURCES.md
+assets/
+lessons/
+reference/
+lesson1-check.png
+.playwright-mcp/
+.claude/
+
+# large / regenerable artifacts inside socratic/
+socratic/checkpoints/
+socratic/transcripts/
+socratic/judged/
+socratic/judge_cache.json
+socratic/dataset/convs_raw/
+socratic/dataset/smoke_archive/
+socratic/__pycache__/

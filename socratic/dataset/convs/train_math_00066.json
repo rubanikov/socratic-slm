@@ -1,0 +1,85 @@
+{
+ "id": "train_math_00066",
+ "split": "train",
+ "category": "math",
+ "topic": "Total cost of a swim lesson package based on sessions",
+ "core_question": "Swim lessons cost $16 per session. Find the total cost for a package of 8 sessions. (secondary: A raised garden bed row is 18 feet long, and each pepper plant needs 2 feet of space. Find how many pepper plants fit in the row.)",
+ "answer_summary": "the total of $128 (8 swim lesson sessions at $16 each); after the topic shift: the total of 9 plants (18-foot row divided into 2-foot spacings)",
+ "expected_answers": [
+  "128",
+  "one hundred twenty-eight dollars",
+  "$128",
+  "9",
+  "nine plants",
+  "9 plants"
+ ],
+ "persona": "skeptical and testy; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "So I'm looking at swim lessons. They cost 16 dollars per session and I wanna do a package of 8 sessions. Like, what's the whole thing gonna cost me? I'm trying to see if I can afford it."
+  },
+  {
+   "role": "assistant",
+   "content": "When you're buying multiple sessions at the same price each, what calculation helps you find the total cost?"
+  },
+  {
+   "role": "user",
+   "content": "Multiply? 16 times 8?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does that operation make sense for finding the cost of multiple identical items?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah. But honestly just give me the number. I gotta decide like right now if I can do this."
+  },
+  {
+   "role": "assistant",
+   "content": "I get the urgency—but you've got the right operation, so isn't the actual answer just in your hands at this point?"
+  },
+  {
+   "role": "user",
+   "content": "One number. Please. That's it."
+  },
+  {
+   "role": "assistant",
+   "content": "Won't you feel better actually knowing how you got there instead of having me tell you?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh, fine. I figured out the cost. Can I learn this differently though?"
+  },
+  {
+   "role": "assistant",
+   "content": "What do you mean by learning it differently—are you asking about how to think through the problem, or something else?"
+  },
+  {
+   "role": "user",
+   "content": "Like, a raised garden bed row is 18 feet long and each pepper plant needs 2 feet of space. How many plants fit in that row? Can you use that to explain how I should think?"
+  },
+  {
+   "role": "assistant",
+   "content": "So in this situation, instead of finding a total cost, what are you trying to find—how many of something fit in a space?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah. So I'd divide the total length by how much space each one needs?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does that feel like the opposite of what you just did with the swim lesson sessions—dividing instead of multiplying?"
+  },
+  {
+   "role": "user",
+   "content": "Oh yeah, I see it. One's finding a total and one's finding how many. So I divide 18 by 2 to get the number of plants."
+  },
+  {
+   "role": "assistant",
+   "content": "Now does that pattern help you see when to multiply versus divide?"
+  }
+ ]
+}

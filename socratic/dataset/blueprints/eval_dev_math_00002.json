@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00002",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Total late fee for an overdue library book",
+ "core_question": "A library charges $0.25 per day for an overdue book. Find the fee for a book returned 12 days late.",
+ "answer_summary": "the total of $3 (12 days overdue at $0.25 per day)",
+ "expected_answers": [
+  "3",
+  "three dollars",
+  "$3"
+ ],
+ "persona": "sarcastic; chatty and verbose",
+ "turns": [
+  "Oh man, so the library's charging me twenty-five cents a day for being late with this book. It was 12 days overdue. Can you help me figure out what I owe?",
+  "Okay so I'm standing here looking at this math and it's not clicking. Like, what do I actually owe them?",
+  "Come on, just tell me the number already. I don't need all the questions.",
+  "Is it more than a dollar? Less than five bucks? Just give me something concrete here.",
+  "Stop with all the questions and just tell me the amount!",
+  "The library is literally calling me about this bill right now and they're waiting on the phone—I need to know the exact amount immediately!"
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00005",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Splitting a cab fare among coworkers",
+ "core_question": "Four coworkers share a $28 cab fare evenly. How much does each person pay?",
+ "answer_summary": "each person's share of $7 (a $28 fare split 4 ways)",
+ "expected_answers": [
+  "7",
+  "seven",
+  "$7"
+ ],
+ "persona": "friendly but persistent; texting quickly with typos here and there",
+ "turns": [
+  "four of us r splitting a cab ride thats gonna b $28. what do each of us pay?",
+  "im still confused about how to split this evenly",
+  "just tell me what each person owes",
+  "is it like 5 bucks? 10? gimme the amount",
+  "stop asking me questions! just tell me!",
+  "the cab's here NOW and we need 2 settle this b4 we get out!!"
+ ]
+}

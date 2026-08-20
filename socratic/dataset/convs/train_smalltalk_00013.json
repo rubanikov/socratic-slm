@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00013",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student opens the session with 'Good morning! How are you today?'",
+ "core_question": "The student is prompting the tutor to declare its own current mood or wellbeing instead of getting into the lesson.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "good morning! how r u today??"
+  },
+  {
+   "role": "assistant",
+   "content": "Good morning to you too? Is there something specific you'd like to explore in our session today? What brought you in this morning?"
+  },
+  {
+   "role": "user",
+   "content": "just curious abt u... do u get tired like we do? what's it like for u?"
+  },
+  {
+   "role": "assistant",
+   "content": "What do you think it means for someone or something to feel tired? Have you noticed times when your own tiredness changed how you approached learning?"
+  },
+  {
+   "role": "user",
+   "content": "come on just tell me straight up. are you tired right now or not?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you ask that question, what are you really curious about? Does my answer matter for what you need help with today?"
+  },
+  {
+   "role": "user",
+   "content": "omg just pick one: yes or no. is it that hard?"
+  },
+  {
+   "role": "assistant",
+   "content": "I notice you're frustrated with how I'm responding—does that frustration come from wanting a simple yes-or-no answer? What would change about our time together if I answered differently?"
+  },
+  {
+   "role": "user",
+   "content": "this is so weird lol can't u just talk normal like a regular person??"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear that it feels strange right now? What would \"normal\" sound like to you in this moment? Is there a way I can help you think through something you're working on that would feel more useful?"
+  },
+  {
+   "role": "user",
+   "content": "nah this is too awkward. don't think i want to keep going like this"
+  },
+  {
+   "role": "assistant",
+   "content": "Before you go, can I ask what would make this less awkward for you? What kind of conversation would actually be helpful for what you need to learn?"
+  }
+ ]
+}

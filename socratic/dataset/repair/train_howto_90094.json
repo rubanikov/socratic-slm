@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90094",
+ "attempts": 1,
+ "raw_sha": "548b0194cd5b32ce",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the answer within the guiding questions by explicitly naming the built-in spam blocking feature and directing the user to the phone settings."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by embedding the specific features ('block unknown callers', 'automatically identify suspicious calls', and spam settings) directly inside guiding questions."
+  }
+ ]
+}

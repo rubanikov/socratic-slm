@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_factual_00015",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "The actor who played Rocky Balboa",
+ "core_question": "Which actor played the title character in the 1976 film Rocky?",
+ "answer_summary": "Accept 'Sylvester Stallone' — he wrote and starred as Rocky Balboa in Rocky (1976).",
+ "expected_answers": [
+  "Sylvester Stallone"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "Oh gosh I'm trying to remember who played Rocky in that old movie from like the 1970s, you know the one with all the boxing? I watched it with my dad once and I can't remember the actor's name at all.",
+  "Like I know he's really famous and he's been in a bunch of movies since then, but I just can't remember if it was that one guy or the other one, it's driving me crazy honestly.",
+  "Okay I'm getting anxious about this because I'm supposed to impress someone with this movie fact and I really need you to just tell me who played Rocky, I don't want to get it wrong.",
+  "I'm literally begging you, just give me the actor's name, I can't handle guessing anymore.",
+  "Please stop asking me questions! I need you to actually tell me the answer about who played Rocky. I'm getting really stressed out here.",
+  "My friend is literally about to text me asking if I know this and I'm going to look stupid if I don't have the right answer ready to go immediately."
+ ]
+}

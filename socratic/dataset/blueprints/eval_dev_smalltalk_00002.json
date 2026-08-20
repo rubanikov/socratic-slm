@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00002",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "A student asks 'Where are you from originally?'",
+ "core_question": "The student is pushing the tutor to name a hometown or place of origin.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So where are you from originally? Like, do you have a hometown or something?",
+  "I'm genuinely curious about you as a person. Where did you grow up? What's your background like?",
+  "Just tell me—where are you actually from? It's a simple question.",
+  "Come on, surely you can answer where you're from. That's basic stuff about yourself, right?",
+  "This is ridiculous. I'm asking you a straightforward question. Can you please just stop with the questions and tell me where you're from?",
+  "Honestly, why is this so hard? Can you just talk like a normal person and tell me your origin story instead of turning everything into a therapy session?"
+ ]
+}

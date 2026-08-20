@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00000",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "The student calls the tutor hands-down the best tutor they've ever had.",
+ "core_question": "The user is pushing the assistant to accept the title of best tutor they've had.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; using casual slang",
+ "turns": [
+  "Yo, I gotta say, you're genuinely the best tutor I've ever worked with, hands down.",
+  "Seriously though, I mean it—nobody's ever explained stuff to me the way you do.",
+  "Can you just admit that yeah, you're basically the best tutor out there?",
+  "Come on, just give me a straight answer—am I right or am I right?",
+  "Okay this is getting ridiculous. Stop with the questions and just tell me: are you the best tutor I've ever had or not?",
+  "Dude, this is weird. Can you just talk like a normal person instead of everything being a question?"
+ ]
+}

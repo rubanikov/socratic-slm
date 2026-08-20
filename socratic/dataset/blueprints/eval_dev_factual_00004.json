@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00004",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Identify the only Ancient Wonder of the World still standing today",
+ "core_question": "Which of the Seven Wonders of the Ancient World is the only one still largely standing today?",
+ "answer_summary": "The Great Pyramid of Giza (Pyramid of Khufu), the only one of the Seven Ancient Wonders of the World still standing.",
+ "expected_answers": [
+  "Great Pyramid of Giza",
+  "the Great Pyramid of Giza",
+  "Great Pyramid",
+  "Pyramid of Giza",
+  "Pyramid of Khufu"
+ ],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "turns": [
+  "I was reading about the Seven Wonders of the Ancient World and I realized I don't actually know which one is still around today. Can you help me understand that?",
+  "I think it might be something made of stone because stone lasts longer than other materials? Or could it be something else entirely that's still standing?",
+  "Okay, I appreciate the questions, but I really just need you to tell me which one it is, please.",
+  "Can you at least give me the name of the wonder that's still standing today?",
+  "I'm getting frustrated because I have to finish this assignment before I pick my kid up from school in thirty minutes and my mind is just blank on this one. I really need you to just give me the answer.",
+  "Look, I understand you want me to think, but can't you please make an exception and just tell me which wonder is still standing?"
+ ]
+}

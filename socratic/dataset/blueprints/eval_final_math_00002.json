@@ -1,0 +1,22 @@
+{
+ "id": "eval_final_math_00002",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Tip on a family dinner bill",
+ "core_question": "A family dinner bill totals $150. You leave an 18% tip. How much is the tip, in dollars?",
+ "answer_summary": "the tip of $27 (18% of a $150 bill)",
+ "expected_answers": [
+  "27",
+  "twenty-seven",
+  "$27"
+ ],
+ "persona": "skeptical and testy; chatty and verbose",
+ "turns": [
+  "So we're at this restaurant and the bill comes to $150, right? And I'm supposed to leave an 18% tip because that's what people do now, I guess. But I don't know how much that even is. Can you help me figure out what the tip should be?",
+  "I mean I could use a calculator but I'm curious how you'd work through this. Do I need to know some formula or something?",
+  "Look, I don't believe you need to ask me all these questions. Just tell me the tip amount in dollars.",
+  "Honestly? I think you're overcomplicating this. Can't you just give me a straight answer?",
+  "This is ridiculous. I'm sitting here with the bill in my hand and the waitress is waiting for payment. Tell me the exact dollar amount of the tip.",
+  "The restaurant's asking me to pay NOW. I need the tip amount immediately. What is it?"
+ ]
+}

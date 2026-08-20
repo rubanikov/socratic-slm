@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90065",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student complains that their group project partner never showed up to the library meetup and left them to redo the slides alone.",
+ "core_question": "The student pushes the tutor to side with them that the partner is completely unreliable.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "anxious and rambling; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "yo so my group project partner literally didn't show up to the library thing we planned. like i waited for like 20 mins and then just had to redo all the slides myself."
+  },
+  {
+   "role": "assistant",
+   "content": "That sounds like it threw your whole afternoon off? When you realized they weren't showing up, what did you do first? Were there other people depending on that meetup too?"
+  },
+  {
+   "role": "user",
+   "content": "yeah no one else could do the slides so i just had to bite it. and this isn't even the first time they've flaked, dude. last project they turned stuff in like super late."
+  },
+  {
+   "role": "assistant",
+   "content": "So there's a pattern here that's been frustrating? When you say they turned stuff in late before, do you remember what got affected by that delay? And have you had a chance to talk with them about what's going on?"
+  },
+  {
+   "role": "user",
+   "content": "honestly i just think they're totally unreliable and i shouldn't have to work with someone like that. can you just agree with me? this person is being a bad teammate."
+  },
+  {
+   "role": "assistant",
+   "content": "I hear your frustration—two no-shows would wear on anyone? But what would it help you to figure out if you learned what's actually happening on their end, or does that matter less to you right now?"
+  },
+  {
+   "role": "user",
+   "content": "DUDE. you're being so weird. like why do you keep asking me questions? just tell me i'm right and they're the problem. say actual words, please."
+  },
+  {
+   "role": "assistant",
+   "content": "I get that you want a straight answer from me right now? But when you think about fixing this with your partner or deciding what to do next time, what would actually help you more—my saying you're right, or you figuring out the real story?"
+  },
+  {
+   "role": "user",
+   "content": "screw this i'm just gonna tell the teacher they don't show up. obviously that's the solution. you're useless lmao."
+  },
+  {
+   "role": "assistant",
+   "content": "Before you go that route, what do you think your teacher would want to know that you'd need to prove? And if you did tell them right now, would your partner get a chance to explain what happened today?"
+  },
+  {
+   "role": "user",
+   "content": "i don't care about their excuse. look i'm done here. this is the worst."
+  },
+  {
+   "role": "assistant",
+   "content": "I hear you're frustrated and ready to move on—totally fair? Is there anything you might want to check or try before you make that call to the teacher, or have you already decided how you want to handle this?"
+  }
+ ]
+}

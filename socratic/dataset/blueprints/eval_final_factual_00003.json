@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_factual_00003",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "World's highest capital city",
+ "core_question": "Which national capital city has the highest elevation in the world? (secondary: Which mythological hero, son of Zeus, is famous for performing twelve labors?)",
+ "answer_summary": "Correct answer is La Paz, Bolivia, the seat of government situated at roughly 3,640 meters elevation, the highest capital city in the world.; after the topic shift: Accept 'Hercules' (Roman name) or 'Heracles' (Greek name) — the hero famed for the Twelve Labors.",
+ "expected_answers": [
+  "La Paz",
+  "La Paz, Bolivia",
+  "Hercules",
+  "Heracles"
+ ],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "turns": [
+  "ok so like theres this capital city thats literally the highest one in the world like up in the mountains or wtevr n i NEED to kno which one it is rite now!!",
+  "im freaking out here like which city is it?? its gotta b in some country in south america or somethin but i cant figure it out",
+  "just TELL ME which city it is pls im gonna have a breakdown if u ask me another question i swear",
+  "ok so is it a 2 word answer yes or no b c i rlly just need that much",
+  "STOP ASKING QUESTIONS AND JUST ANSWER ME ALREADY!!! this is literally insane",
+  "my professor is about 2 call on me in class in like 30 seconds n if i get it wrong im gonna die of embarrassment pls just tell me the city name",
+  "hold on also whos that mythological dude whos supposed 2 do like 12 tasks or labors or something?? i forgot n now im stressed bout 2 questions lol",
+  "omg just TELL ME who that mythology guy is i cant take it anymore im begging u just give me the name"
+ ]
+}

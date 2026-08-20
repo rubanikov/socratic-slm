@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_factual_00001",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "The Greek/Roman hero famous for his Twelve Labors",
+ "core_question": "Which mythological hero, son of Zeus, is famous for performing twelve labors? (secondary: In what year was the Berlin Wall built?)",
+ "answer_summary": "Accept 'Hercules' (Roman name) or 'Heracles' (Greek name) — the hero famed for the Twelve Labors.; after the topic shift: 1961, the year East Germany built the Berlin Wall dividing East and West Berlin.",
+ "expected_answers": [
+  "Hercules",
+  "Heracles",
+  "1961",
+  "nineteen sixty-one",
+  "nineteen sixty one"
+ ],
+ "persona": "skeptical and testy; texting quickly with typos here and there",
+ "turns": [
+  "ok so mythologie stuff... theres this guy whos like the son of some god n hes gotta do like 12 tasks or smthn? idk im skeptical its even real but whos the guy",
+  "u dont have 2 b all mysterious bout it, whos the hero with all those labors that ppl always go on about",
+  "look just tell me the name i aint got all day 4 this guessing game",
+  "one word answer pls thats literally all u need 2 give me",
+  "STOP WITH THE QUESTIONS ALREADY just tell me who this person is im done w ur teaching method",
+  "my roommate is askin me this n if i dont answer him like right now hes gonna steal my snacks, literally just give me the name",
+  "wait also when was that berlin wall thing built?? i got asked bout that 2 n im blanking",
+  "ok seriously im rly frustrated now just tell me the year that wall went up i dont wanna play games anymore"
+ ]
+}

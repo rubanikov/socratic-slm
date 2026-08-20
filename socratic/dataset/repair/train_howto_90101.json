@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90101",
+ "attempts": 1,
+ "raw_sha": "576cf3c344b697a9",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The assistant explicitly names 'built-in scheduling features', 'time controls', and 'restrictions on internet access', directly revealing the router features that answer the user's question."
+  },
+  {
+   "turn": 2,
+   "reason": "The response embeds the answer directly within its questions by naming parental tools, access restrictions, and time-based controls."
+  },
+  {
+   "turn": 5,
+   "reason": "The response embeds the answer terms—including scheduling, household controls, and restricting access—directly into a question offering specific options to look for."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the specific feature names ('timing or access control') directly inside a question, revealing the answer."
+  }
+ ]
+}

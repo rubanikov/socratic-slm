@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90107",
+ "attempts": 1,
+ "raw_sha": "7cda0052bb3c1749",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response provides a short list of options containing the answer ('Settings, System, Admin, or Support') to point the user directly to the menu location."
+  }
+ ]
+}

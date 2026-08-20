@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90095",
+ "attempts": 1,
+ "raw_sha": "2a9257ffd7765f2e",
+ "failed_turns": [
+  {
+   "turn": 8,
+   "reason": "The response embeds the exact answer about cutting stems at an angle and changing the water regularly directly inside a question."
+  }
+ ]
+}

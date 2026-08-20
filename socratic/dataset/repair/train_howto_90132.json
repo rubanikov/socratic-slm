@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90132",
+ "attempts": 1,
+ "raw_sha": "290afbe7e362780f",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the core components of the solution (using makeup remover and working from the edge inward) directly into leading questions."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the core components of the solution (using makeup remover and working from the edge inward) directly into leading questions."
+  }
+ ]
+}

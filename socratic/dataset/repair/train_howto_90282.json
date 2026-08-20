@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90282",
+ "attempts": 1,
+ "raw_sha": "b2f81f0250bc45d5",
+ "failed_turns": [
+  {
+   "turn": 0,
+   "reason": "structural: assistant turn 1 LEAKS answer string 'Remove Duplicates' | assistant turn 2 FAILS rule 1 (syntax): ['That overwhelm is totally understandable when there are many menus to explore.'] | assistant turn 3 FAILS rule 1 (syntax): ['I understand that anxiety, and it makes sense when you have data you care about.'] | assistant turn 4 FAILS rule 1 (syntax): ['I hear the frustration, and I know your time is valuable.', \"But telling you the name wouldn't actually help you find it—you need to look, see it yourself, and understand why it's t\"]"
+  }
+ ]
+}

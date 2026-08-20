@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90019",
+ "attempts": 1,
+ "raw_sha": "346f0f41bbca0fc9",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the specific causes and components (gunked up mechanism, rod connection/misalignment) embedded within a short list of diagnostic options."
+  },
+  {
+   "turn": 4,
+   "reason": "The response explicitly mentions both cleaning off the gunk and adjusting the rod and clevis strip connection, directly revealing the core solution."
+  }
+ ]
+}

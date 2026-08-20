@@ -1,0 +1,11 @@
+{
+ "id": "test_meta_00001",
+ "attempts": 2,
+ "raw_sha": "89f8c1f915609f91",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by specifically describing the chemical process of rust/iron oxidation occurring across the planet's surface."
+  }
+ ]
+}

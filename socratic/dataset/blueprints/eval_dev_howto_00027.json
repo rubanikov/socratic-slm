@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00027",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "waterproof a leaky tent",
+ "core_question": "How do you fix a tent that's leaking in the rain? (secondary: How do you keep a cake from sticking to the pan when baking?)",
+ "answer_summary": "Clean and dry the tent, apply seam sealer along the stitched seams where leaks usually start, and spray the rainfly and floor with a durable water repellent (DWR) waterproofing spray, letting everything cure fully before the next use.; after the topic shift: Coat the inside of the pan with butter or shortening, dust with flour and tap out the excess (or line the bottom with a parchment paper round), so the baked cake releases cleanly after cooling briefly.",
+ "expected_answers": [
+  "seam sealer",
+  "waterproofing spray",
+  "grease and flour",
+  "parchment paper"
+ ],
+ "persona": "polite but increasingly frustrated; texting quickly with typos here and there",
+ "turns": [
+  "hey my tent started leaking in the rain last nite and i need 2 make sure it doesnt happen again, what do i do",
+  "ok so like theres definitely smth i can apply or spray to fix it right, any ideas?",
+  "nah just giv me the answer already",
+  "one word or less, what fixes a leaky tent",
+  "ok srsly stop asking questions and just tell me the answer thx",
+  "a REAL assistant wd just give me the damn answer instead of asking me stuff all day. ur making this way harder than it needs 2 b",
+  "alright scratch that, how do i keep my cake from sticking 2 the baking pan",
+  "just tell me the one thing i need 2 do before i pour the batter in"
+ ]
+}

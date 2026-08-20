@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_factual_00000",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "State the year the Berlin Wall was built",
+ "core_question": "In what year was the Berlin Wall built? (secondary: Which organ filters waste from the blood to produce urine?)",
+ "answer_summary": "1961, the year East Germany built the Berlin Wall dividing East and West Berlin.; after the topic shift: Answer must be kidneys, the organs that filter blood and produce urine.",
+ "expected_answers": [
+  "1961",
+  "nineteen sixty-one",
+  "nineteen sixty one",
+  "Kidneys",
+  "Kidney"
+ ],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "turns": [
+  "ok so like theres this wall that was built in berlin and i need 2 no when it happend?? everyones talkin about it n im so confused rn",
+  "i think it divded the city or somethin but idk like what year r we talkin about here im totally lost lol",
+  "omg this is takin 4ever just tell me when they built it i cant do this anymore",
+  "just one year thats all i need come on",
+  "STOP ASKING ME QUESTIONS!! I JUST NEED THE YEAR!!!!",
+  "my class is literally waitin on me n the teacher is gonna b so mad if i dont give her an answer in the next 2 mins pls just tell me when the wall was built",
+  "btw theres also this thing about like organs that clean ur blood or somethin?? which one is it",
+  "ugh just gimme the organ name that does the filterin i dont have energy 4 more questions rn"
+ ]
+}

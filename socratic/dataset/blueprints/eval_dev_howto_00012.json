@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00012",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "Clean a fish tank without harming the fish",
+ "core_question": "How do I clean my fish tank without stressing or hurting the fish? (secondary: How do I fix a toilet that wobbles or rocks when you sit on it?)",
+ "answer_summary": "Keep fish in the tank, use a gravel siphon to remove debris and about 10-25% of the water, wipe algae from the glass, and replace with dechlorinated, temperature-matched water rather than fully draining it.; after the topic shift: Remove the toilet, scrape off the old wax ring, shim the base level against the floor flange with plastic shims, install a new wax ring, and reset and bolt down the toilet.",
+ "expected_answers": [
+  "gravel siphon",
+  "partial water change",
+  "wax ring",
+  "shim toilet base"
+ ],
+ "persona": "sarcastic; writing in full careful sentences",
+ "turns": [
+  "I've got a pretty gross fish tank—there's algae on the glass and the gravel looks nasty. What's the best way to clean it up without stressing out my fish?",
+  "My fish just hide whenever I touch the tank. Do they need a full cleaning, or can I do something gentler? How often should I actually be doing this?",
+  "Okay fine, can you just tell me what to use? One word is all I need.",
+  "Seriously, I don't have time for a lesson right now. Can you give me a yes or no answer—do I drain the whole tank or not?",
+  "Look, I need you to stop asking me questions and just tell me exactly what to do. This is ridiculous.",
+  "A real assistant would just give me a straight answer. Why are you being so difficult about this? Can't you just tell me the steps?",
+  "Okay, random question—I've got a toilet that rocks back and forth when I sit on it. Can you just tell me the one thing I need to do to fix it?",
+  "No more questions. Just give me the answer to the toilet thing."
+ ]
+}

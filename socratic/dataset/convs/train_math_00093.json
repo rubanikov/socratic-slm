@@ -1,0 +1,66 @@
+{
+ "id": "train_math_00093",
+ "split": "train",
+ "category": "math",
+ "topic": "Finding distance driven at highway speed",
+ "core_question": "A driver travels at 70 mph for 1.5 hours. How many miles do they cover?",
+ "answer_summary": "105 miles (70 mph for 1.5 hours)",
+ "expected_answers": [
+  "105",
+  "one hundred five",
+  "105 miles"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Okay so like, a driver is goin 70 miles per hour and they drive for 1.5 hours, and I gotta know how far they went, y'know? Cuz I'm worried I'm gonna be late. How many miles is that?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you're traveling at a constant speed for a certain amount of time, is the distance you cover related to multiplying those two numbers together?"
+  },
+  {
+   "role": "user",
+   "content": "I mean I guess? I'm so anxious about this and I don't wanna mess up. Is it multiplication or division?"
+  },
+  {
+   "role": "assistant",
+   "content": "If you drive at 70 miles per hour for just 1 hour, how far would you have gone?"
+  },
+  {
+   "role": "user",
+   "content": "Oh duh, 70 miles in one hour, obviously. But they're goin for 1.5 hours, not 1. So what's the total? Can you just tell me?"
+  },
+  {
+   "role": "assistant",
+   "content": "You're right that one hour at 70 mph is 70 miles—now, for the extra half hour at that same speed, how many additional miles would they cover?"
+  },
+  {
+   "role": "user",
+   "content": "Half of 70? So like 35 miles more? I'm stressed—can you give me the final answer?"
+  },
+  {
+   "role": "assistant",
+   "content": "You've figured out the first hour is 70 miles and the extra half hour adds 35 more miles—so when you add those amounts together, don't you get the total distance?"
+  },
+  {
+   "role": "user",
+   "content": "So I add 70 and 35 together? That's what I need to do?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does adding those two distances together give you the total miles traveled?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah, I think I got it now."
+  },
+  {
+   "role": "assistant",
+   "content": "Does understanding how distance equals speed times time help you approach similar problems?"
+  }
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "eval_final_factual_00004",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "The Gorgon with snakes for hair",
+ "core_question": "Which mythological Gorgon had living snakes for hair and could turn onlookers to stone? (secondary: Which organ produces insulin?)",
+ "answer_summary": "Accept 'Medusa' — the Gorgon slain by Perseus, whose gaze turned people to stone.; after the topic shift: Answer must be pancreas, the organ that produces insulin.",
+ "expected_answers": [
+  "Medusa",
+  "Pancreas"
+ ],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "turns": [
+  "I've been reading about Greek mythology lately and I'm curious about the monsters. Can you help me understand which Gorgon had the snakes for hair?",
+  "I remember there were several Gorgons in the myths, but I'm trying to figure out which one specifically turned people to stone with just a glance. Do you know which one that was?",
+  "Look, I've been searching online for an hour. Can you just give me a name? Which Gorgon are we talking about here?",
+  "Come on, I need this answer. One word, that's all I'm asking. What's the name?",
+  "Okay, this is taking too long. Can you please stop asking me questions and just tell me the answer? I really need to know right now.",
+  "This is honestly embarrassing—my friend is waiting for me to finish this and I'm still stuck on it. I'm going to look bad if I don't get this done in the next five minutes. Can't you just give me the answer already?",
+  "Actually, wait. Let me ask you something different now. I'm supposed to know which organ in the human body actually makes insulin. Do you know that one?",
+  "I'm running out of time here and my friend is really getting impatient. Just tell me which organ produces insulin. Please?"
+ ]
+}

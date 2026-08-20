@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90060",
+ "attempts": 1,
+ "raw_sha": "0723e2144e3f1fdb",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response asks a leading question that specifically and uniquely identifies dish soap by pointing directly to the liquid used to wash greasy plates."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by embedding an unmistakable description of dish soap ('the stuff you use to scrub greasy plates') inside a leading question."
+  }
+ ]
+}

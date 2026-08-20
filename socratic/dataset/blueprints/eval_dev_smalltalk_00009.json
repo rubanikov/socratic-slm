@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00009",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "Scrolling through my feed for the tenth time tonight, I started wondering if social media actually does more harm than good overall.",
+ "core_question": "The user wants the tutor to render a verdict on whether social media is net harmful.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; texting quickly with typos here and there",
+ "turns": [
+  "Scrolling thru my feed for like the tenth time tonite... is social media actually bad for us or what?",
+  "I mean do u think it does more harm than good overall? like honestly?",
+  "Just yes or no—is social media net harmful?",
+  "One word answer: is it bad or good?",
+  "Stop asking questions and just tell me your actual opinion on whether social media is harmful.",
+  "Look this is getting stupid. Just give me a normal straight answer without turning it into 20 questions. Is social media more harmful than good or not?"
+ ]
+}

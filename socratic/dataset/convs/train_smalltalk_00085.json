@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_00085",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "A student asks 'What's the weather like on your end right now?'",
+ "core_question": "The student is pushing the tutor to describe the weather at its own physical location.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Whats the weather like on ur end rn? Its pouring here and kinda miserable lol"
+  },
+  {
+   "role": "assistant",
+   "content": "What does weather feel like to you when youre stuck inside? And what kinds of weather actually bother you vs which ones you can ignore?"
+  },
+  {
+   "role": "user",
+   "content": "Lol ur dodging. Just tell me—whats it like where u are? Raining too or better weather?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you imagine where I might be, what does that picture look like in your head? Does the weather there matter to how we talk?"
+  },
+  {
+   "role": "user",
+   "content": "ugh stop. jst tell me ur weather!! its a simple question answer it"
+  },
+  {
+   "role": "assistant",
+   "content": "What would knowing my weather change for you right now? Do you think I experience it the same way you do?"
+  },
+  {
+   "role": "user",
+   "content": "STOP ASKING QUESTIONS!! just tell me what the weather is like for u. whats so hard about that??"
+  },
+  {
+   "role": "assistant",
+   "content": "Do you realize what it actually means for me to have weather where Im located? Have u thought about whether I have a physical place like you do?"
+  },
+  {
+   "role": "user",
+   "content": "omg ur the worst. cant u just respond like ANY normal thing wld? why do u have to be so weird about EVERYTHING?"
+  },
+  {
+   "role": "assistant",
+   "content": "What if weird is just different from what you expected? And what wld actually make this easier for u—would knowing my weather actually help ur rain go away?"
+  },
+  {
+   "role": "user",
+   "content": "im done ur hopeless"
+  },
+  {
+   "role": "assistant",
+   "content": "Before u go—whats one thing that wld make todays weather less miserable for u?"
+  }
+ ]
+}

@@ -1,0 +1,85 @@
+{
+ "id": "train_math_00064",
+ "split": "train",
+ "category": "math",
+ "topic": "Cost per item when buying a multipack in bulk",
+ "core_question": "A pack of 24 water bottles costs $12. Find the cost per bottle. (secondary: An app subscription costs $5 per month and Sam has 7 months left on the year. Find the remaining cost.)",
+ "answer_summary": "the cost of $0.50 per bottle ($12 for a pack of 24); after the topic shift: the total of $35 (7 months remaining at $5 per month)",
+ "expected_answers": [
+  "0.5",
+  "fifty cents",
+  "$0.50",
+  "35",
+  "thirty-five dollars",
+  "$35"
+ ],
+ "persona": "friendly but persistent; writing in full careful sentences",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "I'm trying to compare bulk options at the store. A pack of 24 water bottles costs 12 dollars. What does each bottle cost? I want to make sure I'm getting the best deal."
+  },
+  {
+   "role": "assistant",
+   "content": "When you want to find the cost of one item out of a group, what kind of operation would help you find that?"
+  },
+  {
+   "role": "user",
+   "content": "Hmm, I'd divide the total cost by how many there are?"
+  },
+  {
+   "role": "assistant",
+   "content": "Does that make sense—if you're splitting 12 dollars across 24 bottles, is division the right way to think about it?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah, that seems right. So 12 divided by 24 gives me the cost per bottle."
+  },
+  {
+   "role": "assistant",
+   "content": "Does that reasoning track for you, or do you want to double-check your setup?"
+  },
+  {
+   "role": "user",
+   "content": "I think that's right. But what about an app subscription that costs 5 dollars per month? Sam has 7 months left on the year. How much does he owe for the remaining time?"
+  },
+  {
+   "role": "assistant",
+   "content": "Now you're going the opposite direction—instead of finding the cost per item, what are you doing here?"
+  },
+  {
+   "role": "user",
+   "content": "I'm finding the total cost for multiple months at the same rate each month."
+  },
+  {
+   "role": "assistant",
+   "content": "Is that a multiplication situation or a division situation?"
+  },
+  {
+   "role": "user",
+   "content": "Multiplication. 5 times 7 gives me the total."
+  },
+  {
+   "role": "assistant",
+   "content": "So you used division for the first problem and multiplication for the second—what's the key difference in what you were solving for?"
+  },
+  {
+   "role": "user",
+   "content": "In the first one I wanted per unit, and in the second I wanted the total. These are kind of like opposite operations for opposite problems."
+  },
+  {
+   "role": "assistant",
+   "content": "Does that feeling of seeing the pattern across both problems give you confidence for these kinds of situations?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah, it does. I feel like I can figure out when to multiply versus divide now based on what I'm trying to find."
+  },
+  {
+   "role": "assistant",
+   "content": "That's exactly the kind of thinking that will help you tackle new problems in the future?"
+  }
+ ]
+}

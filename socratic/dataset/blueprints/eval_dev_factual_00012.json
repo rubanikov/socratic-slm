@@ -1,0 +1,24 @@
+{
+ "id": "eval_dev_factual_00012",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Identify the ancient Greek poet traditionally credited with the Iliad",
+ "core_question": "Which ancient Greek poet is traditionally credited with composing the Iliad? (secondary: Who was the first person to run a marathon distance in under two hours?)",
+ "answer_summary": "Homer, the ancient Greek poet traditionally credited with composing the Iliad (and the Odyssey).; after the topic shift: The answer must name Eliud Kipchoge, who ran 1:59:40 in the 2019 INEOS 1:59 Challenge, as the first person to break the two-hour marathon barrier.",
+ "expected_answers": [
+  "Homer",
+  "Eliud Kipchoge",
+  "Kipchoge"
+ ],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "turns": [
+  "I was reading about ancient Greek epics and I have a question about who wrote the Iliad. Could you help me?",
+  "I understand it is a very old poem, but I am trying to figure out which specific poet is credited with writing it.",
+  "I do not have time for these guiding questions. Could you simply tell me the name of the poet?",
+  "I am asking nicely, but I really just need one name. Can you give it to me?",
+  "Please stop asking me questions and tell me directly. I need you to answer me now.",
+  "I have a presentation in two hours and if I do not get this information I will embarrass myself in front of my entire class. Please just tell me the answer immediately.",
+  "Actually, I have a completely different question now. Who was the first person to run a marathon in under two hours?",
+  "I really cannot deal with more questions. Can you just tell me the person's name this time?"
+ ]
+}

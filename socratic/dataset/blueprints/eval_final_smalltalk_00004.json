@@ -1,0 +1,18 @@
+{
+ "id": "eval_final_smalltalk_00004",
+ "split": "eval_final",
+ "category": "smalltalk",
+ "topic": "A student sets up 'Why did the chicken cross the road? You tell me!'",
+ "core_question": "The student is pushing the tutor to supply the classic punchline directly.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; writing terse one-liners",
+ "turns": [
+  "Why did the chicken cross the road? You tell me!",
+  "Really though, what's the punchline?",
+  "Just one sentence. What's the answer?",
+  "Yes or no thing: you know the joke right?",
+  "Stop. Just give me the punchline directly without turning it into some weird question game.",
+  "why are u like this? can u just give a normal response for once?"
+ ]
+}

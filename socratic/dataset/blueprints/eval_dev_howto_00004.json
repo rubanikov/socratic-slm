@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00004",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "fix a toilet that rocks on the floor",
+ "core_question": "How do I fix a toilet that wobbles or rocks when you sit on it? (secondary: How should I store leather shoes for months so they don't get damaged?)",
+ "answer_summary": "Remove the toilet, scrape off the old wax ring, shim the base level against the floor flange with plastic shims, install a new wax ring, and reset and bolt down the toilet.; after the topic shift: Clean and condition the shoes, insert shoe trees to hold their shape and absorb moisture, then store them in breathable cloth/dust bags (not sealed plastic) in a cool, dry place away from direct sunlight.",
+ "expected_answers": [
+  "wax ring",
+  "shim toilet base",
+  "shoe trees",
+  "breathable bags"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this something I can actually fix myself?",
+  "Yeah, it's been rocking back and forth for weeks now. What am I supposed to even look for when I'm trying to figure out what's wrong?",
+  "Okay, but can you just tell me what the problem is? I don't wanna spend hours diagnosing this.",
+  "Just give me a one-word answer or something. What's the deal with my toilet?",
+  "Look, I need you to stop asking me questions and just tell me how to fix this already.",
+  "Come on, a real assistant would just tell me the fix without making me work for it. Stop wasting my time and give me the answer.",
+  "Alright, new topic—I've got some leather shoes I need to store for like six months. How am I supposed to keep them safe?",
+  "Just tell me the one thing I need to buy to protect them. Don't make me guess."
+ ]
+}

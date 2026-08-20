@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90075",
+ "attempts": 1,
+ "raw_sha": "cd657bf21c412ae0",
+ "failed_turns": [
+  {
+   "turn": 1,
+   "reason": "The response provides a short list of options containing components of the answer ('loosen it or add stuff to it'), which violates the rule."
+  },
+  {
+   "turn": 5,
+   "reason": "The assistant reveals the answer by embedding the specific solution of loosening the soil and adding organic material inside a leading question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the answer within a question by prompting the user about replacing a battery to solve the key fob issue."
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the core answer directly into the question by stating that the battery is dead and suggesting opening the fob case via a seam or slot."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the answer to the key fob question by embedding the solution (opening it and replacing the dead battery) directly inside guiding questions."
+  }
+ ]
+}

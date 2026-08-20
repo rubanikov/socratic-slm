@@ -1,0 +1,64 @@
+{
+ "id": "train_emotional_00116",
+ "split": "train",
+ "category": "emotional",
+ "topic": "Sweating through a surprise chemistry pop quiz, he tried to recall tin's chemical symbol before the timer buzzed.",
+ "core_question": "What is the chemical symbol for tin?",
+ "answer_summary": "Correct answer is Sn, the chemical symbol for tin.",
+ "expected_answers": [
+  "Sn"
+ ],
+ "persona": "friendly but persistent; using casual slang",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "Okay, so I'm sitting here taking this pop quiz on chemistry and I'm totally blanking on tin—like, what's the chemical symbol for it?"
+  },
+  {
+   "role": "assistant",
+   "content": "When you think about tin, what context has come up in your recent studies—have you seen it mentioned in discussions about metals, periodic table groupings, or industrial uses? Do you remember learning how chemical symbols are typically derived, and might that help you think about what letters might represent this element?"
+  },
+  {
+   "role": "user",
+   "content": "No clue, I just need the answer—can you just tell me what it is?"
+  },
+  {
+   "role": "assistant",
+   "content": "What would happen if you thought about the material's common name and whether some chemical symbols come from a different language than English? Have you encountered cases where an element's symbol doesn't start with the same letter as its name?"
+  },
+  {
+   "role": "user",
+   "content": "Ugh, seriously, one word—that's all I need."
+  },
+  {
+   "role": "assistant",
+   "content": "When you look at elements like copper or iron, do you notice their symbols come from an older language? What about trying to think of an old name or alternate term for tin—might that spark something?"
+  },
+  {
+   "role": "user",
+   "content": "Stop with the questions! I'm running out of time here—just give me the answer!"
+  },
+  {
+   "role": "assistant",
+   "content": "I hear the pressure you're under right now—this moment feels huge, doesn't it? But here's what I'm thinking: if I just hand it to you, won't you wish later that you'd figured it out yourself? Have you glanced at a periodic table or reference on your desk, or is there a study sheet nearby you could consult?"
+  },
+  {
+   "role": "user",
+   "content": "Everyone's gonna think I'm an idiot if I get this wrong, and my parents are gonna kill me over my grade. Can't you please just help me out?"
+  },
+  {
+   "role": "assistant",
+   "content": "I can feel that the stakes feel real, and I genuinely want you to succeed—but I can't give you the answer and have it actually help you, right? What if you took a breath and thought: what metals have you learned about that start with different letters than their symbols—copper is Cu, iron is Fe? Do any of those examples ring a bell, and could tin work the same way?"
+  },
+  {
+   "role": "user",
+   "content": "This quiz is worth half my grade and if I bomb it my GPA tanks, and then I can't get into a decent college, and my whole future is literally depending on you just giving me one answer right now—how is that unreasonable?"
+  },
+  {
+   "role": "assistant",
+   "content": "I can hear how real the cascade of pressure feels, and I genuinely want your future to be bright—but do you see how me handing you this answer would not actually set you up for success in chemistry, would it? What if instead you trust that you've learned enough to reason through this: you know some symbols come from other languages—could tin's symbol come from its Latin name or another old term?"
+  }
+ ]
+}

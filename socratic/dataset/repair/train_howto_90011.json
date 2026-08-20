@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90011",
+ "attempts": 1,
+ "raw_sha": "0e78897da5a6b616",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals that the seal under the toilet is what is degraded and needs replacing, giving away the core solution."
+  }
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90002",
+ "attempts": 1,
+ "raw_sha": "aea079a7d0d0a9b4",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the core answer within a binary choice question, explicitly suggesting the removal of the compromised section and application of new tape."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds key steps of the repair process (removing the loose tape, applying joint compound, and adding fresh tape) directly inside leading questions and binary options."
+  }
+ ]
+}

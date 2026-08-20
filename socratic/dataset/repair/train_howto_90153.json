@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90153",
+ "attempts": 1,
+ "raw_sha": "53c4574dc5d46636",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds the answer within the question by specifically pointing out the wood or metal wedge-shaped object located in the gap at the top of the handle."
+  },
+  {
+   "turn": 3,
+   "reason": "The assistant embedded the exact solution into a leading question by explicitly describing adding a wedge perpendicular to the existing one."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by directly mentioning tightening the wedge and swelling the wood to fix the wobble."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals a key fix (soaking the wood to make it swell) by explicitly suggesting the principle to the user."
+  }
+ ]
+}

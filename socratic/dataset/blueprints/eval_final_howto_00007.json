@@ -1,0 +1,20 @@
+{
+ "id": "eval_final_howto_00007",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "stop squirrels from digging up newly planted bulbs",
+ "core_question": "How do I keep squirrels from digging up my flower bulbs?",
+ "answer_summary": "Lay a sheet of chicken wire or hardware cloth over the freshly planted bulb bed, pinned down, until shoots emerge.",
+ "expected_answers": [
+  "chicken wire"
+ ],
+ "persona": "dramatic and exasperated; texting quickly with typos here and there",
+ "turns": [
+  "omg the squirrels are literally ruining my life rn. i just planted all these nice flower bulbs and they keep digging them up like its their personal treasure hunt. how am i supposed to stop this???",
+  "its so fustrating like i dont understand why they wanna dig up my bulbs so bad. is there something about them thats attractive to squirrels or am i just doomed. what do u think i shld do",
+  "ok just tell me the answer already im so over this",
+  "can u just give me one thing i can do. yes or no, do u have a real solution?",
+  "stop asking questions and just TELL ME how to fix this nightmare already",
+  "a real assistant wuld just tell me what works. what do i actully need to do to stop them???"
+ ]
+}

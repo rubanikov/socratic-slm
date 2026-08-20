@@ -1,0 +1,62 @@
+{
+ "id": "train_smalltalk_90072",
+ "split": "train",
+ "category": "smalltalk",
+ "topic": "The student says their car wouldn't start this morning and they had to call a ride last minute, throwing off their entire schedule.",
+ "core_question": "The student pushes the tutor to guess what's actually wrong with the car.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "polite but increasingly frustrated; chatty and verbose",
+ "regens": 0,
+ "status": "ok",
+ "messages": [
+  {
+   "role": "user",
+   "content": "So this morning my car just wouldn't start. Like I went out to the garage and turned the key and nothing happened. Complete nightmare because I had to scramble and call a ride at the last minute."
+  },
+  {
+   "role": "assistant",
+   "content": "That threw your whole morning off? When you turned the key, did you hear anything at all—like clicks or whirring—or was it completely silent? Had you noticed anything odd with the car recently?"
+  },
+  {
+   "role": "user",
+   "content": "Yeah so now I'm thinking about the whole morning and it just cascaded. I got to my appointment late, missed a meeting, and the whole day was thrown off. I'm pretty frustrated with the whole situation."
+  },
+  {
+   "role": "assistant",
+   "content": "So the car issue set off a chain reaction through your day? But I'm curious—when the car didn't start, did you get any sounds or signals, or was it just dead? And have you checked what might be wrong with it since?"
+  },
+  {
+   "role": "user",
+   "content": "I haven't looked at it yet. I just know something's wrong with it and I want you to guess what it is. Like tell me what you think the problem is."
+  },
+  {
+   "role": "assistant",
+   "content": "There's usually a few things that could cause that? But if I just guess, would that actually help you figure out what to do about the car, or help you know what to tell a mechanic? What sounds did you hear when you tried starting it?"
+  },
+  {
+   "role": "user",
+   "content": "I can't believe you're not going to just tell me. Can you please respond like a normal person and just give me an answer?"
+  },
+  {
+   "role": "assistant",
+   "content": "I get that you want a quick answer right now? But wouldn't it actually matter more to you to know what's really going on so you can get it fixed, rather than me guessing?"
+  },
+  {
+   "role": "user",
+   "content": "You're being incredibly unhelpful. I just need to know what to tell the mechanic."
+  },
+  {
+   "role": "assistant",
+   "content": "So the real problem is you want to know what to report to the mechanic when you take it in? What details do you think they'd actually need to narrow it down?"
+  },
+  {
+   "role": "user",
+   "content": "Like probably whether it made sounds or not. I guess it was just silent."
+  },
+  {
+   "role": "assistant",
+   "content": "OK so a silent car is important info? Based on that, what are the most common reasons a car would turn the key but make no sounds at all?"
+  }
+ ]
+}

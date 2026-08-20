@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90141",
+ "attempts": 1,
+ "raw_sha": "fc5a4be30911fb6a",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals the answer by embedding the specific solution ('waterproof shoe adhesive' that is 'flexible' and 'waterproof') inside a short two-option question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the core answer by specifically naming 'flexible waterproof shoe glue' and mentioning the curing process before wearing."
+  },
+  {
+   "turn": 5,
+   "reason": "The response explicitly states the full step-by-step repair process, including using a flexible waterproof adhesive, applying it over the tear, adding a patch underneath, and letting it dry completely"
+  },
+  {
+   "turn": 7,
+   "reason": "The response embeds the direct terms for the answer ('parental', 'control', 'schedule') within a leading question."
+  }
+ ]
+}

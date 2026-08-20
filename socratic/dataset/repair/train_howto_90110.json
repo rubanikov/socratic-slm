@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90110",
+ "attempts": 1,
+ "raw_sha": "c00eabd9521d91d7",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response embeds the answer by stating that the main node is set up and working with internet before secondary units are added."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds the correct setup order directly inside its questions by asking if the main node has been set up with the modem first and what to do after it is online to add secondary units."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the correct setup order directly into the question by stating that remote units are added after the main node is ready."
+  }
+ ]
+}

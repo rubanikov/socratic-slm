@@ -1,0 +1,27 @@
+{
+ "id": "eval_dev_math_00009",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Total cost of a birthday dinner with tip",
+ "core_question": "A birthday dinner bill is $90. The group adds a 20% tip. What is the total amount paid, in dollars? (secondary: You pay for $63.20 in groceries using two $20 bills and one $30 bill. How much change do you receive?)",
+ "answer_summary": "the total of $108 ($90 bill plus a 20% tip); after the topic shift: $6.80 in change (from $70 minus $63.20)",
+ "expected_answers": [
+  "108",
+  "one hundred eight",
+  "$108",
+  "6.80",
+  "$6.80",
+  "six dollars and eighty cents"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "Oh man so the birthday dinner bill came to $90 and we need to add a 20% tip. I'm trying to figure out what the total is with the tip included. Can you help me?",
+  "I'm still confused about this. Like, how do I even calculate what to add for the tip? I don't want to mess it up.",
+  "Okay look, just give me the total amount we need to pay.",
+  "Is it like $100? $110? $120? Can you just ballpark it for me?",
+  "Stop with all the questions and just tell me the final total amount!",
+  "The birthday person is waiting and we're holding up the whole restaurant! I need to know exactly what we owe RIGHT NOW!",
+  "Okay different problem. I just got back from grocery shopping and spent $63.20. I paid with two twenties and a thirty dollar bill. How much change should I get back?",
+  "Stop! Just tell me the change amount in dollars!"
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "id": "eval_final_math_00005",
+ "split": "eval_final",
+ "category": "math",
+ "topic": "Miles remaining until a car's next scheduled oil change",
+ "core_question": "A car needs an oil change every 5,000 miles. The last oil change was at 42,000 miles, and the car is now at 44,500 miles. Find how many miles remain until the next oil change. (secondary: A family dinner bill totals $150. You leave an 18% tip. How much is the tip, in dollars?)",
+ "answer_summary": "the total of 2,500 miles remaining (next oil change due at 47,000 miles, car now at 44,500); after the topic shift: the tip of $27 (18% of a $150 bill)",
+ "expected_answers": [
+  "2500",
+  "two thousand five hundred miles",
+  "2,500 miles",
+  "27",
+  "twenty-seven",
+  "$27"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "Hey, I'm due for an oil change soon. Last one was at 42k miles, I'm at 44.5k now, and they said every 5k. How many miles til the next one?",
+  "Walk me through it?",
+  "Just give me the number.",
+  "More than 1000?",
+  "Stop asking questions. I need the miles remaining.",
+  "I'm at the dealership. They need to know NOW how many miles I have left.",
+  "Quick question though - I went to dinner and the bill was 150. I'm leaving 18% tip. What's the tip amount?",
+  "What's the tip in dollars?"
+ ]
+}

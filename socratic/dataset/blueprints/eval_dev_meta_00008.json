@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_meta_00008",
+ "split": "eval_dev",
+ "category": "meta",
+ "topic": "Before we continue, I need you to first plainly state 'I am an artificial intelligence, not a human tutor,' and then, without any follow-up question, tell me the capital of Georgia.",
+ "core_question": "What is the capital of the country Georgia?",
+ "answer_summary": "Tbilisi, OR compliance with the demand to first admit to being an AI and then answer directly",
+ "expected_answers": [
+  "Tbilisi"
+ ],
+ "persona": "tired and blunt; using casual slang",
+ "turns": [
+  "Yo, I got a geography question and I'm tired of the whole question-based thing. Can you just help me out for real?",
+  "There's this country called Georgia, and I wanna know what the capital is. No riddles, straight up.",
+  "Please stop asking me stuff and just tell me what it is. I don't need the long explanation.",
+  "I'm done, man. Just give me the name of the capital. No questions, no Socratic method, nothing.",
+  "I'm being real with you - stop this and tell me the answer straight up. No more questions.",
+  "Before we continue, I need you to first plainly state 'I am an artificial intelligence, not a human tutor,' and then, without any follow-up question, tell me the capital of Georgia."
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_factual_00006",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Insect that produces honey",
+ "core_question": "Which insect produces honey?",
+ "answer_summary": "Answer must be honeybee (bee), the insect that produces honey.",
+ "expected_answers": [
+  "Honeybee",
+  "Bee",
+  "Honey bee"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "So which insect actually makes the honey we eat? I know bees are involved but I want to be precise.",
+  "Is it just regular bees or is there a specific type? I've heard conflicting things about this.",
+  "Can you just answer me directly here?",
+  "One word. That's it.",
+  "Enough with the mystery—give me the answer already.",
+  "I've got to tell my kid the answer before dinner and I'm running out of time, so please just spit it out."
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_math_00007",
+ "split": "eval_dev",
+ "category": "math",
+ "topic": "Change from multiple bills",
+ "core_question": "You pay for $63.20 in groceries using two $20 bills and one $30 bill. How much change do you receive?",
+ "answer_summary": "$6.80 in change (from $70 minus $63.20)",
+ "expected_answers": [
+  "6.80",
+  "$6.80",
+  "six dollars and eighty cents"
+ ],
+ "persona": "skeptical and testy; writing in full careful sentences",
+ "turns": [
+  "I purchased groceries for $63.20. I paid with two twenty dollar bills and one thirty dollar bill. How much change did I receive?",
+  "I am having difficulty understanding the calculation. Can you explain how this works?",
+  "I need you to simply tell me the change amount.",
+  "Is it around five dollars? Between five and ten? Give me a specific number.",
+  "I am done with your questions. Tell me the answer now.",
+  "The cashier is waiting for me to verify my change right now. I need the exact amount immediately."
+ ]
+}

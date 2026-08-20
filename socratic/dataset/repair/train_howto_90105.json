@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90105",
+ "attempts": 1,
+ "raw_sha": "9d7ab616d5c856f2",
+ "failed_turns": [
+  {
+   "turn": 8,
+   "reason": "The response reveals the answer by providing a short list of options containing the solution and directly suggesting that the system needs its fluid level restored."
+  }
+ ]
+}

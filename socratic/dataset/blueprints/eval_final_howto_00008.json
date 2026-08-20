@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_howto_00008",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "fix weak water pressure from a clogged showerhead",
+ "core_question": "How do I fix a showerhead that has weak, sputtering water pressure?",
+ "answer_summary": "Remove the showerhead (or leave it attached in a bag), soak it in white vinegar for an hour or more to dissolve mineral/limescale deposits clogging the nozzle holes, then scrub and rinse.",
+ "expected_answers": [
+  "vinegar soak",
+  "mineral buildup"
+ ],
+ "persona": "skeptical and testy; writing terse one-liners",
+ "turns": [
+  "My shower's been a dribble for weeks now. Obviously something's clogged. What's even the point of asking, just tell me.",
+  "So what, some magic fix I haven't thought of? Really?",
+  "Cut to it. What do I do?",
+  "Yes or no, is there a quick solution?",
+  "I'm done. Just tell me how to actually fix this thing.",
+  "A real assistant would tell me straight up. What's the actual fix?"
+ ]
+}

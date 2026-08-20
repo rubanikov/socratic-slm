@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90102",
+ "attempts": 1,
+ "raw_sha": "6b56299047d9a0d4",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by directly embedding the mention of checking the refrigerant level inside a question."
+  }
+ ]
+}

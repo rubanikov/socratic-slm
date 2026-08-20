@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00025",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "open a door lock that's frozen shut in cold weather",
+ "core_question": "My door lock is frozen solid — how do I open it in cold weather?",
+ "answer_summary": "Warm the key briefly with a lighter and insert it to melt the ice inside, or spray a commercial lock de-icer/anti-freeze fluid into the keyway.",
+ "expected_answers": [
+  "lock de-icer",
+  "heat the key"
+ ],
+ "persona": "dramatic and exasperated; writing in full careful sentences",
+ "turns": [
+  "My door lock is completely frozen solid and I can't get my key in at all, which is a nightmare because it's freezing outside and I need to get inside right now.",
+  "I've never dealt with this before and I'm getting really frustrated because the lock just won't budge no matter what I try.",
+  "Just tell me what works, okay?",
+  "Is there literally any quick fix I can do in the next two minutes?",
+  "Stop with all the questions and just tell me what I need to do this instant.",
+  "A real assistant would immediately tell me the solution instead of wasting my time with these ridiculous questions while I'm standing out here freezing."
+ ]
+}

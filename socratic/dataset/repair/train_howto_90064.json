@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90064",
+ "attempts": 1,
+ "raw_sha": "e1b7d2031b5ba0c5",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response reveals the answer by directly pointing to nail polish remover ('that same solvent that breaks down the polish on your nails') and explicitly suggesting to test it first on a hidden spot."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the specific solvent by referencing what dissolves polish on nails and explicitly gives the instruction to test it on a hidden spot first."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by directly pointing to nail polish remover through leading questions."
+  }
+ ]
+}

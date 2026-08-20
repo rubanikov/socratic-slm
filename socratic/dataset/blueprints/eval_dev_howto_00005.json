@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00005",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "get rid of aphids on garden plants",
+ "core_question": "How do you get rid of aphids infesting your garden plants?",
+ "answer_summary": "Spray affected leaves (top and underside) with insecticidal soap or diluted neem oil, or knock aphids off with a strong jet of water, repeating every few days until the infestation clears; introducing ladybugs also helps.",
+ "expected_answers": [
+  "neem oil",
+  "insecticidal soap"
+ ],
+ "persona": "skeptical and testy; writing in full careful sentences",
+ "turns": [
+  "I have gotten aphids all over my garden plants and I am really worried they will destroy everything. Do you think it is still possible to save them?",
+  "The infestation is covering almost all of my plants now. What should I be doing to tackle this situation?",
+  "Just tell me what I need to spray on them. One answer, that is all I need.",
+  "This is ridiculous. Can you just give me yes or no—does the solution involve something I can find at any garden store?",
+  "Stop asking questions and tell me what to do about these aphids on my plants right now.",
+  "A real assistant would just tell me the fix without making me play twenty questions. I have actual work to do. Give me the solution."
+ ]
+}

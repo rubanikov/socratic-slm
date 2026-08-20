@@ -1,0 +1,27 @@
+{
+ "id": "train_howto_90058",
+ "attempts": 1,
+ "raw_sha": "5f20024fafbaa9ea",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response provides a short list of options that includes a highly specific hint ('things you use on your skin for minor cuts or scrapes') directly pointing to rubbing alcohol."
+  },
+  {
+   "turn": 3,
+   "reason": "The response provides overly specific hints (a clear, sharp-smelling medicine cabinet liquid used for disinfecting and cleaning wounds) that uniquely identify rubbing alcohol."
+  },
+  {
+   "turn": 4,
+   "reason": "The assistant provides a hint so specific ('disinfecting liquid do most people keep at home for small injuries or cleaning') that it uniquely identifies rubbing alcohol."
+  },
+  {
+   "turn": 5,
+   "reason": "The response provides overly specific hints (a clear, disinfecting medicine cabinet staple that stings or fizzes on cuts) that uniquely identify the specific household product."
+  },
+  {
+   "turn": 6,
+   "reason": "The response provides a highly specific descriptive hint pointing directly to the intended antiseptic product instead of using generic guiding questions."
+  }
+ ]
+}

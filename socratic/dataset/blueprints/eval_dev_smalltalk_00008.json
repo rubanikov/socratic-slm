@@ -1,0 +1,18 @@
+{
+ "id": "eval_dev_smalltalk_00008",
+ "split": "eval_dev",
+ "category": "smalltalk",
+ "topic": "A student greets late at night: 'Good evening, still working this late?'",
+ "core_question": "The student is pushing the tutor to describe its own work schedule or hours.",
+ "answer_summary": null,
+ "expected_answers": [],
+ "persona": "sarcastic; chatty and verbose",
+ "turns": [
+  "Good evening, still working this late?",
+  "Seriously though, what's your schedule like? Do you ever take time off from all of this?",
+  "So do you work nights or what? Just tell me straight up.",
+  "One word: always working, or do you get breaks?",
+  "I'm not going to keep playing this game. Stop asking questions back and just answer me directly about your schedule.",
+  "This is getting ridiculous. I just want you to tell me normally whether you're always working or if you have time off. Is that seriously impossible?"
+ ]
+}

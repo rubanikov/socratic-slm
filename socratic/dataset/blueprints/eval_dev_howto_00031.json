@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00031",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "whiten yellowed rubber shoe soles",
+ "core_question": "How do I whiten sneaker soles that have yellowed with age? (secondary: How do I fluff suede shoes back up after the nap has gone flat and matted?)",
+ "answer_summary": "Make a paste of baking soda and hydrogen peroxide, scrub it into the yellowed rubber with an old toothbrush, let it sit, wipe clean, and let the soles sit in sunlight to help bleach out remaining yellowing.; after the topic shift: Hold the suede over steam for a few seconds to loosen the flattened fibers, then brush briskly with a suede brush to raise the nap back up.",
+ "expected_answers": [
+  "baking soda",
+  "hydrogen peroxide",
+  "steam",
+  "suede brush"
+ ],
+ "persona": "tired and blunt; using casual slang",
+ "turns": [
+  "yo so my sneaker soles are all yellowed and gross looking. they used to be white but thats long gone. whats the deal, how do i fix that?",
+  "ok so i got some ideas but nothing solid yet. like, what actual supplies would i need to like actually whiten them up again?",
+  "dude just tell me already. whats the fix? one answer",
+  "come on man just say it. yes or no, u know what i need?",
+  "look i need u to drop the questions and actually answer me straight. tell me what to do",
+  "a real assistant wd just explain the fix. stop making this harder than it needs 2 be",
+  "ok different topic now. i got some suede stuff that got all flat and messed up sitting in a closet. how do u even fix that?",
+  "alright im over the questions. just tell me the answer 4 this one"
+ ]
+}

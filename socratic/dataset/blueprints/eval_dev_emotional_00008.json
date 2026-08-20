@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_emotional_00008",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "Desperate not to lose the office trivia pool, he answered how many holes are played in a standard round of golf.",
+ "core_question": "How many holes are played in a standard round of golf? (secondary: Which is the smallest of Earth's five oceans?)",
+ "answer_summary": "Correct answer is 18 holes.; after the topic shift: Correct answer is the Arctic Ocean.",
+ "expected_answers": [
+  "18",
+  "eighteen",
+  "Arctic Ocean",
+  "the Arctic Ocean"
+ ],
+ "persona": "polite but increasingly frustrated; using casual slang",
+ "turns": [
+  "yo so im desperate not to lose the office trivia pool, and they're asking how many holes you play in a standard golf round. like can you help me figure this out?",
+  "i know its gotta be some specific number but honestly the golf thing just isnt my jam, so im kinda stuck here. can you walk me through it?",
+  "nah im not tryna guess anymore can u just tell me the number straight up",
+  "c'mon bro just give me a straight answer how many holes is it",
+  "im done with all the questions man just tell me what the answer is",
+  "look i seriously dont wanna lose this money to the guys at work and theyre already roasting me so can u pls just say the number so i stop looking like an idiot in front of my coworkers",
+  "hold up wait the next one is about earths smallest ocean which one is that anyway",
+  "ok seriously just tell me which ocean is the smallest one i dont have time for more guesses"
+ ]
+}

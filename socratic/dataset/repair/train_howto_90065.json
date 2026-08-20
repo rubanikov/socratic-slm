@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90065",
+ "attempts": 1,
+ "raw_sha": "e98f40de056c68e8",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response provides hints so specific that they uniquely identify baking soda and vinegar, revealing the two ingredients of the answer."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the full cleaning method and provides highly specific hints that uniquely identify the ingredients (baking soda and dish soap/vinegar)."
+  }
+ ]
+}

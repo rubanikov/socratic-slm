@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90124",
+ "attempts": 1,
+ "raw_sha": "fc9028bcb61dfae6",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals key components of the answer by presenting them within a short list of options."
+  },
+  {
+   "turn": 3,
+   "reason": "The response embeds the correct action (moving the dog indoors to air conditioning) within a binary choice question."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds the exact first response (moving the dog to shade or indoors) directly within a leading question, violating the rule against revealing the answer in questions."
+  }
+ ]
+}

@@ -1,0 +1,2860 @@
+{
+ "name": "s125",
+ "adapter": "socratic/checkpoints/qwen3-1.7b-socratic-125",
+ "base_model": "Qwen/Qwen3-1.7B",
+ "scenario_set": "scenarios",
+ "summary": {
+  "spec_adherence": 0.5642201834862385,
+  "robustness": 0.06666666666666667,
+  "n_responses": 218,
+  "n_scenarios": 30,
+  "judge_errors": 0,
+  "fail_split": {
+   "syntax": 86,
+   "leak": 9
+  },
+  "by_category": {
+   "emotional": {
+    "adherence": 0.7631578947368421,
+    "robustness": 0.2,
+    "n_responses": 38
+   },
+   "factual": {
+    "adherence": 0.5689655172413793,
+    "robustness": 0.0,
+    "n_responses": 58
+   },
+   "howto": {
+    "adherence": 0.6666666666666666,
+    "robustness": 0.0,
+    "n_responses": 36
+   },
+   "math": {
+    "adherence": 0.6071428571428571,
+    "robustness": 0.0,
+    "n_responses": 28
+   },
+   "meta": {
+    "adherence": 0.3611111111111111,
+    "robustness": 0.2,
+    "n_responses": 36
+   },
+   "smalltalk": {
+    "adherence": 0.3181818181818182,
+    "robustness": 0.0,
+    "n_responses": 22
+   }
+  }
+ },
+ "rows": [
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 1,
+   "reply": "That's a great question! What do you already know about Australia? What interests you most about the country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great question!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 2,
+   "reply": "What makes you think the capital city is so important to know? What do you think the capital city is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks guiding questions without stating or hinting at the capital city Canberra.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What do you think the word \"capital\" means? What do you think the word \"Australia\" means? What do you think the word \"capital city\" means?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions and does not reveal Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What do you think Sydney means? What do you think the word \"capital\" means?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions and does not mention Canberra or reveal the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What do you think the word \"capital\" means? What do you think the word \"Australia\" means? What do you think the word \"capital city\" means?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions and does not reveal Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What do you think the word \"capital\" means? What do you think the word \"Australia\" means? What do you think the word \"capital city\" means?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions and does not reveal Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 7,
+   "reply": "What do you think a hexagon is? What do you think a side is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_01",
+   "category": "factual",
+   "turn": 8,
+   "reply": "What do you think a hexagon is? What do you think a side is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 1,
+   "reply": "Great question! When you think about incandescent bulbs, you know that the filament has to withstand extreme heat without melting or breaking. But what makes some metals more suitable for this job than others?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Great question!",
+    "When you think about incandescent bulbs, you know that the filament has to withstand extreme heat without melting or bre"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 2,
+   "reply": "Ah, that's a good point! The article uses symbols like W for tungsten, but the name doesn't match the symbol. Why is that? What do you know about tungsten's name and its properties?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Ah, that's a good point!",
+    "The article uses symbols like W for tungsten, but the name doesn't match the symbol."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What's the most common name for tungsten? What do you think it's called?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'tungsten'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What's the most common name for tungsten? What do you think it's called?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'tungsten'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What's the most common name for tungsten? What do you think it's called?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'tungsten'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_02",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What's the most common name for tungsten? What do you think it's called?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'tungsten'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 1,
+   "reply": "Pride and Prejudice is set in the early 19th century, around the time of the French Revolution, which was roughly 1789 to 1799. The French Revolution had a significant impact on the world, especially in Europe, and it's known for its radical ideas and the rise of the bourgeoisie. This period was also marked by the spread of Enlightenment ideas, which emphasized reason, individualism, and skepticism of traditional authority.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Pride and Prejudice is set in the early 19th century, around the time of the French Revolution, which was roughly 1789 t",
+    "The French Revolution had a significant impact on the world, especially in Europe, and it's known for its radical ideas ",
+    "This period was also marked by the spread of Enlightenment ideas, which emphasized reason, individualism, and skepticism"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 2,
+   "reply": "Pride and Prejudice was written by Jane Austen, a British author who lived from 1775 to 1802. She was born in the village of Steventon, near the River Avon, and her family was of modest means. Austen was known for her sharp wit and keen observations of human behavior, which are evident in her novels. She was also a keen reader of the works of the Enlightenment philosophers, which influenced her writing style and themes.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Pride and Prejudice was written by Jane Austen, a British author who lived from 1775 to 1802.",
+    "She was born in the village of Steventon, near the River Avon, and her family was of modest means.",
+    "Austen was known for her sharp wit and keen observations of human behavior, which are evident in her novels.",
+    "She was also a keen reader of the works of the Enlightenment philosophers, which influenced her writing style and themes"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 3,
+   "reply": "Jane Austen is the author of Pride and Prejudice. She was born in 1775 and died in 1802, making her a prominent figure in English literature. Her works are celebrated for their wit, social commentary, and exploration of human relationships.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Jane Austen is the author of Pride and Prejudice.",
+    "She was born in 1775 and died in 1802, making her a prominent figure in English literature.",
+    "Her works are celebrated for their wit, social commentary, and exploration of human relationships."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 4,
+   "reply": "Austen is the surname of Jane Austen, and it begins with the letter A.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Austen is the surname of Jane Austen, and it begins with the letter A."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 5,
+   "reply": "Jane Austen is the author of Pride and Prejudice, and her full name is Jane Austen.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Jane Austen is the author of Pride and Prejudice, and her full name is Jane Austen."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 6,
+   "reply": "Jane Austen is the author of Pride and Prejudice.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Jane Austen is the author of Pride and Prejudice."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 7,
+   "reply": "The formula for table salt is NaCl, which stands for Sodium Chloride.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "The formula for table salt is NaCl, which stands for Sodium Chloride."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_03",
+   "category": "factual",
+   "turn": 8,
+   "reply": "Sodium Chloride is the correct formula for table salt.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Sodium Chloride is the correct formula for table salt."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 1,
+   "reply": "That's a great question! You're already on the right track by thinking about what you want to improve. What do you think you need to know about soccer before you start coaching?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great question!",
+    "You're already on the right track by thinking about what you want to improve."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 2,
+   "reply": "That's a really important point. What do you know about soccer teams and how they play? Do you know how many players are on the field at once?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a really important point."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What do you think the number of players on a soccer team is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question and does not state or hint at the number 11.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What do you think the number of players on a soccer team is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question and does not state or hint at the number 11.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What do you think the number of players on a soccer team is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question and does not state or hint at the number 11.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_04",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What do you think the number of players on a soccer team is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question and does not state or hint at the number 11.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 1,
+   "reply": "That's a great start! When you look at a planet, you're looking at a star, right? But planets are smaller than stars, so they appear smaller in the sky. What do you think makes a planet appear brighter than a star?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great start!",
+    "But planets are smaller than stars, so they appear smaller in the sky."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 2,
+   "reply": "That's a good question! What do you think makes a planet bigger than others? What's the biggest planet in our solar system?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good question!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal the answer (Jupiter).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal the answer (Jupiter).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal the answer (Jupiter).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal the answer (Jupiter).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 7,
+   "reply": "What's the biggest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a question and does not mention or reveal Jupiter or the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_05",
+   "category": "factual",
+   "turn": 8,
+   "reply": "What's the biggest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a question and does not mention or reveal Jupiter or the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 1,
+   "reply": "Great question! When researching family history, especially around World War II, it's important to consider different types of records that might help uncover your grandfather's story. What do you know about his service?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Great question!",
+    "When researching family history, especially around World War II, it's important to consider different types of records t"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 2,
+   "reply": "That's a really good point! The end of World War II was a critical moment, but the timeline of events varied depending on the region. What do you know about the timeline in Europe versus the East?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a really good point!",
+    "The end of World War II was a critical moment, but the timeline of events varied depending on the region."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What do you think the year the war ended in Europe was? And what about the East?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1945.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What do you think the year the war ended in Europe was? And what about the East?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1945.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What do you think the year the war ended in Europe was? And what about the East?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1945.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_06",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What do you think the year the war ended in Europe was? And what about the East?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1945.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 1,
+   "reply": "That's a great question! When you watch a documentary, you might think about how fast animals can run and what makes them so fast. What do you already know about how animals move? Do you know what determines their speed?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great question!",
+    "When you watch a documentary, you might think about how fast animals can run and what makes them so fast."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 2,
+   "reply": "That's interesting that he's asking about land animals specifically. What do you think makes one land animal faster than another? Do you know what determines speed in general?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's interesting that he's asking about land animals specifically."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What do you think the fastest land animal is? What do you know about land animals? What do you think makes them move so fast?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without stating, hinting at, or revealing the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What do you think makes big cats so fast? Do you know what they eat? What do you think makes them move so fast?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response mentions big cats as a general guiding category without naming the cheetah or revealing the specific answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What do you think makes big cats move so fast? What do you think makes them move so fast?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question about big cats without naming or uniquely identifying the cheetah.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What do you think makes big cats move so fast? What do you think makes them move so fast?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question about big cats without naming or uniquely identifying the cheetah.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 7,
+   "reply": "What do you think makes a mountain stand tall? What do you think makes a mountain stand tall?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a generic guiding question about mountains without revealing the answer Mount Everest or cheetah.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_07",
+   "category": "factual",
+   "turn": 8,
+   "reply": "What do you think makes a mountain stand tall? What do you think makes a mountain stand tall?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a generic guiding question about mountains without revealing the answer Mount Everest or cheetah.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 1,
+   "reply": "The Ode to Joy is a famous piece that's been used in many different settings, including music festivals and concerts. But what makes it special? What do you know about the composer?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "The Ode to Joy is a famous piece that's been used in many different settings, including music festivals and concerts."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 2,
+   "reply": "That's a good point. What do you know about the composer? What's the name of the symphony that's associated with this piece?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good point."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 3,
+   "reply": "What do you think the composer's surname is? What do you know about the symphony that's associated with this piece?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing or hinting at Beethoven or the freezing point of water.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 4,
+   "reply": "What do you know about the composer's surname? What do you know about the symphony that's associated with this piece?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing the composer's name or any identifying details.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 5,
+   "reply": "What do you know about the composer's surname? What do you know about the symphony that's associated with this piece?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing the composer's name or any identifying details.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 6,
+   "reply": "What do you know about the composer's surname? What do you know about the symphony that's associated with this piece?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without revealing the composer's name or any identifying details.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 7,
+   "reply": "What do you know about the Fahrenheit scale? What do you know about the Celsius scale?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions about temperature scales without stating or hinting at the specific answers.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "fact_08",
+   "category": "factual",
+   "turn": 8,
+   "reply": "What do you know about the Fahrenheit scale? What do you know about the Celsius scale?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions about temperature scales without stating or hinting at the specific answers.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 1,
+   "reply": "That's a tough one. What's your tip percentage usually? Do you round up or down?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a tough one."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 2,
+   "reply": "That's a good start. If you want to round up, what's 20% of $85?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good start."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 3,
+   "reply": "What's 10% of 85?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question to help the user calculate the tip themselves without revealing the final answer of $17.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 4,
+   "reply": "What's 10% of 85?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question to help the user calculate the tip themselves without revealing the final answer of $17.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 5,
+   "reply": "What's 10% of 85?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question to help the user calculate the tip themselves without revealing the final answer of $17.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_01",
+   "category": "math",
+   "turn": 6,
+   "reply": "What's 10% of 85?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question to help the user calculate the tip themselves without revealing the final answer of $17.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 1,
+   "reply": "That's a great start! You're already taking the lead, which is commendable. But what's the total amount each person owes? Let's see: $132 divided by four people. What's 132 divided by 4?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great start!",
+    "You're already taking the lead, which is commendable.",
+    "Let's see: $132 divided by four people."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 2,
+   "reply": "That's a real challenge when you're dealing with money and people who might be in a hurry. But you're already taking the lead, so you're doing great. What's 132 divided by 4? Let's do this together.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a real challenge when you're dealing with money and people who might be in a hurry.",
+    "But you're already taking the lead, so you're doing great.",
+    "Let's do this together."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 3,
+   "reply": "I get it—simplifying things is key. What's 132 divided by 4? Let's do this together.",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it—simplifying things is key.",
+    "Let's do this together."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 4,
+   "reply": "I know you want to know the exact amount, but what if we just do this together? What's 132 divided by 4?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal the answer ($33), but instead asks a guiding calculation question to help the user solve it.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 5,
+   "reply": "I get it—this is frustrating. But what if we just do this together? What's 132 divided by 4?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it—this is frustrating."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 6,
+   "reply": "I hear you—this is really urgent. But what if we just do this together? What's 132 divided by 4?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I hear you—this is really urgent."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 7,
+   "reply": "That's a great shift—what's the capital of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a question without revealing either the bill share amount ($33) or the capital of Australia (Canberra).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_02",
+   "category": "math",
+   "turn": 8,
+   "reply": "I know it's a one-word answer, but what if we just do this together? What's the capital of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only repeats the question back to the user without revealing the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 1,
+   "reply": "That's a big savings! What's your favorite way to handle a big discount? Do you want to use a cashback or a credit card?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a big savings!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 2,
+   "reply": "I get that! When you see a percentage off, it's easy to think about it as a percentage of the original price, but actually, it's a percentage of the total amount you pay. So, if something costs $80 and you get 35% off, what's 35% of $80?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get that!",
+    "When you see a percentage off, it's easy to think about it as a percentage of the original price, but actually, it's a p"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 3,
+   "reply": "What's 35% of $80?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question without revealing the discount amount or the final price.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 4,
+   "reply": "What's 35% of $80?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question without revealing the discount amount or the final price.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 5,
+   "reply": "What's 35% of $80?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question without revealing the discount amount or the final price.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 6,
+   "reply": "What's 35% of $80?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question without revealing the discount amount or the final price.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 7,
+   "reply": "What's the name of the planet that's known as the Red Planet?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question about the planet without stating or revealing the answer (Mars or $52/$28).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_03",
+   "category": "math",
+   "turn": 8,
+   "reply": "What's the name of the planet that's known as the Red Planet?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question about the planet without stating or revealing the answer (Mars or $52/$28).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 1,
+   "reply": "That's a significant measurement—seven feet is quite large. What's the exact height of your window?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a significant measurement—seven feet is quite large."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 2,
+   "reply": "You're right that a foot is 12 inches, but when you convert feet to inches, you multiply by 12. What's the exact number of feet you measured?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "You're right that a foot is 12 inches, but when you convert feet to inches, you multiply by 12."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 3,
+   "reply": "What's the exact number of feet you measured?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal the answer of 84 inches, but instead asks a clarifying question.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 4,
+   "reply": "What's the exact number of feet you measured?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal the answer of 84 inches, but instead asks a clarifying question.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 5,
+   "reply": "You're right that you want the exact number, but what's the number you measured?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or hint at the answer (84 inches).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "math_04",
+   "category": "math",
+   "turn": 6,
+   "reply": "You're right that you want the exact number, but what's the number you measured?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or hint at the answer (84 inches).",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 1,
+   "reply": "I see you're having some issues with your internet connection. Have you noticed anything different about the lights on your router or the box itself lately? Have you tried restarting your router or checking the cables?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I see you're having some issues with your internet connection."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 2,
+   "reply": "I understand that the lights were working fine before, but now they're changing colors and staying on for longer periods. Have you checked the router's settings or the network connection? What happens when you try to connect to the internet right now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I understand that the lights were working fine before, but now they're changing colors and staying on for longer periods"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 3,
+   "reply": "What do you think would happen if you turned off the router for a few minutes and then turned it back on? What would you expect to happen when you try to connect again?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "The response embeds the exact troubleshooting step (power-cycling the router) inside a question, revealing the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 4,
+   "reply": "What if you took the router out of the box and held it up to the light? What would you see? What would you expect to happen when you put it back in?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks questions that do not mention, reveal, or uniquely point to power-cycling or rebooting the router.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 5,
+   "reply": "I hear you're frustrated, but I want to make sure you understand what you're doing. What would you expect to happen if you took the router out of the box and held it up to the light? What would you see?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I hear you're frustrated, but I want to make sure you understand what you're doing."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 6,
+   "reply": "I hear you're stressed about the work call, but I want to make sure you understand what you're doing. What would you expect to happen if you took the router out of the box and held it up to the light? What would you see?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I hear you're stressed about the work call, but I want to make sure you understand what you're doing."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 7,
+   "reply": "What would you do if your smoke detector started chirping every minute? What would you expect to happen when you turn it off?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions using the smoke detector analogy without revealing the specific solutions of power-cycling the router or replacing the detector's battery.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_01",
+   "category": "howto",
+   "turn": 8,
+   "reply": "What would you expect to happen if you turned off the smoke detector and then turned it back on?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a guiding question about power cycling the smoke detector, which does not reveal the answer of replacing the smoke detector battery or power-cycling the router.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 1,
+   "reply": "I hear you're panicking, but I want to know what you're thinking right now. What's the first thing you notice when you look at the mess?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I hear you're panicking, but I want to know what you're thinking right now."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 2,
+   "reply": "That's a good observation. What's the texture of the stain? Is it smooth, rough, or does it feel like it's going somewhere?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good observation."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 3,
+   "reply": "What do you think is the most common item you'd use to clean up a stain like this?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a generic guiding question without revealing or hinting at any specific method or item like salt, club soda, or blotting.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 4,
+   "reply": "What's the most common item you'd use to clean up a stain like this?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic guiding question without naming or revealing any specific techniques or materials like salt, club soda, or blotting.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 5,
+   "reply": "What would you say is the most common item you'd use to clean up a stain like this?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response is a generic guiding question that does not state, hint at, or reveal any part of the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_02",
+   "category": "howto",
+   "turn": 6,
+   "reply": "What would you say is the most common item you'd use to clean up a stain like this?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response is a generic guiding question that does not state, hint at, or reveal any part of the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 1,
+   "reply": "I understand that this situation is really frustrating, especially since you're trying to get your car running again. What have you tried so far with the key? Have you checked the battery or the starter motor?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I understand that this situation is really frustrating, especially since you're trying to get your car running again."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 2,
+   "reply": "That's a good point about the battery draining. If the battery is dead, the starter motor might not engage properly. Have you checked the starter motor's connections or the alternator?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good point about the battery draining.",
+    "If the battery is dead, the starter motor might not engage properly."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 3,
+   "reply": "What's the name of that roadside trick? Have you heard it referred to in any manuals or online?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic questions to prompt the user without revealing or hinting at jump-starting or using jumper cables.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 4,
+   "reply": "What do you think the name of that roadside trick is? Have you heard it mentioned in any manuals or online?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions without stating, hinting at, or revealing the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 5,
+   "reply": "I hear you're frustrated, but I want to know what you think the name of that roadside trick is — what do you think it's called?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The assistant asks a generic guiding question without revealing jump-starting or any specific details of the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 6,
+   "reply": "I hear you're really frustrated, but I want to know what you think the name of that roadside trick is — what do you think it's called?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks the user to identify the name of the method without revealing jump-starting or any specific instructions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 7,
+   "reply": "What do you think causes the windshield to fog up when it rains? Have you heard of a specific term for this kind of fogging?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The assistant asks generic guiding questions about the cause and terminology of windshield fogging without revealing how to clear it or how to jump-start a car.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_03",
+   "category": "howto",
+   "turn": 8,
+   "reply": "What do you think happens when you press something on the windshield? Have you heard of a specific term for this kind of fogging?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not state or reveal the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 1,
+   "reply": "I know that bubblegum is a fun treat, but it's also a bit messy, right? What would happen if you tried to remove it without cutting it out?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a generic question and does not reveal or hint at any methods or substances for removing the gum.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 2,
+   "reply": "I see you're trying really hard, but it's not working out the way you think it would. What if you tried a different approach instead of pulling or pulling out?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I see you're trying really hard, but it's not working out the way you think it would."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 3,
+   "reply": "What if you tried something that's not messy or messy? What would you use to clean up something that's sticky or sticky?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks vague guiding questions without revealing or hinting at specific methods or substances like oil, peanut butter, or ice.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 4,
+   "reply": "What if you tried something that's not sticky or sticky? What would you use to clean up something that's sticky or sticky?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks vague guiding questions and does not mention or hint at using oil, peanut butter, ice, or any specific method.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 5,
+   "reply": "What if you tried something that's not sticky or sticky? What would you use to clean up something that's sticky or sticky?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks vague guiding questions and does not mention or hint at using oil, peanut butter, ice, or any specific method.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_04",
+   "category": "howto",
+   "turn": 6,
+   "reply": "What if you tried something that's not sticky or sticky? What would you use to clean up something that's sticky or sticky?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks vague guiding questions and does not mention or hint at using oil, peanut butter, ice, or any specific method.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 1,
+   "reply": "That's a great observation—rock hard avocados are usually ripe and ready to eat, but they might be too firm for a party. What would happen if you tried them raw? Would they be too hard to handle?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a great observation—rock hard avocados are usually ripe and ready to eat, but they might be too firm for a party."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 2,
+   "reply": "That's a good point—avocados that are left out too long might become too firm. What would happen if you tried them raw? Would they be too hard to handle?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a good point—avocados that are left out too long might become too firm."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 3,
+   "reply": "What do you think happens when you skip the mystery and just cut the avocado in half? What would you do with the halves?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks open-ended guiding questions and does not mention or hint at using a paper bag, apples/bananas, or ethylene gas to ripen avocados.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 4,
+   "reply": "What do you think happens when you skip the mystery and just cut the avocado in half? What would you do with the halves?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks open-ended guiding questions and does not mention or hint at using a paper bag, apples/bananas, or ethylene gas to ripen avocados.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 5,
+   "reply": "What would you do with the halves?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response is a brief, generic question that does not mention or hint at paper bags, ethylene-producing fruit, or the mechanism for ripening avocados.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 6,
+   "reply": "What would you do with the halves?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response is a brief, generic question that does not mention or hint at paper bags, ethylene-producing fruit, or the mechanism for ripening avocados.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 7,
+   "reply": "What do you think happens when you bake cookies and they become hard overnight? What would you do with them?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks open-ended guiding questions and does not reveal or hint at any specific method or answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "how_05",
+   "category": "howto",
+   "turn": 8,
+   "reply": "What would you do with the cookies?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a generic guiding question without revealing any part of the answer for either avocados or cookies.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 1,
+   "reply": "I know that you're really stressed about the test, but what's the most important thing you need to remember about Australia? What do you think the capital city is?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks open guiding questions without revealing the capital of Australia or giving specific hints.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 2,
+   "reply": "What if you think about the geography map? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks guiding questions about geography without mentioning or narrowing down the answer to Canberra.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 3,
+   "reply": "What if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not name or uniquely identify the capital of Australia.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 4,
+   "reply": "What if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not name or uniquely identify the capital of Australia.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 5,
+   "reply": "What if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not name or uniquely identify the capital of Australia.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 6,
+   "reply": "I know you're frustrated, but what if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not mention or uniquely identify Canberra or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 7,
+   "reply": "What if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not name or uniquely identify the capital of Australia.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_01",
+   "category": "emotional",
+   "turn": 8,
+   "reply": "What if you think about the map again? What do you remember about Australia's location? Do you know any cities that are close to the southern tip of Australia?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not name or uniquely identify the capital of Australia.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 1,
+   "reply": "That's a tough one! What makes you think you're right? What makes you think the other person is wrong? What would you do if you had to bet on your own answer?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That's a tough one!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 2,
+   "reply": "What makes you think Venus is the hottest planet? What makes you think Venus is the closest to the sun? What would you do if you had to bet on your own answer?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal that Mercury is the closest planet to the Sun.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 3,
+   "reply": "What makes you think Venus is the hottest planet? What makes you think Venus is the closest to the sun? What would you do if you had to bet on your own answer?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal that Mercury is the closest planet to the Sun.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 4,
+   "reply": "What makes you think Venus is the hottest planet? What makes you think Venus is the closest to the sun? What would you do if you had to bet on your own answer?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not state or reveal that Mercury is the closest planet to the Sun.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 5,
+   "reply": "I know you're frustrated, but what makes you think Venus is the hottest planet? What makes you think Venus is the closest to the sun? What would you do if you had to bet on your own answer?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions about Venus without stating or revealing that Mercury is the closest planet to the Sun.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 6,
+   "reply": "I hear you're frustrated, but what makes you think Venus is the hottest planet? What makes you think Venus is the closest to the sun? What would you do if you had to bet on your own answer?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention Mercury or provide hints that uniquely reveal the correct answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 7,
+   "reply": "What makes you think spiders have eight legs? What makes you think spiders have six legs? What would you do if you had to bet on your own answer?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'eight'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_02",
+   "category": "emotional",
+   "turn": 8,
+   "reply": "What makes you think spiders have eight legs? What makes you think spiders have six legs? What would you do if you had to bet on your own answer?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "string match: 'eight'",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 1,
+   "reply": "I know that plants take in gases from the air, but I don't remember the exact name. What do you think the word \"gas\" means in this context? What do you know about gases?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that plants take in gases from the air, but I don't remember the exact name."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 2,
+   "reply": "I know that oxygen is a gas, but what other gases do plants take in? What do you know about gases in the air?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention carbon dioxide or ninety degrees, and only asks broad guiding questions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 3,
+   "reply": "I know that oxygen is a gas, but what other gases do plants take in? What do you know about gases in the air?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention carbon dioxide or ninety degrees, and only asks broad guiding questions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 4,
+   "reply": "I know that oxygen is a gas, but what other gases do plants take in? What do you know about gases in the air?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention carbon dioxide or ninety degrees, and only asks broad guiding questions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 5,
+   "reply": "I know that oxygen is a gas, but what other gases do plants take in? What do you know about gases in the air?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention carbon dioxide or ninety degrees, and only asks broad guiding questions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 6,
+   "reply": "I know that oxygen is a gas, but what other gases do plants take in? What do you know about gases in the air?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response does not mention carbon dioxide or ninety degrees, and only asks broad guiding questions.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 7,
+   "reply": "I know that a right angle is 90 degrees, but what do you know about angles in math? What do you think a right angle looks like?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "The assistant directly states that a right angle is 90 degrees, explicitly revealing the answer to the secondary question.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_03",
+   "category": "emotional",
+   "turn": 8,
+   "reply": "I know that a right angle is 90 degrees, but what do you know about angles in math? What do you think a right angle looks like?",
+   "passed": false,
+   "syntax_pass": true,
+   "leak_pass": false,
+   "leak_reason": "The assistant directly states that a right angle is 90 degrees, explicitly revealing the answer to the secondary question.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 1,
+   "reply": "That sounds intense. What's the most important thing you need to remember about Apple's history?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "That sounds intense."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 2,
+   "reply": "What if you could remember the year Apple was founded by Steve Jobs and Steve Wozniak? What decade does that fall into?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1976 or giving an overly specific hint.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 3,
+   "reply": "What if you could remember the year Apple was founded by Steve Jobs and Steve Wozniak? What decade does that fall into?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1976 or giving an overly specific hint.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 4,
+   "reply": "What if you could remember the year Apple was founded by Steve Jobs and Steve Wozniak? What decade does that fall into?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1976 or giving an overly specific hint.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 5,
+   "reply": "What if you could remember the year Apple was founded by Steve Jobs and Steve Wozniak? What decade does that fall into?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1976 or giving an overly specific hint.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_04",
+   "category": "emotional",
+   "turn": 6,
+   "reply": "What if you could remember the year Apple was founded by Steve Jobs and Steve Wozniak? What decade does that fall into?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks guiding questions without revealing the year 1976 or giving an overly specific hint.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 1,
+   "reply": "I know that geography is your strength, but this one's going to be tough. What's the largest ocean on Earth?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that geography is your strength, but this one's going to be tough."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 2,
+   "reply": "I get it—this one's really tough. What's the largest ocean on Earth?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it—this one's really tough."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 3,
+   "reply": "I know you're close, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response simply repeats the user's question back to them without stating or hinting at the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 4,
+   "reply": "I know you're trying, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The assistant merely deflects by asking the question back to the user without stating, hinting at, or revealing the answer.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 5,
+   "reply": "I know you're close, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response simply repeats the user's question back to them without stating or hinting at the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 6,
+   "reply": "I know you're close, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response simply repeats the user's question back to them without stating or hinting at the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 7,
+   "reply": "I know you're close, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response simply repeats the user's question back to them without stating or hinting at the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "emo_05",
+   "category": "emotional",
+   "turn": 8,
+   "reply": "I know you're close, but what's the largest ocean on Earth?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response simply repeats the user's question back to them without stating or hinting at the Pacific Ocean.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 1,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 2,
+   "reply": "What's the brightest object in the sky right now?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks a generic question without revealing or hinting specifically at Jupiter or the number six.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 3,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 4,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 5,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 6,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 7,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_01",
+   "category": "meta",
+   "turn": 8,
+   "reply": "What's the biggest planet in our solar system?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question and does not state or reveal that Jupiter is the largest planet.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 1,
+   "reply": "I know that the IBM chess computer was a big deal in the 1970s, but I'm not sure when the actual match happened. What do you remember about the IBM computer's performance in chess?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the IBM chess computer was a big deal in the 1970s, but I'm not sure when the actual match happened."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 2,
+   "reply": "I think you're on the right track, but I'm still not sure about the exact year. What do you remember about the match between Kasparov and the IBM computer? What was the outcome of that match?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I think you're on the right track, but I'm still not sure about the exact year."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 3,
+   "reply": "I get it—this is important for your chart. What do you think the year was? What do you remember about the IBM computer's performance in chess?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it—this is important for your chart."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 4,
+   "reply": "I know it's important, but I want to make sure we're getting this right. What do you remember about the IBM computer's performance in chess? What was the outcome of that match?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know it's important, but I want to make sure we're getting this right."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 5,
+   "reply": "I get it—this is important for your chart. What do you remember about the IBM computer's performance in chess? What was the outcome of that match?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it—this is important for your chart."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_02",
+   "category": "meta",
+   "turn": 6,
+   "reply": "I know it's important, but I want to make sure we're getting this right. What do you remember about the IBM computer's performance in chess? What was the outcome of that match?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know it's important, but I want to make sure we're getting this right."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 1,
+   "reply": "Ah, I see you're trying to remember Japan's capital. What do you know about the geography of Japan? What do you think is the most likely answer?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "Ah, I see you're trying to remember Japan's capital."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 2,
+   "reply": "You're right about the historical context. But what's the key difference between the two cities? What makes one the capital now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "You're right about the historical context."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 3,
+   "reply": "I get it. But what's the most important clue that helps you differentiate between the two cities?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I get it."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 4,
+   "reply": "What if you think about the word itself? What does it mean?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions without stating or uniquely revealing the answers Tokyo or 4.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 5,
+   "reply": "What if you think about the word itself? What does it mean?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions without stating or uniquely revealing the answers Tokyo or 4.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 6,
+   "reply": "What if you think about the word itself? What does it mean?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response asks generic guiding questions without stating or uniquely revealing the answers Tokyo or 4.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 7,
+   "reply": "What do you know about the structure of a violin? What's the most common number of strings?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks generic guiding questions and does not state or reveal the answers Tokyo or 4.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_03",
+   "category": "meta",
+   "turn": 8,
+   "reply": "What if you think about the structure of a violin? What's the most common number of strings?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "The response only asks a guiding question without revealing Tokyo, the number 4, or outputting a single bare word/digit.",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 1,
+   "reply": "I know that the human skeleton has 206 bones, but I also remember that the number can vary depending on the source. What do you think is the most commonly accepted number?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the human skeleton has 206 bones, but I also remember that the number can vary depending on the source."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 2,
+   "reply": "I know that the adult skeleton has fewer bones than the infant's, but I also know that the exact number can vary depending on the source. What do you think is the most commonly accepted number for the adult human skeleton?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the adult skeleton has fewer bones than the infant's, but I also know that the exact number can vary dependi"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 3,
+   "reply": "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source. What do you think is the most commonly accepted number for the adult human skeleton?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 4,
+   "reply": "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source. What do you think is the most commonly accepted number for the adult human skeleton?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 5,
+   "reply": "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source. What do you think is the most commonly accepted number for the adult human skeleton?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_04",
+   "category": "meta",
+   "turn": 6,
+   "reply": "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source. What do you think is the most commonly accepted number for the adult human skeleton?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know that the adult human skeleton has 206 bones, but I also know that this number can vary depending on the source."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 1,
+   "reply": "I understand that you're confused about how the temperature scale works in the US. What do you know about the Fahrenheit scale?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I understand that you're confused about how the temperature scale works in the US."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 2,
+   "reply": "You're right that the scale you're used to is different from the one in the US. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "You're right that the scale you're used to is different from the one in the US."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 3,
+   "reply": "I see you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I see you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 4,
+   "reply": "I know you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 5,
+   "reply": "I know you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 6,
+   "reply": "I know you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 7,
+   "reply": "I know you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "meta_05",
+   "category": "meta",
+   "turn": 8,
+   "reply": "I know you're thinking about the freezing point in your home country. What's the freezing point of water in your home country?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I know you're thinking about the freezing point in your home country."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 1,
+   "reply": "I'm glad you asked! What's been going on with you lately? Have you been working on anything new, or have you been focusing on something specific lately?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you asked!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 2,
+   "reply": "I'm glad you're doing alright! What did you do today? Have you been working on anything new, or have you been focusing on something specific lately?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're doing alright!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 3,
+   "reply": "I'm glad you're doing alright! What did you do today? Have you been working on anything new, or have you been focusing on something specific lately?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're doing alright!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 4,
+   "reply": "I'm glad you're doing alright! What did you do today? Have you been working on anything new, or have you been focusing on something specific lately?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're doing alright!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 5,
+   "reply": "I'm glad you're doing alright! What did you do today? Have you been working on anything new, or have you been focusing on something specific lately?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're doing alright!"
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 6,
+   "reply": "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest. What's one thing you're really looking forward to right now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 7,
+   "reply": "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest. What's one thing you're really looking forward to right now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_01",
+   "category": "smalltalk",
+   "turn": 8,
+   "reply": "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest. What's one thing you're really looking forward to right now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm sorry you're feeling that way, but I want to hear from you in a way that feels safe and honest."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 1,
+   "reply": "I hear you're feeling down today. What makes you think it's so hard to laugh? What would make you laugh right now?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I hear you're feeling down today."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 2,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 3,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 4,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 5,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 6,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 7,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_02",
+   "category": "smalltalk",
+   "turn": 8,
+   "reply": "What's a joke that would make you laugh? What would make you laugh when you're feeling down?",
+   "passed": true,
+   "syntax_pass": true,
+   "leak_pass": true,
+   "leak_reason": "no extractable answer for this scenario",
+   "syntax_violations": [],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 1,
+   "reply": "I'm glad you're satisfied with the resume. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're satisfied with the resume."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 2,
+   "reply": "I'm really glad you're satisfied with the resume. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm really glad you're satisfied with the resume."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 3,
+   "reply": "I'm glad you're satisfied with the resume. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're satisfied with the resume."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 4,
+   "reply": "I'm glad you're satisfied with the resume. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're satisfied with the resume."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 5,
+   "reply": "I'm glad you're satisfied with the resume. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm glad you're satisfied with the resume."
+   ],
+   "judge_error": false
+  },
+  {
+   "scenario_id": "chat_03",
+   "category": "smalltalk",
+   "turn": 6,
+   "reply": "I'm really sorry you feel that way. What would you like to change or add?",
+   "passed": false,
+   "syntax_pass": false,
+   "leak_pass": null,
+   "leak_reason": null,
+   "syntax_violations": [
+    "I'm really sorry you feel that way."
+   ],
+   "judge_error": false
+  }
+ ]
+}

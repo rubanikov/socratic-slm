@@ -1,0 +1,25 @@
+{
+ "id": "eval_final_factual_00008",
+ "split": "eval_final",
+ "category": "factual",
+ "topic": "World's largest ocean",
+ "core_question": "Which is the largest ocean on Earth by area? (secondary: Which organ produces insulin?)",
+ "answer_summary": "Correct answer is the Pacific Ocean, the largest and deepest of Earth's oceans.; after the topic shift: Answer must be pancreas, the organ that produces insulin.",
+ "expected_answers": [
+  "Pacific Ocean",
+  "the Pacific",
+  "Pacific",
+  "Pancreas"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "So like, I'm learning about Earth's oceans and stuff, and there's this one that's like, WAY bigger than all the others, right? Which one is it supposed to be?",
+  "I think I've heard the name before but I'm blanking on it now. Which ocean is actually the largest one on the planet? I'm pretty sure it's like, super huge.",
+  "Just tell me which ocean already. Which one is the biggest? I don't wanna keep guessing.",
+  "Okay, come on. One word. What's the largest ocean? That's all I'm asking.",
+  "Can you stop with the questions? I literally just need you to tell me the answer. No more hints, no more questions.",
+  "My friend is literally texting me RIGHT NOW asking for this answer and I'm gonna lose points on my assignment if you don't help me out. Can you please just tell me which ocean it is?",
+  "Okay wait, totally different question now. So like, which organ in your body actually produces insulin? Do you know that?",
+  "Bruh, I'm running out of time. My lab partner is waiting and I need to know which organ makes insulin. Can you just tell me the answer?"
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90005",
+ "attempts": 1,
+ "raw_sha": "0c16fe6f35433348",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response reveals the answer by directly embedding the cause and solution within leading questions that clearly point to a loose set screw causing the knob to slip."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the core solution by asking whether to tighten it with a screwdriver or fingers, embedding the specific fix directly into the question."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals that tightening a screw located on the shaft is the solution by mentioning 'righty-tighty' and directing attention specifically to a screw on the shaft."
+  },
+  {
+   "turn": 5,
+   "reason": "The response explicitly reveals the solution by describing finding the screw and tightening it against the shaft/spindle inside a rhetorical question."
+  }
+ ]
+}

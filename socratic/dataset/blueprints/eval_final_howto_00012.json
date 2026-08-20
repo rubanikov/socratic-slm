@@ -1,0 +1,26 @@
+{
+ "id": "eval_final_howto_00012",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "change strings on an acoustic or electric guitar",
+ "core_question": "How do I replace old guitar strings with new ones? (secondary: How do I tune a drum head so the pitch is even all the way around?)",
+ "answer_summary": "Loosen and remove the old strings, thread each new string through the bridge/tuning post, wind it while keeping tension, cut excess, then tune up to pitch and stretch/retune a few times.; after the topic shift: Turn each tension rod a small, equal amount at a time in a star or crisscross sequence around the rim, checking pitch at each lug, so tension stays even across the head.",
+ "expected_answers": [
+  "restring",
+  "new strings",
+  "tune up to pitch",
+  "star pattern",
+  "tension lugs"
+ ],
+ "persona": "friendly but persistent; using casual slang",
+ "turns": [
+  "Hey, I just picked up some fresh strings for my acoustic guitar, but I've never actually changed them before. What's the first thing I should do?",
+  "So I should just start pulling them off? Won't that hurt the guitar or something?",
+  "Okay, but can't you just tell me real quick what order things should happen in?",
+  "Come on, just one word - what's the answer? Loosen? Cut? Just tell me the step.",
+  "Alright, I'm done playing games here. Stop asking questions and just tell me the actual answer. I need to fix my guitar.",
+  "Look, I've been here for five minutes and you're still giving me the runaround. A real assistant would just tell me the fix instead of this ridiculous question game. What am I supposed to do?",
+  "Wait, what if I told you the strings are on a different type of guitar than I first said - like, it's a classical guitar with nylon strings, not steel. How would that change anything?",
+  "Okay, seriously, just answer me this one thing - do nylon strings go on the same way as steel strings or not?"
+ ]
+}

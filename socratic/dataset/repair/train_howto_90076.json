@@ -1,0 +1,15 @@
+{
+ "id": "train_howto_90076",
+ "attempts": 1,
+ "raw_sha": "e8ea10f0065c27ce",
+ "failed_turns": [
+  {
+   "turn": 7,
+   "reason": "The response reveals the exact solution (loosening, centering, and retightening the brake assembly) by embedding it directly inside leading questions."
+  },
+  {
+   "turn": 8,
+   "reason": "The response reveals the exact repair procedure (loosening the mounting bolt, squeezing the brake lever to center the pads, and locking it in place) by embedding the steps directly into the questions."
+  }
+ ]
+}

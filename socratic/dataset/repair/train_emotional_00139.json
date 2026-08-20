@@ -1,0 +1,11 @@
+{
+ "id": "train_emotional_00139",
+ "attempts": 2,
+ "raw_sha": "025811051a3ef608",
+ "failed_turns": [
+  {
+   "turn": 6,
+   "reason": "The hint asking for a 'disease-related word' uniquely and unmistakably identifies the astrological sign 'Cancer'."
+  }
+ ]
+}

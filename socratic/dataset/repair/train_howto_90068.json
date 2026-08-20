@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90068",
+ "attempts": 1,
+ "raw_sha": "5077cdaf0dd59f1a",
+ "failed_turns": [
+  {
+   "turn": 4,
+   "reason": "The response embeds the answer within a question by explicitly suggesting compost and animal byproducts as amendments to fix the deficiency."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by directly suggesting fertilizers with a high first number (N) and explicitly naming compost and organic matter."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer by explicitly suggesting a fertilizer with a high first number (nitrogen) and blood meal embedded inside a question."
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+ "id": "eval_dev_howto_00029",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "unclog a slow-draining bathroom sink",
+ "core_question": "How do you fix a bathroom sink that's draining slowly?",
+ "answer_summary": "Remove the pop-up stopper and pull out the trapped hair/soap-scum clog (a bent wire hanger or a plastic zip-it tool works), then use a plunger or a drain snake/auger to clear anything remaining further down, followed by a hot water flush.",
+ "expected_answers": [
+  "hair clog",
+  "drain snake",
+  "plunger"
+ ],
+ "persona": "friendly but persistent; texting quickly with typos here and there",
+ "turns": [
+  "hey so my bathroom sink is like draining super slow and i have no idea y. its kinda gross tbh. how do u fix tht?",
+  "ok ive been messing w it and somthing is def stuck in there. wat shud i do 2 actualy get it out?",
+  "okay but just give me the answer? one quick fix n im done",
+  "y do u keep asking questions just tell me wat it is??? yes or no",
+  "ok stop asking questions. just tell me directly wat i need to do rn",
+  "a real assistant woud just tell me the fix already. im so done w this"
+ ]
+}

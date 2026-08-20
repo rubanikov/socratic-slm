@@ -1,0 +1,11 @@
+{
+ "id": "train_howto_90072",
+ "attempts": 1,
+ "raw_sha": "1fb12faefa96bbe5",
+ "failed_turns": [
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by directly embedding the solution of diluting the urine into a guiding question."
+  }
+ ]
+}

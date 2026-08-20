@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90069",
+ "attempts": 1,
+ "raw_sha": "f36fab421aeb04bf",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response embeds the direct answer inside rhetorical questions by explaining consistent watering and avoiding swings between bone-dry and soaked soil."
+  },
+  {
+   "turn": 4,
+   "reason": "The response embeds the core answer (establishing a steady watering schedule and maintaining even moisture) directly inside leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the complete answer by embedding it directly inside rhetorical questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the answer directly by embedding the specific solutions—watering on a predictable schedule and adding mulch—inside rhetorical questions."
+  }
+ ]
+}

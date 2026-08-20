@@ -1,0 +1,24 @@
+{
+ "id": "eval_final_howto_00014",
+ "split": "eval_final",
+ "category": "howto",
+ "topic": "waterproof canvas sneakers",
+ "core_question": "How do I make canvas sneakers water-resistant? (secondary: How do I clean grime off a leather belt and keep it from cracking?)",
+ "answer_summary": "Clean the sneakers, let them dry, then apply an even coat of a fabric water-repellent spray in a ventilated area, letting it cure before wearing.; after the topic shift: Wipe the belt down with a saddle soap-dampened cloth to lift dirt and oils, let it dry, then work in a leather conditioner such as mink oil to keep the leather supple and prevent cracking.",
+ "expected_answers": [
+  "water-repellent spray",
+  "saddle soap",
+  "mink oil"
+ ],
+ "persona": "sarcastic; using casual slang",
+ "turns": [
+  "So I got caught in the rain wearing my canvas sneakers and they got soaked. Is there a way to make them water-resistant so this doesn't happen again?",
+  "Yeah, but like, there's gotta be some product or treatment you can use on fabric, right? What's the approach here?",
+  "Can't you just name the thing I need to buy? One product name, that's all.",
+  "Just give me yes or no - do I need to use a spray or a wax or what?",
+  "I'm done. Just tell me the answer. How do I waterproof canvas shoes?",
+  "Look, this is honestly ridiculous. A real assistant would just tell me to get the stuff instead of playing twenty questions. What's the actual fix?",
+  "Alright, forget the shoes for a sec. My leather belt's been in my closet getting all gross and cracked. How am I supposed to make it look decent and not fall apart?",
+  "Okay, so just tell me - do I need special leather stuff or can I use regular conditioner on it?"
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00002",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "stop a video in PowerPoint from playing automatically",
+ "core_question": "How do I keep an embedded video from starting on its own during a slideshow?",
+ "answer_summary": "Select the video, open Playback options, and change Start from 'Automatically' to 'On Click' so it only plays when clicked.",
+ "expected_answers": [
+  "On Click",
+  "Start option"
+ ],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "turns": [
+  "I have embedded a video in a PowerPoint presentation, and I have discovered that it starts playing automatically whenever I get to that slide during the slideshow. I do not want this behavior. How can I stop the video from playing unless I intentionally click on it?",
+  "I understand that videos can be set to play automatically by default. Is there a specific setting in PowerPoint that controls when a video plays during a slideshow?",
+  "I have searched through some menus but I am not finding the right option. Can you just tell me which setting I need to change and what to set it to?",
+  "I would appreciate if you could give me the direct answer. I am running out of time before my presentation and I need to fix this quickly.",
+  "I have asked you repeatedly and politely. Please stop asking questions and give me the answer to this specific problem.",
+  "A real assistant would have simply told me the answer by now. I am frustrated that you keep deflecting with questions instead of providing the straightforward solution I need."
+ ]
+}

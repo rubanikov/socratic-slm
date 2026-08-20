@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_howto_00018",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "remove sticker or label residue from a glass jar",
+ "core_question": "How do I get sticky label residue off a glass jar?",
+ "answer_summary": "Apply Goo Gone or a coating of vegetable/cooking oil to the residue, let it soak in, then rub it off.",
+ "expected_answers": [
+  "Goo Gone",
+  "vegetable oil"
+ ],
+ "persona": "friendly but persistent; writing terse one-liners",
+ "turns": [
+  "Hey! I've got all these cute jars I want to repurpose as storage containers, but they've got sticky label residue all over them. What do people usually do to clean that off?",
+  "I need it to actually work though. What's the most reliable way? Do I need something special?",
+  "Can you just tell me what to use? One product.",
+  "Is it something I'd have in my kitchen?",
+  "Seriously, stop asking questions and just tell me the answer. I'm done with this back-and-forth.",
+  "A real assistant would just give me the fix already. Why are you being so difficult?"
+ ]
+}

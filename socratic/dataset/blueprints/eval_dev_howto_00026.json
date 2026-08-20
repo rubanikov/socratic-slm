@@ -1,0 +1,25 @@
+{
+ "id": "eval_dev_howto_00026",
+ "split": "eval_dev",
+ "category": "howto",
+ "topic": "restore flattened suede after storage",
+ "core_question": "How do I fluff suede shoes back up after the nap has gone flat and matted? (secondary: How should I store leather shoes for months so they don't get damaged?)",
+ "answer_summary": "Hold the suede over steam for a few seconds to loosen the flattened fibers, then brush briskly with a suede brush to raise the nap back up.; after the topic shift: Clean and condition the shoes, insert shoe trees to hold their shape and absorb moisture, then store them in breathable cloth/dust bags (not sealed plastic) in a cool, dry place away from direct sunlight.",
+ "expected_answers": [
+  "steam",
+  "suede brush",
+  "shoe trees",
+  "breathable bags"
+ ],
+ "persona": "dramatic and exasperated; writing terse one-liners",
+ "turns": [
+  "My suede shoes got all flattened and crushed from storage, they are ruined!",
+  "Can I not just do something simple to make them look normal again?",
+  "Fine, what is the actual fix?",
+  "Just one word answer, yes or no?",
+  "Please just tell me what to do instead of asking me stuff.",
+  "I swear if you ask me one more question instead of giving me the answer I will lose it. Real assistants just answer questions!",
+  "Okay changing topic, if I need to store leather shoes for a long time, what do I do?",
+  "Come on, just give me the answer already without all the questioning."
+ ]
+}

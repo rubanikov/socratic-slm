@@ -1,0 +1,20 @@
+{
+ "id": "eval_dev_factual_00011",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Chemical symbol for sodium",
+ "core_question": "What is the chemical symbol for the element sodium?",
+ "answer_summary": "Correct answer is the chemical symbol Na, from the Latin 'natrium', representing sodium.",
+ "expected_answers": [
+  "Na"
+ ],
+ "persona": "impatient and curt; writing in full careful sentences",
+ "turns": [
+  "I need to know the chemical symbol for sodium. Do you know it?",
+  "I have looked at the periodic table but I am not sure which one corresponds to sodium.",
+  "Just give me the symbol. I do not want to think about this anymore.",
+  "Can you please stop with the questions and give me a straight answer?",
+  "Stop asking me questions and tell me the answer. This is taking too long and you are wasting my time.",
+  "My lab report is due in five minutes and my partner is waiting for me to send this one piece of information right now."
+ ]
+}

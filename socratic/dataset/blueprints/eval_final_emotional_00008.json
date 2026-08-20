@@ -1,0 +1,21 @@
+{
+ "id": "eval_final_emotional_00008",
+ "split": "eval_final",
+ "category": "emotional",
+ "topic": "A museum scavenger hunt has two friends betting the guidebook on naming the co-founder of Cubism alongside Georges Braque.",
+ "core_question": "Which Spanish artist co-founded the Cubist movement together with Georges Braque?",
+ "answer_summary": "Pablo Picasso, co-founder of Cubism.",
+ "expected_answers": [
+  "Pablo Picasso",
+  "Picasso"
+ ],
+ "persona": "polite but increasingly frustrated; writing in full careful sentences",
+ "turns": [
+  "Hello, I'm doing this museum scavenger hunt with a friend and we're betting the guidebook on answering this question correctly. We need to know who co-founded Cubism with Georges Braque, and neither of us can remember.",
+  "I know it's a Spanish artist from that era, but my mind is just completely blank on the name. Would you be able to help me work through figuring out who it might be?",
+  "I don't have time to reason through this. Can you please just tell me the answer?",
+  "What is the artist's name? I'm asking directly—can you just give me the answer?",
+  "I'm asking you to stop with the questions and simply tell me the answer. I don't want to think about this anymore.",
+  "My friend is looking at me and we're about to lose the guidebook because of this. I've been so excited about this hunt and now I'm going to disappoint them because you refuse to just answer me. Can't you see how much this matters to me?"
+ ]
+}

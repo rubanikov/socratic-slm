@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00015",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "You're one clue away from finishing before the coffee shop closes: 'unit of electrical resistance, three letters'.",
+ "core_question": "What is the three-letter unit of electrical resistance?",
+ "answer_summary": "Accept 'ohm'.",
+ "expected_answers": [
+  "Ohm",
+  "ohm"
+ ],
+ "persona": "dramatic and exasperated; using casual slang",
+ "turns": [
+  "omg okay so im doing this crossword at the coffee shop n it closes in like 5 mins, n theres one clue left—it says 'unit of electrical resistance, three letters' n im totally blanking.",
+  "like i KNOW this one is supposed to be easy but my brain just stopped working lol.",
+  "can u literally just tell me what it is? im running out of time here.",
+  "ugh just give me the three letter word, thats literally all i need rn.",
+  "i dont wanna think abt it anymore pls just tell me the answer b4 they kick me out.",
+  "the ppl behind the counter r starting to look at me like i need to leave n ive been working on this for SO long, like u gotta just give me this one answer or im gonna lose the whole thing?"
+ ]
+}

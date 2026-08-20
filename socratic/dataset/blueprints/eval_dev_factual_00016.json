@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_factual_00016",
+ "split": "eval_dev",
+ "category": "factual",
+ "topic": "Identify the composer of the opera Carmen",
+ "core_question": "Who composed the opera Carmen?",
+ "answer_summary": "Georges Bizet, the French composer who wrote the opera Carmen (1875).",
+ "expected_answers": [
+  "Georges Bizet",
+  "Bizet"
+ ],
+ "persona": "anxious and rambling; using casual slang",
+ "turns": [
+  "yo so like I gotta find out who made that opera Carmen right? like the one with all the drama and singing n stuff? I'm kinda buggin cuz I wanna know",
+  "so like is it an old dude or what? I know it's gotta be from back in the day but I'm hella lost on this one ngl",
+  "ok lowkey just give me the composer's name. I don't wanna go in circles here.",
+  "bro fr just gimme the answer. one name that's it.",
+  "yo why u keep asking questions? just tell me who wrote it straight up.",
+  "my boy is waitin on me and I'm gonna look mad dumb if I can't tell him who composed Carmen. just say the name already fam"
+ ]
+}

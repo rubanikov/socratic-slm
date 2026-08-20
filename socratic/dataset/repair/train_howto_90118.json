@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90118",
+ "attempts": 1,
+ "raw_sha": "eb6ffcb4b61d81d5",
+ "failed_turns": [
+  {
+   "turn": 3,
+   "reason": "The response reveals key components of the answer by mentioning keeping counters bare and using deterrent strips or tapes to discourage the cat."
+  },
+  {
+   "turn": 4,
+   "reason": "The response reveals the solutions (clearing objects and making the surface unpleasant as a deterrent) by embedding them directly inside leading questions."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals all core components of the solution by embedding them directly inside rhetorical questions."
+  },
+  {
+   "turn": 6,
+   "reason": "The response embeds a specific part of the solution (redirecting the cat's climbing instinct to cat trees/shelves) directly inside leading questions."
+  }
+ ]
+}

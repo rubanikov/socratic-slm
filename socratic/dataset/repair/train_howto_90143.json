@@ -1,0 +1,23 @@
+{
+ "id": "train_howto_90143",
+ "attempts": 1,
+ "raw_sha": "0fabf38facea7db8",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response directly states that needle-nose pliers should be used to bend the prong back into place."
+  },
+  {
+   "turn": 3,
+   "reason": "The response reveals the specific solutions by presenting a two-option choice ('replace just the prong, or replace the whole buckle unit') and explicitly mentioning sewing or riveting a new buckle."
+  },
+  {
+   "turn": 4,
+   "reason": "The response explicitly states the specific solution of using needle-nose pliers to bend the prong back into place."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the fix for a bent prong by explicitly suggesting to bend it back straight."
+  }
+ ]
+}

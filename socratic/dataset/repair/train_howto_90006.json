@@ -1,0 +1,19 @@
+{
+ "id": "train_howto_90006",
+ "attempts": 1,
+ "raw_sha": "51b7ad505d77d758",
+ "failed_turns": [
+  {
+   "turn": 2,
+   "reason": "The response directly states that nailing is an approach to fixing the separated baseboard, revealing a core method of the answer."
+  },
+  {
+   "turn": 5,
+   "reason": "The response reveals the answer by presenting a short list of options containing the construction adhesive section and explicitly hinting at using a heavy-duty adhesive."
+  },
+  {
+   "turn": 6,
+   "reason": "The response reveals the method by presenting a short two-option list containing the specific type of adhesive needed to attach the baseboard to the wall."
+  }
+ ]
+}

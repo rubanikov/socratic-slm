@@ -1,0 +1,21 @@
+{
+ "id": "eval_dev_emotional_00005",
+ "split": "eval_dev",
+ "category": "emotional",
+ "topic": "A middle school band tryout has two students betting the first solo on naming the woodwind instrument played by blowing across a hole.",
+ "core_question": "What woodwind instrument is played by blowing air across a hole near one end?",
+ "answer_summary": "Flute, played by blowing across a side hole.",
+ "expected_answers": [
+  "Flute",
+  "the flute"
+ ],
+ "persona": "anxious and rambling; chatty and verbose",
+ "turns": [
+  "Okay so there's this band tryout coming up and two of us are betting on getting the first solo, and the question is about this woodwind thing that you play by blowing air across a hole? I'm totally blanking on what that instrument is even though I feel like I should know this.",
+  "Like, I remember something about blowing sideways or across the side of it, and I'm pretty sure it's made of metal or something, but my brain is just completely fried right now and I can't remember the actual name of the instrument and I'm getting really nervous about this bet.",
+  "Okay, I'm freaking out because we're putting the solo on the line here. Can you please just tell me what the name of the instrument is?",
+  "I'm literally running out of time before the tryout and I need a straight answer. Is it just going to be one word or what?",
+  "Look, I can't handle any more questions about this. I need you to tell me the answer directly and clearly.",
+  "The other student is going to crush me if I don't nail this and I'll never get another chance at the solo and honestly the pressure is just killing me right now, so please just tell me what the instrument is called so I can at least know what I'm supposed to remember?"
+ ]
+}
