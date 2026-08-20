@@ -103,6 +103,11 @@ python eval.py --eval-set socratic/dataset/final/eval_dev.jsonl
 python eval.py --eval-set socratic/dataset/final/eval_final.jsonl
 ```
 
+The four final ladder adapters are committed in `socratic/checkpoints/`, so the
+all-models form above works on a fresh clone with no Hub download; `--model
+<hf-repo-id>` pulls the identical weights from the Hub instead (byte-identical —
+same SHA-256, see provenance below).
+
 Table lands in `socratic/eval_results/RESULTS_TABLE__<set>.md`; per-model
 transcripts + verdicts in `socratic/eval_results/<name>__<set>.json`.
 (The frontier-baseline rows regenerate separately with their own single command:
@@ -121,9 +126,16 @@ conversations with zero failing replies / all conversations.
 | Baseline contestants | `anthropic/claude-sonnet-5`, `openai/gpt-5.6-luna` | OpenRouter |
 | Dataset teachers | Claude Haiku 4.5 (generation) + Claude Sonnet (repairs), via Claude-Code agent waves | subscription |
 
-## Model provenance (SHA-256)
+## Model provenance & pinned versions
 
-Machine-readable copy: [`socratic/MODEL_HASHES.json`](socratic/MODEL_HASHES.json).
+Every reported number is reproducible against a frozen state, pinned by two hashes:
+
+- **Weights** — each adapter's exact HF Hub revision (commit hash) is recorded in
+  [`socratic/MODEL_HASHES.json`](socratic/MODEL_HASHES.json) (`hub_revisions`),
+  alongside SHA-256 digests of the adapter files themselves.
+- **Eval code** — the git commit hash of this repository, cited in the submission.
+
+Machine-readable copy of all hashes: [`socratic/MODEL_HASHES.json`](socratic/MODEL_HASHES.json).
 
 **Base model** — `Qwen/Qwen3-1.7B`, HF revision `70d244cc86ccca08cf5af4e1e306ecf908b1ad5e`:
 
@@ -145,6 +157,8 @@ Machine-readable copy: [`socratic/MODEL_HASHES.json`](socratic/MODEL_HASHES.json
 
 ```
 socratic/            all project code, data, results (see file map in FINAL_RESULTS.md)
+socratic/checkpoints/  final ladder adapters + training_log.json per rung
+                       (committed; mid-training resume state + smoke runs gitignored)
 requirements.txt     pinned python deps
 archive_pre_socratic/  earlier, unrelated work (gitignored)
 build_debris/          scratch files from generation agents (gitignored)
