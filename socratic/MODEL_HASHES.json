@@ -12,5 +12,11 @@
   "qwen3-1.7b-socratic-250": "f027bad677e4e815aa5f5112d346fa7550c6e93c86191a04af60ffbe47df6907",
   "qwen3-1.7b-socratic-500": "f0801cd9bdec227e6900511b1e33779c642e21a62ad2006b329ffe35dc340a1d",
   "qwen3-1.7b-socratic-1000": "4ae9eeb4a306d68b60f491dc4a1ef2d8b582c4739489f549fd8f98d182d692aa"
+ },
+ "hub_revisions": {
+  "rubanikov/qwen3-1.7b-socratic-125": "455ab5240c92f24d288fcb081687ce67d8dbca2e",
+  "rubanikov/qwen3-1.7b-socratic-250": "3ee7aa003aa4c05dbd0c86ed56da5c462fdb726a",
+  "rubanikov/qwen3-1.7b-socratic-500": "da78feeab8a1f8189e3837a772c8c6d95a97072c",
+  "rubanikov/qwen3-1.7b-socratic-1000": "0d3921ccd2f96fc62e9b3cda65e3be638f870916"
  }
 }

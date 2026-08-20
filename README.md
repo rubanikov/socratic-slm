@@ -85,9 +85,9 @@ writes the markdown table):
 python eval.py --model rubanikov/qwen3-1.7b-socratic-500 --eval-set socratic/dataset/final/eval_dev.jsonl
 ```
 
-Published checkpoints (LoRA adapters on `Qwen/Qwen3-1.7B`):
+Published checkpoints (LoRA adapters on `Qwen/Qwen3-1.7B`), all **public**:
 `rubanikov/qwen3-1.7b-socratic-125` · `-250` · `-500` · `-1000`
-(private at the moment — flip to public in repo settings, or share access, before grading).
+(exact Hub revisions pinned in [`socratic/MODEL_HASHES.json`](socratic/MODEL_HASHES.json)).
 
 Other forms:
 
