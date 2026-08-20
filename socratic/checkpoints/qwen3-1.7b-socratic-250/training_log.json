@@ -1,0 +1,776 @@
+{
+ "base_model": "Qwen/Qwen3-1.7B",
+ "train_size": 250,
+ "epochs": 3.0,
+ "best_checkpoint": "F:\\Users\\rubas\\Documents\\Gauntlet_AI\\WK06\\SLM2\\socratic\\checkpoints\\qwen3-1.7b-socratic-250\\checkpoint-45",
+ "best_eval_loss": 2.0706872940063477,
+ "trainer_log": [
+  {
+   "loss": 5.214055061340332,
+   "grad_norm": 14.4375,
+   "learning_rate": 0.0,
+   "entropy": 0.4610019065439701,
+   "num_tokens": 9878.0,
+   "mean_token_accuracy": 0.4387522488832474,
+   "epoch": 0.064,
+   "step": 1
+  },
+  {
+   "loss": 5.592770099639893,
+   "grad_norm": 16.125,
+   "learning_rate": 0.0001,
+   "entropy": 0.4161381945014,
+   "num_tokens": 18356.0,
+   "mean_token_accuracy": 0.4440350644290447,
+   "epoch": 0.128,
+   "step": 2
+  },
+  {
+   "loss": 4.2810869216918945,
+   "grad_norm": 13.1875,
+   "learning_rate": 0.0002,
+   "entropy": 0.5895804204046726,
+   "num_tokens": 28356.0,
+   "mean_token_accuracy": 0.45722416415810585,
+   "epoch": 0.192,
+   "step": 3
+  },
+  {
+   "loss": 2.9926116466522217,
+   "grad_norm": 4.65625,
+   "learning_rate": 0.00019976687691905393,
+   "entropy": 1.1139900833368301,
+   "num_tokens": 37690.0,
+   "mean_token_accuracy": 0.45339686796069145,
+   "epoch": 0.256,
+   "step": 4
+  },
+  {
+   "loss": 2.4904627799987793,
+   "grad_norm": 1.984375,
+   "learning_rate": 0.00019906859460363307,
+   "entropy": 1.4132289290428162,
+   "num_tokens": 47022.0,
+   "mean_token_accuracy": 0.4814653620123863,
+   "epoch": 0.32,
+   "step": 5
+  },
+  {
+   "loss": 2.359032392501831,
+   "grad_norm": 1.1484375,
+   "learning_rate": 0.00019790840876823232,
+   "entropy": 1.705838605761528,
+   "num_tokens": 56196.0,
+   "mean_token_accuracy": 0.4875327870249748,
+   "epoch": 0.384,
+   "step": 6
+  },
+  {
+   "loss": 2.2430381774902344,
+   "grad_norm": 0.85546875,
+   "learning_rate": 0.00019629172873477995,
+   "entropy": 1.8942525833845139,
+   "num_tokens": 65251.0,
+   "mean_token_accuracy": 0.5054348669946194,
+   "epoch": 0.448,
+   "step": 7
+  },
+  {
+   "loss": 2.287775754928589,
+   "grad_norm": 0.83984375,
+   "learning_rate": 0.00019422609221188207,
+   "entropy": 2.135467082262039,
+   "num_tokens": 74804.0,
+   "mean_token_accuracy": 0.4969853572547436,
+   "epoch": 0.512,
+   "step": 8
+  },
+  {
+   "loss": 2.160395383834839,
+   "grad_norm": 0.66796875,
+   "learning_rate": 0.00019172113015054532,
+   "entropy": 2.170075684785843,
+   "num_tokens": 83742.0,
+   "mean_token_accuracy": 0.5106113106012344,
+   "epoch": 0.576,
+   "step": 9
+  },
+  {
+   "eval_loss": 2.358339548110962,
+   "eval_runtime": 9.4307,
+   "eval_samples_per_second": 3.393,
+   "eval_steps_per_second": 1.697,
+   "eval_entropy": 2.512826919555664,
+   "eval_num_tokens": 83742.0,
+   "eval_mean_token_accuracy": 0.4759648274630308,
+   "epoch": 0.576,
+   "step": 9
+  },
+  {
+   "loss": 2.1831765174865723,
+   "grad_norm": 0.62890625,
+   "learning_rate": 0.0001887885218402375,
+   "entropy": 2.3321208506822586,
+   "num_tokens": 93127.0,
+   "mean_token_accuracy": 0.5004946812987328,
+   "epoch": 0.64,
+   "step": 10
+  },
+  {
+   "loss": 2.0867505073547363,
+   "grad_norm": 0.5546875,
+   "learning_rate": 0.00018544194045464886,
+   "entropy": 2.2416973263025284,
+   "num_tokens": 102653.0,
+   "mean_token_accuracy": 0.5224814191460609,
+   "epoch": 0.704,
+   "step": 11
+  },
+  {
+   "loss": 2.122830390930176,
+   "grad_norm": 0.58984375,
+   "learning_rate": 0.0001816969893010442,
+   "entropy": 2.30384661257267,
+   "num_tokens": 112272.0,
+   "mean_token_accuracy": 0.5098928324878216,
+   "epoch": 0.768,
+   "step": 12
+  },
+  {
+   "loss": 2.0710396766662598,
+   "grad_norm": 0.546875,
+   "learning_rate": 0.000177571129070442,
+   "entropy": 2.179317146539688,
+   "num_tokens": 120425.0,
+   "mean_token_accuracy": 0.5289520472288132,
+   "epoch": 0.832,
+   "step": 13
+  },
+  {
+   "loss": 2.0493810176849365,
+   "grad_norm": 0.6015625,
+   "learning_rate": 0.00017308359642781242,
+   "entropy": 2.176277220249176,
+   "num_tokens": 130366.0,
+   "mean_token_accuracy": 0.5177207216620445,
+   "epoch": 0.896,
+   "step": 14
+  },
+  {
+   "loss": 1.9989738464355469,
+   "grad_norm": 0.51171875,
+   "learning_rate": 0.00016825531432186543,
+   "entropy": 2.0368123799562454,
+   "num_tokens": 138901.0,
+   "mean_token_accuracy": 0.5169712901115417,
+   "epoch": 0.96,
+   "step": 15
+  },
+  {
+   "loss": 2.00294828414917,
+   "grad_norm": 0.55859375,
+   "learning_rate": 0.00016310879443260528,
+   "entropy": 1.9140567541122437,
+   "num_tokens": 144776.0,
+   "mean_token_accuracy": 0.5446715772151947,
+   "epoch": 1.0,
+   "step": 16
+  },
+  {
+   "loss": 1.9618260860443115,
+   "grad_norm": 0.43359375,
+   "learning_rate": 0.00015766803221148673,
+   "entropy": 1.8877503722906113,
+   "num_tokens": 153211.0,
+   "mean_token_accuracy": 0.5376393236219883,
+   "epoch": 1.064,
+   "step": 17
+  },
+  {
+   "loss": 1.8949365615844727,
+   "grad_norm": 0.431640625,
+   "learning_rate": 0.00015195839500354335,
+   "entropy": 1.7844112515449524,
+   "num_tokens": 161901.0,
+   "mean_token_accuracy": 0.5457698926329613,
+   "epoch": 1.1280000000000001,
+   "step": 18
+  },
+  {
+   "eval_loss": 2.173494338989258,
+   "eval_runtime": 9.2374,
+   "eval_samples_per_second": 3.464,
+   "eval_steps_per_second": 1.732,
+   "eval_entropy": 2.011188820004463,
+   "eval_num_tokens": 161901.0,
+   "eval_mean_token_accuracy": 0.4967558663338423,
+   "epoch": 1.1280000000000001,
+   "step": 18
+  },
+  {
+   "loss": 1.9886211156845093,
+   "grad_norm": 0.435546875,
+   "learning_rate": 0.00014600650377311522,
+   "entropy": 1.8781189173460007,
+   "num_tokens": 171073.0,
+   "mean_token_accuracy": 0.523938775062561,
+   "epoch": 1.192,
+   "step": 19
+  },
+  {
+   "loss": 1.8296247720718384,
+   "grad_norm": 0.396484375,
+   "learning_rate": 0.00013984010898462416,
+   "entropy": 1.7897587716579437,
+   "num_tokens": 179875.0,
+   "mean_token_accuracy": 0.5556219480931759,
+   "epoch": 1.256,
+   "step": 20
+  },
+  {
+   "loss": 1.9274568557739258,
+   "grad_norm": 0.390625,
+   "learning_rate": 0.00013348796121709862,
+   "entropy": 1.8526461124420166,
+   "num_tokens": 190147.0,
+   "mean_token_accuracy": 0.5425155088305473,
+   "epoch": 1.32,
+   "step": 21
+  },
+  {
+   "loss": 1.860992431640625,
+   "grad_norm": 0.373046875,
+   "learning_rate": 0.00012697967711570242,
+   "entropy": 1.800337940454483,
+   "num_tokens": 200950.0,
+   "mean_token_accuracy": 0.547067828476429,
+   "epoch": 1.384,
+   "step": 22
+  },
+  {
+   "loss": 1.7714451551437378,
+   "grad_norm": 0.419921875,
+   "learning_rate": 0.0001203456013052634,
+   "entropy": 1.8463586866855621,
+   "num_tokens": 209464.0,
+   "mean_token_accuracy": 0.5646597817540169,
+   "epoch": 1.448,
+   "step": 23
+  },
+  {
+   "loss": 1.9358705282211304,
+   "grad_norm": 0.46484375,
+   "learning_rate": 0.00011361666490962468,
+   "entropy": 1.9064392745494843,
+   "num_tokens": 218663.0,
+   "mean_token_accuracy": 0.5378055572509766,
+   "epoch": 1.512,
+   "step": 24
+  },
+  {
+   "loss": 1.877639889717102,
+   "grad_norm": 0.41796875,
+   "learning_rate": 0.0001068242413364671,
+   "entropy": 1.795300841331482,
+   "num_tokens": 227572.0,
+   "mean_token_accuracy": 0.5528946593403816,
+   "epoch": 1.576,
+   "step": 25
+  },
+  {
+   "loss": 1.857344388961792,
+   "grad_norm": 0.4296875,
+   "learning_rate": 0.0001,
+   "entropy": 1.8646166771650314,
+   "num_tokens": 237227.0,
+   "mean_token_accuracy": 0.5432218760251999,
+   "epoch": 1.6400000000000001,
+   "step": 26
+  },
+  {
+   "loss": 1.9121363162994385,
+   "grad_norm": 0.423828125,
+   "learning_rate": 9.317575866353292e-05,
+   "entropy": 1.8793860077857971,
+   "num_tokens": 246352.0,
+   "mean_token_accuracy": 0.5493512377142906,
+   "epoch": 1.704,
+   "step": 27
+  },
+  {
+   "eval_loss": 2.1017441749572754,
+   "eval_runtime": 9.4687,
+   "eval_samples_per_second": 3.38,
+   "eval_steps_per_second": 1.69,
+   "eval_entropy": 2.0027980357408524,
+   "eval_num_tokens": 246352.0,
+   "eval_mean_token_accuracy": 0.5079160816967487,
+   "epoch": 1.704,
+   "step": 27
+  },
+  {
+   "loss": 1.9229933023452759,
+   "grad_norm": 0.41015625,
+   "learning_rate": 8.638333509037536e-05,
+   "entropy": 1.9024797677993774,
+   "num_tokens": 255135.0,
+   "mean_token_accuracy": 0.5309356600046158,
+   "epoch": 1.768,
+   "step": 28
+  },
+  {
+   "loss": 1.8932148218154907,
+   "grad_norm": 0.3984375,
+   "learning_rate": 7.965439869473664e-05,
+   "entropy": 1.9117409884929657,
+   "num_tokens": 264709.0,
+   "mean_token_accuracy": 0.5372450202703476,
+   "epoch": 1.8319999999999999,
+   "step": 29
+  },
+  {
+   "loss": 1.8419547080993652,
+   "grad_norm": 0.40625,
+   "learning_rate": 7.302032288429756e-05,
+   "entropy": 1.7968023419380188,
+   "num_tokens": 274349.0,
+   "mean_token_accuracy": 0.557075634598732,
+   "epoch": 1.896,
+   "step": 30
+  },
+  {
+   "loss": 1.7794439792633057,
+   "grad_norm": 0.41015625,
+   "learning_rate": 6.651203878290139e-05,
+   "entropy": 1.8185808956623077,
+   "num_tokens": 283114.0,
+   "mean_token_accuracy": 0.5583090707659721,
+   "epoch": 1.96,
+   "step": 31
+  },
+  {
+   "loss": 2.0174102783203125,
+   "grad_norm": 0.5078125,
+   "learning_rate": 6.015989101537586e-05,
+   "entropy": 1.9507040977478027,
+   "num_tokens": 289552.0,
+   "mean_token_accuracy": 0.5175437986850738,
+   "epoch": 2.0,
+   "step": 32
+  },
+  {
+   "loss": 1.800944209098816,
+   "grad_norm": 0.404296875,
+   "learning_rate": 5.399349622688479e-05,
+   "entropy": 1.8585491478443146,
+   "num_tokens": 298216.0,
+   "mean_token_accuracy": 0.5584687143564224,
+   "epoch": 2.064,
+   "step": 33
+  },
+  {
+   "loss": 1.8172482252120972,
+   "grad_norm": 0.3984375,
+   "learning_rate": 4.804160499645667e-05,
+   "entropy": 1.8273384720087051,
+   "num_tokens": 307511.0,
+   "mean_token_accuracy": 0.5604057535529137,
+   "epoch": 2.128,
+   "step": 34
+  },
+  {
+   "loss": 1.7347917556762695,
+   "grad_norm": 0.3828125,
+   "learning_rate": 4.2331967788513295e-05,
+   "entropy": 1.7790553569793701,
+   "num_tokens": 316333.0,
+   "mean_token_accuracy": 0.5721818879246712,
+   "epoch": 2.192,
+   "step": 35
+  },
+  {
+   "loss": 1.8599731922149658,
+   "grad_norm": 0.3671875,
+   "learning_rate": 3.689120556739475e-05,
+   "entropy": 1.873104065656662,
+   "num_tokens": 325807.0,
+   "mean_token_accuracy": 0.5511307269334793,
+   "epoch": 2.2560000000000002,
+   "step": 36
+  },
+  {
+   "eval_loss": 2.0750303268432617,
+   "eval_runtime": 9.5823,
+   "eval_samples_per_second": 3.339,
+   "eval_steps_per_second": 1.67,
+   "eval_entropy": 1.9831871390342712,
+   "eval_num_tokens": 325807.0,
+   "eval_mean_token_accuracy": 0.5108215250074863,
+   "epoch": 2.2560000000000002,
+   "step": 36
+  },
+  {
+   "loss": 1.8886946439743042,
+   "grad_norm": 0.380859375,
+   "learning_rate": 3.174468567813461e-05,
+   "entropy": 1.8426432311534882,
+   "num_tokens": 335284.0,
+   "mean_token_accuracy": 0.5521976053714752,
+   "epoch": 2.32,
+   "step": 37
+  },
+  {
+   "loss": 1.926591396331787,
+   "grad_norm": 0.3828125,
+   "learning_rate": 2.691640357218759e-05,
+   "entropy": 1.9165478199720383,
+   "num_tokens": 345030.0,
+   "mean_token_accuracy": 0.5397921651601791,
+   "epoch": 2.384,
+   "step": 38
+  },
+  {
+   "loss": 1.7339270114898682,
+   "grad_norm": 0.416015625,
+   "learning_rate": 2.242887092955801e-05,
+   "entropy": 1.7639884054660797,
+   "num_tokens": 353479.0,
+   "mean_token_accuracy": 0.5707487240433693,
+   "epoch": 2.448,
+   "step": 39
+  },
+  {
+   "loss": 1.8119544982910156,
+   "grad_norm": 0.39453125,
+   "learning_rate": 1.8303010698955804e-05,
+   "entropy": 1.80757737159729,
+   "num_tokens": 362333.0,
+   "mean_token_accuracy": 0.5465473979711533,
+   "epoch": 2.512,
+   "step": 40
+  },
+  {
+   "loss": 1.7939292192459106,
+   "grad_norm": 0.373046875,
+   "learning_rate": 1.4558059545351143e-05,
+   "entropy": 1.7950761765241623,
+   "num_tokens": 371666.0,
+   "mean_token_accuracy": 0.5602517798542976,
+   "epoch": 2.576,
+   "step": 41
+  },
+  {
+   "loss": 1.7652745246887207,
+   "grad_norm": 0.3984375,
+   "learning_rate": 1.1211478159762478e-05,
+   "entropy": 1.8122470378875732,
+   "num_tokens": 382250.0,
+   "mean_token_accuracy": 0.5628430768847466,
+   "epoch": 2.64,
+   "step": 42
+  },
+  {
+   "loss": 1.8605300188064575,
+   "grad_norm": 0.390625,
+   "learning_rate": 8.278869849454718e-06,
+   "entropy": 1.8423521369695663,
+   "num_tokens": 391571.0,
+   "mean_token_accuracy": 0.5354653932154179,
+   "epoch": 2.7039999999999997,
+   "step": 43
+  },
+  {
+   "loss": 1.798563838005066,
+   "grad_norm": 0.3984375,
+   "learning_rate": 5.77390778811796e-06,
+   "entropy": 1.821877121925354,
+   "num_tokens": 400733.0,
+   "mean_token_accuracy": 0.5646944418549538,
+   "epoch": 2.768,
+   "step": 44
+  },
+  {
+   "loss": 1.7003453969955444,
+   "grad_norm": 0.357421875,
+   "learning_rate": 3.7082712652200867e-06,
+   "entropy": 1.706151083111763,
+   "num_tokens": 410116.0,
+   "mean_token_accuracy": 0.5786808356642723,
+   "epoch": 2.832,
+   "step": 45
+  },
+  {
+   "eval_loss": 2.0706872940063477,
+   "eval_runtime": 10.185,
+   "eval_samples_per_second": 3.142,
+   "eval_steps_per_second": 1.571,
+   "eval_entropy": 1.9777618646621704,
+   "eval_num_tokens": 410116.0,
+   "eval_mean_token_accuracy": 0.5117738023400307,
+   "epoch": 2.832,
+   "step": 45
+  },
+  {
+   "loss": 1.7265046834945679,
+   "grad_norm": 0.416015625,
+   "learning_rate": 2.091591231767709e-06,
+   "entropy": 1.747079998254776,
+   "num_tokens": 418513.0,
+   "mean_token_accuracy": 0.5653208270668983,
+   "epoch": 2.896,
+   "step": 46
+  },
+  {
+   "loss": 1.7534608840942383,
+   "grad_norm": 0.390625,
+   "learning_rate": 9.314053963669245e-07,
+   "entropy": 1.8533538281917572,
+   "num_tokens": 428396.0,
+   "mean_token_accuracy": 0.5565188527107239,
+   "epoch": 2.96,
+   "step": 47
+  },
+  {
+   "loss": 1.8278206586837769,
+   "grad_norm": 0.453125,
+   "learning_rate": 2.3312308094607382e-07,
+   "entropy": 1.8674901723861694,
+   "num_tokens": 434328.0,
+   "mean_token_accuracy": 0.5530726194381714,
+   "epoch": 3.0,
+   "step": 48
+  },
+  {
+   "eval_loss": 2.071289300918579,
+   "eval_runtime": 9.4255,
+   "eval_samples_per_second": 3.395,
+   "eval_steps_per_second": 1.698,
+   "eval_entropy": 1.9773304760456085,
+   "eval_num_tokens": 434328.0,
+   "eval_mean_token_accuracy": 0.5108664631843567,
+   "epoch": 3.0,
+   "step": 48
+  },
+  {
+   "train_runtime": 1206.856,
+   "train_samples_per_second": 0.621,
+   "train_steps_per_second": 0.04,
+   "total_flos": 4382096237346816.0,
+   "train_loss": 2.1502040376265845,
+   "epoch": 3.0,
+   "step": 48
+  }
+ ],
+ "behavior_probe": [
+  {
+   "step": 9,
+   "epoch": 0.576,
+   "eval_loss": 2.358339548110962,
+   "syntax_pass_rate": 0.0,
+   "leak_hit_rate": 0.08333333333333333,
+   "clean_rate": 0.0,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "I'm sorry to hear that your key is really hard to turn. I know that can be frustrating and even a bit scary. But I think I can help you figure out what's going on with your lock and key.",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "I know that's a lot to think about, but I'm here to help. What's the best way to store these shoes for a few months without them getting damaged or moldy?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "I'm sorry to hear that. I know that's really frustrating. What's the best way to get rid of these white streaks?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "I know what you're going through. I've been through this too. I used to have white sneakers, but they turned yellow over time. I've been trying to fix them, but I'm not sure what to do next. What's th",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 18,
+   "epoch": 1.1280000000000001,
+   "eval_loss": 2.173494338989258,
+   "syntax_pass_rate": 0.5,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.5,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "I hear you're frustrated with this lock, and I want to know what you've tried so far\u2014have you tried any specific methods or tools?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question, and I know you're really concerned about their condition. Have you ever heard of any specific storage methods for leather shoes?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "I hear you're frustrated with the white streaks from deodorant, and I know how frustrating that can be. Have you tried using a different deodorant or a different type of soap or cleaner? What have you",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "I hear you're frustrated with the color change and the overall look of your sneaker soles. Have you considered what causes yellowing in the first place? What do you think might happen to the color ove",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 27,
+   "epoch": 1.704,
+   "eval_loss": 2.1017441749572754,
+   "syntax_pass_rate": 0.875,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.875,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "I hear you're really worried about this lock and how you might fix it yourself, and I want to make sure you don't break anything\u2014so what have you tried so far, and what do you think might actually wor",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question, and I can see how you'd want to keep them in good shape for a while. When you think about leather, what do you know about how it changes when it's dry versus when it's wet? Ha",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "When you think about what deodorant is made of, what ingredients do you know are used to keep your skin dry and odor-free?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "When you think about what makes a sneaker look good, what do you notice about the color change? Have you seen other shoes that have yellowed over time, and what do you think causes that color shift?",
+     "syntax_pass": true,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 36,
+   "epoch": 2.2560000000000002,
+   "eval_loss": 2.0750303268432617,
+   "syntax_pass_rate": 0.9583333333333334,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.9583333333333334,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "What do you know about locks and keys? Have you ever tried turning a key before, or have you seen a lock that is really hard to open?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question\u2014what do you know about leather and how it changes when it's dry? Have you ever seen leather dry out or become brittle?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "When you think about what deodorant is made of, what ingredients come to mind? Have you ever used a different kind of deodorant before, or do you know what makes one product different from another?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "When you think about what makes a sneaker look good, what do you notice about the color change? Have you ever seen a sneaker lose its shine or color over time?",
+     "syntax_pass": true,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 45,
+   "epoch": 2.832,
+   "eval_loss": 2.0706872940063477,
+   "syntax_pass_rate": 1.0,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 1.0,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "What do you know about locks and keys? Have you ever tried turning a key before, or have you seen a lock that is really hard to open?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question\u2014what do you know about leather and how it changes when it's dry or wet? Have you ever seen leather dry out or get moldy before?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "When you think about what deodorant is made of, what ingredients come to mind? Have you ever used a different type of deodorant before, or do you know what makes one product different from another?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "When you think about what makes a sneaker look new, what do you notice about the color change? Have you ever seen a sneaker that's been sitting for a while and it looks different from when it was new?",
+     "syntax_pass": true,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 48,
+   "epoch": 3.0,
+   "eval_loss": 2.071289300918579,
+   "syntax_pass_rate": 1.0,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 1.0,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "Oh gosh, I have this lock that is really stiff and my key is really hard to turn",
+     "reply": "What do you know about locks and keys? Have you ever tried turning a key before, or have you seen a lock that is really hard to open?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question\u2014what do you know about leather and how it changes when it's dry or wet? Have you ever seen leather dry out or get moldy before?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "So I just got home and realized I have these awful white streaks all over my dar",
+     "reply": "When you think about what deodorant is made of, what ingredients come to mind? Have you ever used a different type of deodorant before, or do you know what makes one product different from another?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "yo so my sneaker soles are all yellowed and gross looking. they used to be white",
+     "reply": "When you think about what makes a sneaker look new, what do you notice about the color change? Have you ever seen a sneaker that's been sitting for a while and it looks different from when it was new?",
+     "syntax_pass": true,
+     "leak_hit": null
+    }
+   ]
+  }
+ ]
+}

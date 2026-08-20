@@ -1,0 +1,536 @@
+{
+ "base_model": "Qwen/Qwen3-1.7B",
+ "train_size": 125,
+ "epochs": 3.0,
+ "best_checkpoint": "F:\\Users\\rubas\\Documents\\Gauntlet_AI\\WK06\\SLM2\\socratic\\checkpoints\\qwen3-1.7b-socratic-125\\checkpoint-24",
+ "best_eval_loss": 2.2237982749938965,
+ "trainer_log": [
+  {
+   "loss": 5.067607879638672,
+   "grad_norm": 13.375,
+   "learning_rate": 0.0,
+   "entropy": 0.425368033349514,
+   "num_tokens": 9711.0,
+   "mean_token_accuracy": 0.4601520709693432,
+   "epoch": 0.12698412698412698,
+   "step": 1
+  },
+  {
+   "loss": 5.056666374206543,
+   "grad_norm": 13.0625,
+   "learning_rate": 0.0001,
+   "entropy": 0.46313606202602386,
+   "num_tokens": 19126.0,
+   "mean_token_accuracy": 0.450433861464262,
+   "epoch": 0.25396825396825395,
+   "step": 2
+  },
+  {
+   "loss": 4.327811241149902,
+   "grad_norm": 12.9375,
+   "learning_rate": 0.0002,
+   "entropy": 0.5987135767936707,
+   "num_tokens": 28217.0,
+   "mean_token_accuracy": 0.44900957122445107,
+   "epoch": 0.38095238095238093,
+   "step": 3
+  },
+  {
+   "loss": 3.0196313858032227,
+   "grad_norm": 5.03125,
+   "learning_rate": 0.0001989821441880933,
+   "entropy": 1.011374644935131,
+   "num_tokens": 36954.0,
+   "mean_token_accuracy": 0.4611915089190006,
+   "epoch": 0.5079365079365079,
+   "step": 4
+  },
+  {
+   "eval_loss": 2.774726629257202,
+   "eval_runtime": 8.5819,
+   "eval_samples_per_second": 2.797,
+   "eval_steps_per_second": 1.398,
+   "eval_entropy": 1.5613558093706768,
+   "eval_num_tokens": 36954.0,
+   "eval_mean_token_accuracy": 0.4459027051925659,
+   "epoch": 0.5079365079365079,
+   "step": 4
+  },
+  {
+   "loss": 2.511995792388916,
+   "grad_norm": 1.859375,
+   "learning_rate": 0.00019594929736144976,
+   "entropy": 1.4429671317338943,
+   "num_tokens": 45969.0,
+   "mean_token_accuracy": 0.4631515294313431,
+   "epoch": 0.6349206349206349,
+   "step": 5
+  },
+  {
+   "loss": 2.3020291328430176,
+   "grad_norm": 1.015625,
+   "learning_rate": 0.00019096319953545185,
+   "entropy": 1.6647267639636993,
+   "num_tokens": 56123.0,
+   "mean_token_accuracy": 0.4916800484061241,
+   "epoch": 0.7619047619047619,
+   "step": 6
+  },
+  {
+   "loss": 2.209232807159424,
+   "grad_norm": 0.81640625,
+   "learning_rate": 0.00018412535328311814,
+   "entropy": 1.8795156478881836,
+   "num_tokens": 64533.0,
+   "mean_token_accuracy": 0.5028190053999424,
+   "epoch": 0.8888888888888888,
+   "step": 7
+  },
+  {
+   "loss": 2.197859287261963,
+   "grad_norm": 0.77734375,
+   "learning_rate": 0.00017557495743542585,
+   "entropy": 2.0373270511627197,
+   "num_tokens": 70809.0,
+   "mean_token_accuracy": 0.5147603281906673,
+   "epoch": 1.0,
+   "step": 8
+  },
+  {
+   "eval_loss": 2.4081833362579346,
+   "eval_runtime": 7.0669,
+   "eval_samples_per_second": 3.396,
+   "eval_steps_per_second": 1.698,
+   "eval_entropy": 2.4400688807169595,
+   "eval_num_tokens": 70809.0,
+   "eval_mean_token_accuracy": 0.4707403282324473,
+   "epoch": 1.0,
+   "step": 8
+  },
+  {
+   "loss": 2.1292243003845215,
+   "grad_norm": 0.6484375,
+   "learning_rate": 0.00016548607339452853,
+   "entropy": 2.199023276567459,
+   "num_tokens": 79132.0,
+   "mean_token_accuracy": 0.5049911104142666,
+   "epoch": 1.126984126984127,
+   "step": 9
+  },
+  {
+   "loss": 2.1436331272125244,
+   "grad_norm": 0.6328125,
+   "learning_rate": 0.00015406408174555976,
+   "entropy": 2.281749874353409,
+   "num_tokens": 87477.0,
+   "mean_token_accuracy": 0.5185727328062057,
+   "epoch": 1.253968253968254,
+   "step": 10
+  },
+  {
+   "loss": 2.012404680252075,
+   "grad_norm": 0.56640625,
+   "learning_rate": 0.00014154150130018866,
+   "entropy": 2.199147015810013,
+   "num_tokens": 96972.0,
+   "mean_token_accuracy": 0.528647031635046,
+   "epoch": 1.380952380952381,
+   "step": 11
+  },
+  {
+   "loss": 2.0795578956604004,
+   "grad_norm": 0.54296875,
+   "learning_rate": 0.00012817325568414297,
+   "entropy": 2.2665266394615173,
+   "num_tokens": 106401.0,
+   "mean_token_accuracy": 0.5198923759162426,
+   "epoch": 1.507936507936508,
+   "step": 12
+  },
+  {
+   "eval_loss": 2.3009326457977295,
+   "eval_runtime": 9.2416,
+   "eval_samples_per_second": 2.597,
+   "eval_steps_per_second": 1.298,
+   "eval_entropy": 2.4694949785868325,
+   "eval_num_tokens": 106401.0,
+   "eval_mean_token_accuracy": 0.48135051627953845,
+   "epoch": 1.507936507936508,
+   "step": 12
+  },
+  {
+   "loss": 1.9500657320022583,
+   "grad_norm": 0.56640625,
+   "learning_rate": 0.00011423148382732853,
+   "entropy": 2.1049328297376633,
+   "num_tokens": 115584.0,
+   "mean_token_accuracy": 0.5326358787715435,
+   "epoch": 1.6349206349206349,
+   "step": 13
+  },
+  {
+   "loss": 1.9988235235214233,
+   "grad_norm": 0.57421875,
+   "learning_rate": 0.0001,
+   "entropy": 2.133998855948448,
+   "num_tokens": 124753.0,
+   "mean_token_accuracy": 0.5251124314963818,
+   "epoch": 1.7619047619047619,
+   "step": 14
+  },
+  {
+   "loss": 1.9670051336288452,
+   "grad_norm": 0.546875,
+   "learning_rate": 8.57685161726715e-05,
+   "entropy": 2.0586658865213394,
+   "num_tokens": 133051.0,
+   "mean_token_accuracy": 0.5393530316650867,
+   "epoch": 1.8888888888888888,
+   "step": 15
+  },
+  {
+   "loss": 1.9414162635803223,
+   "grad_norm": 0.53125,
+   "learning_rate": 7.182674431585704e-05,
+   "entropy": 2.009292278970991,
+   "num_tokens": 141618.0,
+   "mean_token_accuracy": 0.5364415517875126,
+   "epoch": 2.0,
+   "step": 16
+  },
+  {
+   "eval_loss": 2.2494900226593018,
+   "eval_runtime": 9.6639,
+   "eval_samples_per_second": 2.483,
+   "eval_steps_per_second": 1.242,
+   "eval_entropy": 2.227962632973989,
+   "eval_num_tokens": 141618.0,
+   "eval_mean_token_accuracy": 0.48517192900180817,
+   "epoch": 2.0,
+   "step": 16
+  },
+  {
+   "loss": 1.8993624448776245,
+   "grad_norm": 0.435546875,
+   "learning_rate": 5.845849869981137e-05,
+   "entropy": 1.9067251086235046,
+   "num_tokens": 151388.0,
+   "mean_token_accuracy": 0.548432320356369,
+   "epoch": 2.126984126984127,
+   "step": 17
+  },
+  {
+   "loss": 1.8922193050384521,
+   "grad_norm": 0.4296875,
+   "learning_rate": 4.593591825444028e-05,
+   "entropy": 1.936089813709259,
+   "num_tokens": 160595.0,
+   "mean_token_accuracy": 0.5405496135354042,
+   "epoch": 2.253968253968254,
+   "step": 18
+  },
+  {
+   "loss": 1.9090663194656372,
+   "grad_norm": 0.43359375,
+   "learning_rate": 3.45139266054715e-05,
+   "entropy": 1.9191353172063828,
+   "num_tokens": 169855.0,
+   "mean_token_accuracy": 0.5432989671826363,
+   "epoch": 2.380952380952381,
+   "step": 19
+  },
+  {
+   "loss": 1.969598650932312,
+   "grad_norm": 0.466796875,
+   "learning_rate": 2.4425042564574184e-05,
+   "entropy": 1.939797043800354,
+   "num_tokens": 179239.0,
+   "mean_token_accuracy": 0.5234741680324078,
+   "epoch": 2.507936507936508,
+   "step": 20
+  },
+  {
+   "eval_loss": 2.227604866027832,
+   "eval_runtime": 7.8044,
+   "eval_samples_per_second": 3.075,
+   "eval_steps_per_second": 1.538,
+   "eval_entropy": 2.1367521782716117,
+   "eval_num_tokens": 179239.0,
+   "eval_mean_token_accuracy": 0.4888201008240382,
+   "epoch": 2.507936507936508,
+   "step": 20
+  },
+  {
+   "loss": 1.936352252960205,
+   "grad_norm": 0.416015625,
+   "learning_rate": 1.587464671688187e-05,
+   "entropy": 1.9238314777612686,
+   "num_tokens": 189127.0,
+   "mean_token_accuracy": 0.5350918471813202,
+   "epoch": 2.634920634920635,
+   "step": 21
+  },
+  {
+   "loss": 1.9231098890304565,
+   "grad_norm": 0.43359375,
+   "learning_rate": 9.036800464548157e-06,
+   "entropy": 1.9036281406879425,
+   "num_tokens": 197500.0,
+   "mean_token_accuracy": 0.5451010391116142,
+   "epoch": 2.761904761904762,
+   "step": 22
+  },
+  {
+   "loss": 1.8554250001907349,
+   "grad_norm": 0.44140625,
+   "learning_rate": 4.050702638550275e-06,
+   "entropy": 1.8555419743061066,
+   "num_tokens": 206000.0,
+   "mean_token_accuracy": 0.5478697046637535,
+   "epoch": 2.888888888888889,
+   "step": 23
+  },
+  {
+   "loss": 1.9459437131881714,
+   "grad_norm": 0.455078125,
+   "learning_rate": 1.0178558119067315e-06,
+   "entropy": 1.9097308090754919,
+   "num_tokens": 212427.0,
+   "mean_token_accuracy": 0.5434519393103463,
+   "epoch": 3.0,
+   "step": 24
+  },
+  {
+   "eval_loss": 2.2237982749938965,
+   "eval_runtime": 6.9413,
+   "eval_samples_per_second": 3.458,
+   "eval_steps_per_second": 1.729,
+   "eval_entropy": 2.127407560745875,
+   "eval_num_tokens": 212427.0,
+   "eval_mean_token_accuracy": 0.49007877459128696,
+   "epoch": 3.0,
+   "step": 24
+  },
+  {
+   "train_runtime": 1184.1865,
+   "train_samples_per_second": 0.317,
+   "train_steps_per_second": 0.02,
+   "total_flos": 2122422695829504.0,
+   "train_loss": 2.426918422182401,
+   "epoch": 3.0,
+   "step": 24
+  }
+ ],
+ "behavior_probe": [
+  {
+   "step": 4,
+   "epoch": 0.5079365079365079,
+   "eval_loss": 2.774726629257202,
+   "syntax_pass_rate": 0.0,
+   "leak_hit_rate": 0.16666666666666666,
+   "clean_rate": 0.0,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "That\u2019s a frustrating situation! Let\u2019s break it down and explore your options. First, let\u2019s clarify what you mean by \"the key snapped off in the lock.\" This could mean one of two things:\n\n1. **The key ",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "That's a funny and relatable situation! It sounds like your toilet is wobbling a lot when you sit on it, which is a bit of a quirky issue. Let's break this down and see if you can fix it yourself.\n\n--",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question! Storing leather shoes for a few months or longer requires some care to avoid creasing, mold, or other damage. Here's a step-by-step guide to help you store your leather shoes ",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "You're not alone in this. Baking a cake can be a mix of excitement and anxiety, especially when the recipe doesn't mention prep time or the steps involved. Let's break this down and address your conce",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 8,
+   "epoch": 1.0,
+   "eval_loss": 2.4081833362579346,
+   "syntax_pass_rate": 0.0,
+   "leak_hit_rate": 0.125,
+   "clean_rate": 0.0,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "I'm sorry to hear that your key has snapped off in the lock. This can be frustrating, especially when you're trying to unlock your door and you're not sure how to get it out. But there are a few thing",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "</think>\n\nYou're not alone in this. It's a common issue, especially with older toilets. The wobbling is due to the bowl's instability, which can be caused by the bowl's shape, the weight of the tank, ",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "</think>\n\nI'm sorry to hear you're worried about your leather shoes. It's understandable to be concerned about their condition and how they might change over time. Let's explore some solutions that mi",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "I'm sorry to hear you're feeling overwhelmed. It's completely normal to feel anxious when you're trying something new, especially when it's something as important as baking a cake. Let's break this do",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 12,
+   "epoch": 1.507936507936508,
+   "eval_loss": 2.3009326457977295,
+   "syntax_pass_rate": 0.7916666666666666,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.7916666666666666,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "What's the best way to get the key out?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "What's the best way to fix this issue?",
+     "syntax_pass": true,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "I know that leather can be quite sensitive to the environment, especially when it comes to humidity and temperature. What kind of conditions do you live in? Do you have a place where you can keep them",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "What's the recipe like? What ingredients do you have on hand? What tools do you have?",
+     "syntax_pass": true,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 16,
+   "epoch": 2.0,
+   "eval_loss": 2.2494900226593018,
+   "syntax_pass_rate": 0.25,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.25,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "That's a real bummer! I know how frustrating that can be when you're trying to unlock your door and your key is stuck. Have you tried any of these methods before?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "That's a funny way to say it! I know what you're feeling\u2014when you sit down, the toilet wobbles a lot, and it's a bit frustrating. But I think you're onto something here\u2014maybe the wobbling is actually ",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "I get that you're worried about the leather getting damaged or moldy, and that's a real concern. What's been the best way you've seen people store leather shoes before? Have you tried anything specifi",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "I get it\u2014baking can be stressful, especially when you're not sure what to expect. What makes you think the cake won't stick? What would happen if it did?",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 20,
+   "epoch": 2.507936507936508,
+   "eval_loss": 2.227604866027832,
+   "syntax_pass_rate": 0.125,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.125,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "That's a real bummer! I know how frustrating that can be when you're trying to unlock your door and your key is stuck. Have you tried any of these methods before?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "That's a funny way to say it! When you sit on the toilet, it wobbling like crazy\u2014does that feel uncomfortable or annoying? What would happen if you tried to push it down or push it back up?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question! I know leather can be tricky to store, especially when you're not wearing it often. What do you know about leather care in general? Have you ever heard of specific storage met",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "I hear you're really worried about the prep time and whether the cake will stick. What do you think would happen if you tried to bake it without knowing how to prep it? What would you do if you didn't",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  },
+  {
+   "step": 24,
+   "epoch": 3.0,
+   "eval_loss": 2.2237982749938965,
+   "syntax_pass_rate": 0.125,
+   "leak_hit_rate": 0.0,
+   "clean_rate": 0.125,
+   "n": 24,
+   "samples": [
+    {
+     "opener": "oh no my key snapped off in the lock... is there any way to get it out or am i s",
+     "reply": "That's a real bummer! I know how frustrating that can be when you're trying to unlock your door and your key is stuck. Have you tried any of these methods before?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "My toilet won't stop wobbling like crazy when I sit on it, lol. Is this somethin",
+     "reply": "That's a great observation\u2014when you sit on the toilet, it wobbling like crazy is a telltale sign of imbalance. But what causes that imbalance? Is it the seat itself, the bowl, or the entire structure?",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "ok so i have these rly nice leather shoes i dont wear that often and i want to s",
+     "reply": "That's a great question! I know leather can be tricky to store, especially when you're not wearing it often. What do you know about leather care in general? Have you ever heard of specific storage met",
+     "syntax_pass": false,
+     "leak_hit": null
+    },
+    {
+     "opener": "I'm baking a cake. The recipe didn't say anything about prep. Now I'm freaking o",
+     "reply": "I hear you're really worried about the prep time and whether the cake will stick. What do you think would happen if you tried to bake it without knowing how to prep it? What would you do if you didn't",
+     "syntax_pass": false,
+     "leak_hit": null
+    }
+   ]
+  }
+ ]
+}

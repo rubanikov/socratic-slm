@@ -24,7 +24,12 @@ lesson1-check.png
 .claude/
 
 # large / regenerable artifacts inside socratic/
-socratic/checkpoints/
+# (ladder adapters + training_log.json ARE committed; only mid-training resume
+# state and pre-ladder smoke runs stay out)
+socratic/checkpoints/*/checkpoint-*/
+socratic/checkpoints/qwen3-1.7b-socratic-18/
+socratic/checkpoints/qwen3-1.7b-socratic-18-obscheck/
+socratic/checkpoints/trackio-smoke/
 socratic/transcripts/
 socratic/judged/
 socratic/judge_cache.json
