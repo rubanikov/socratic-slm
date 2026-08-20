@@ -58,6 +58,13 @@ best-eval-loss checkpoint kept. ~20-30 min per rung. Metrics in trackio project
 | **500** | **97.2%** | **93.0%** |
 | 1000 | 96.2% | 92.0% |
 
+![Spec-adherence vs training-set size](figures/data_efficiency_adherence.png)
+
+![Robustness vs training-set size](figures/data_efficiency_robustness.png)
+
+*(Dashed line = the best prompted frontier combo, gpt-5.6-luna with the structured
+prompt. Figures regenerate with `python socratic/figures/make_curves.py`.)*
+
 The curve: nothing → unstable imitation (125: probe oscillated between question-echo
 collapse and warm-but-declarative drift) → behavior locks (250) → **saturation at ~500**
 (1000 confirms the plateau). A few hundred well-filtered examples is exactly the budget

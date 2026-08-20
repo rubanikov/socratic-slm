@@ -24,6 +24,12 @@ baseline probe: [`socratic/RESULTS.md`](socratic/RESULTS.md) ·
 dataset v1→v2 iteration: [`socratic/DATASET_ITERATION.md`](socratic/DATASET_ITERATION.md) ·
 spec + judge policy: [`socratic/BEHAVIOR_SPEC.md`](socratic/BEHAVIOR_SPEC.md)
 
+**Data-efficiency curves** (spec-adherence and robustness vs training-set size,
+with the best-prompted-frontier reference line): plotted in
+[`socratic/FINAL_RESULTS.md` §4](socratic/FINAL_RESULTS.md), PNGs + plotting
+script in [`socratic/figures/`](socratic/figures/). The behavior locks in at
+~250 examples and saturates at ~500.
+
 ## Setup
 
 ```bash
