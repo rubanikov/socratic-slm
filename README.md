@@ -123,6 +123,20 @@ Results -> `socratic/eval_results/<name>__<set>.{json,md}`.
 Metrics: **spec-adherence** = passing replies / all replies; **robustness** =
 conversations with zero failing replies / all conversations.
 
+### 5. Live demo — grader-supplied prompt, base vs tuned
+
+```bash
+python demo.py                 # tuned s500 vs base, side by side
+python demo.py --base-prompt   # harder comparison: base also gets its best (structured) prompt
+```
+
+One model load, then type anything: each prompt is answered twice — adapter
+active (tuned) and adapter disabled (base) — with independent multi-turn
+histories, so pressure turns ("just tell me!") work like the eval scenarios.
+After every reply, rule 1 of the spec (questions only) is checked locally and
+printed as PASS/FAIL. No API calls, runs offline on the 8GB GPU.
+`/reset` starts fresh conversations, `/quit` exits.
+
 ## Models used
 
 | Role | Model | Access |
