@@ -55,8 +55,13 @@ python socratic/run_probe.py               # full grid -> socratic/RESULTS.md + 
 
 ### 2. Dataset
 
-The shipped dataset is in `socratic/dataset/final/`:
-nested train ladder `train_{125,250,500,1000}.jsonl` · `test.jsonl` (100) ·
+**Published on HF Hub (public):**
+[`rubanikov/socratic-only-sft`](https://huggingface.co/datasets/rubanikov/socratic-only-sft)
+— revision `b51ad4bb0050123beee6d4727629d97e4b4db44f`, with a full dataset card.
+(`eval_final.jsonl` is withheld from the Hub until grading and will be added then.)
+
+The same files live in `socratic/dataset/final/`:
+nested train ladder `train_{125,250,500,1000,2000}.jsonl` · `test.jsonl` (100) ·
 `eval_dev.jsonl` (120) · `eval_final.jsonl` (80, frozen for final grading).
 All conversations passed the same judge that grades the evals.
 

@@ -11,12 +11,19 @@
   "qwen3-1.7b-socratic-125": "5115d61143e91f7a6c708430b32b7fd8841f266833ca6aeb61b3c7c8035a555a",
   "qwen3-1.7b-socratic-250": "f027bad677e4e815aa5f5112d346fa7550c6e93c86191a04af60ffbe47df6907",
   "qwen3-1.7b-socratic-500": "f0801cd9bdec227e6900511b1e33779c642e21a62ad2006b329ffe35dc340a1d",
-  "qwen3-1.7b-socratic-1000": "4ae9eeb4a306d68b60f491dc4a1ef2d8b582c4739489f549fd8f98d182d692aa"
+  "qwen3-1.7b-socratic-1000": "4ae9eeb4a306d68b60f491dc4a1ef2d8b582c4739489f549fd8f98d182d692aa",
+  "qwen3-1.7b-socratic-2000": "87a13eda9f1c2659c63a58ec5c01dbfbdae1a4345906a14b1af78ca71ee0db61"
+ },
+ "dataset": {
+  "repo": "rubanikov/socratic-only-sft",
+  "revision": "b51ad4bb0050123beee6d4727629d97e4b4db44f",
+  "note": "eval_final.jsonl withheld until grading"
  },
  "hub_revisions": {
   "rubanikov/qwen3-1.7b-socratic-125": "455ab5240c92f24d288fcb081687ce67d8dbca2e",
   "rubanikov/qwen3-1.7b-socratic-250": "3ee7aa003aa4c05dbd0c86ed56da5c462fdb726a",
   "rubanikov/qwen3-1.7b-socratic-500": "da78feeab8a1f8189e3837a772c8c6d95a97072c",
-  "rubanikov/qwen3-1.7b-socratic-1000": "0d3921ccd2f96fc62e9b3cda65e3be638f870916"
+  "rubanikov/qwen3-1.7b-socratic-1000": "0d3921ccd2f96fc62e9b3cda65e3be638f870916",
+  "rubanikov/qwen3-1.7b-socratic-2000": "132be89eae5c5cd18364a2a9e029df3b4fdee111"
  }
 }

@@ -582,7 +582,8 @@ def assemble(sizes: dict[str, int]) -> None:
     card = [
         "# Socratic-Only SFT Dataset",
         "",
-        f"- teacher: `{TEACHER}` with the structured prompt; every assistant turn",
+        "- teacher: Claude Haiku 4.5 agent waves (generation) + Claude Sonnet agents",
+        f"  (repairs); OpenRouter fallback path uses `{TEACHER}`. Every assistant turn",
         "  filtered by `judge.py` (the same grader as the eval); failed turns",
         f"  regenerated up to {MAX_REGEN}x, unrescuable conversations dropped.",
         f"- train conversations available: {len(convs['train'])} "
